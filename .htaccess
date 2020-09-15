@@ -1,0 +1,35 @@
+<IfModule mod_rewrite.c>
+
+  RewriteEngine On
+  RewriteBase /
+
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_URI} !redd.love
+  RewriteCond %{REQUEST_URI} !(.*)/$
+  RewriteRule ^(.*)$ https://redd.love/$1/ [L,R=301]
+  
+  RewriteRule ^api/contact/send/$ /ajax-email.php [NC,L]
+
+  ErrorDocument 404 https://redd.love
+
+</IfModule>
+
+# One year for image files
+<filesMatch ".(jpg|jpeg|png|gif|ico)$">
+  Header set Cache-Control "max-age=31536000, public"
+</filesMatch>
+# One month for css and js
+<filesMatch ".(css|js)$">
+  Header set Cache-Control "max-age=2628000, public"
+</filesMatch>
+
+<Files .env>
+  Order Allow,Deny
+  Deny from All
+</Files>

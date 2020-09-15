@@ -1,0 +1,25 @@
+/* Social Colors */
+.social-telegram {
+  background: #2da4d7 !important;
+  color: #fff !important;
+}
+
+.social-telegram svg {
+  fill: #fff !important;
+  margin-left: -2px;
+}
+
+.text-social-telegram {
+  color: #2da4d7 !important;
+}
+.text-social-telegram.button svg {
+  fill: #2da4d7 !important;
+}
+
+.stroke.button.social-telegram {
+  color: #2da4d7 !important;
+  border-color: #2da4d7 !important;
+}
+.stroke.button.social-telegram svg {
+  fill: #2da4d7 !important;
+}
