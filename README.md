@@ -6,7 +6,7 @@
 
 🥈 Staging - https://staging.redd.love
 
-🥉 Testing - https://tesging.redd.love
+🥉 Testing - https://testing.redd.love
 
 ## Automated Deployment
 
