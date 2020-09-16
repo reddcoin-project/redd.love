@@ -41,3 +41,13 @@
   Order Allow,Deny
   Deny from All
 </Files>
+
+<Files .gitignore>
+  Order Allow,Deny
+  Deny from All
+</Files>
+
+<Files .dockerignore>
+  Order Allow,Deny
+  Deny from All
+</Files>
