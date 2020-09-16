@@ -12,6 +12,14 @@
 
 The following branches are connected with the Redd Webserver and will be triggered and updated on every push event.
 
-- `master`: Updates Testing Stage
-- `staging`: Updates Staging Stage
 - `production`: Updates Production Stage
+- `staging`: Updates Staging Stage
+- `master`: Updates Testing Stage
+
+## Docker
+
+Requirements: [🐳 Docker](https://docs.docker.com/get-docker/)
+
+### Getting Started
+
+Just run `docker-compose -f build/docker-compose.yml up -d --build` and adjust the volume according to the location of your files.

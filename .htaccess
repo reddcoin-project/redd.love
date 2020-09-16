@@ -4,6 +4,7 @@
   RewriteBase /
 
   RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP_HOST} !=localhost
   RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
 
   RewriteCond %{REQUEST_FILENAME}.html -f
