@@ -23,3 +23,7 @@
 .stroke.button.social-telegram svg {
   fill: #2da4d7 !important;
 }
+
+.break-word {
+  word-wrap: break-word;
+}

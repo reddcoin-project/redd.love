@@ -4,6 +4,7 @@
   RewriteBase /
 
   RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP_HOST} !=localhost
   RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
 
   RewriteCond %{REQUEST_FILENAME}.html -f
@@ -16,7 +17,9 @@
   
   RewriteRule ^api/contact/send/$ /ajax-email.php [NC,L]
 
+  ErrorDocument 403 https://redd.love
   ErrorDocument 404 https://redd.love
+  ErrorDocument 500 https://redd.love
 
 </IfModule>
 
@@ -30,6 +33,11 @@
 </filesMatch>
 
 <Files .env>
+  Order Allow,Deny
+  Deny from All
+</Files>
+
+<Files .htaccess>
   Order Allow,Deny
   Deny from All
 </Files>
