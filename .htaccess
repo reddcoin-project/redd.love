@@ -21,6 +21,10 @@
   ErrorDocument 404 https://redd.love
   ErrorDocument 500 https://redd.love
 
+  RedirectMatch 403 /\.git
+  RedirectMatch 403 /\.github
+  RedirectMatch 403 /\.build
+
 </IfModule>
 
 # One year for image files
