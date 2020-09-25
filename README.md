@@ -6,8 +6,6 @@
 
 🥈 Staging - https://staging.redd.love
 
-🥉 Testing - https://testing.redd.love
-
 ## Automated Deployment
 
 The following branches are connected with the Redd Webserver and will be triggered and updated on every push event.

@@ -1,27 +1,14 @@
-<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
 
-  RewriteEngine On
-  RewriteBase /
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
 
-  RewriteCond %{HTTPS} !=on
-  RewriteCond %{HTTP_HOST} !=localhost
-  RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+RewriteRule ^api/contact/send/$ /ajax-email.php [NC,L]
 
-  RewriteCond %{REQUEST_FILENAME}.html -f
-  RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
-
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_URI} !redd.love
-  RewriteCond %{REQUEST_URI} !(.*)/$
-  RewriteRule ^(.*)$ https://redd.love/$1/ [L,R=301]
-  
-  RewriteRule ^api/contact/send/$ /ajax-email.php [NC,L]
-
-  ErrorDocument 403 https://redd.love
-  ErrorDocument 404 https://redd.love
-  ErrorDocument 500 https://redd.love
-
-</IfModule>
+RedirectMatch 403 /\.git
+RedirectMatch 403 /\.github
+RedirectMatch 403 /\.build
 
 # One year for image files
 <filesMatch ".(jpg|jpeg|png|gif|ico)$">
@@ -33,21 +20,17 @@
 </filesMatch>
 
 <Files .env>
-  Order Allow,Deny
   Deny from All
 </Files>
 
 <Files .htaccess>
-  Order Allow,Deny
   Deny from All
 </Files>
 
 <Files .gitignore>
-  Order Allow,Deny
   Deny from All
 </Files>
 
 <Files .dockerignore>
-  Order Allow,Deny
   Deny from All
 </Files>
