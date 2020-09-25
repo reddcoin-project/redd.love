@@ -17,6 +17,9 @@
 
     <!-- Compressed Styles -->
     <link href="css/slides.min.css?51351" rel="stylesheet" type="text/css">
+    
+    <!-- Uncompressed Styles -->
+    <link href="css/slides.min.css?512351" rel="stylesheet" type="text/css">
 
     <!-- Custom Styles -->
     <link href="css/custom.css" rel="stylesheet" type="text/css">
@@ -191,8 +194,7 @@ $(function(){
   
   [data-current-lang="en"] .dropdown.translate li[data-switch-lang="en"],
   [data-current-lang="de"] .dropdown.translate li[data-switch-lang="de"],
-  [data-current-lang="ko"] .dropdown.translate li[data-switch-lang="ko"],
-  [data-current-lang="tr"] .dropdown.translate li[data-switch-lang="tr"] {
+  [data-current-lang="ko"] .dropdown.translate li[data-switch-lang="ko"] {
     color:#E91556;
     background:transparent;
     cursor:default;
@@ -288,7 +290,7 @@ $(function(){
         <ul class="mainMenu small submenu-elements" style="display: none">
 			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
 			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
-			<li class="padding-left-2" data-switch-lang="tr"><a>한국인</a></li>
+			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
         </ul>
       </li>
     </ul>
@@ -312,7 +314,7 @@ $(function(){
         <ul class="mainMenu small submenu-elements" style="display: none">
 			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
 			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
-			<li class="padding-left-2" data-switch-lang="fr"><a>한국인</a></li>
+			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
         </ul>
       </li>
     </ul>
@@ -336,7 +338,7 @@ $(function(){
         <ul class="mainMenu small submenu-elements" style="display: none">
 			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
 			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
-			<li class="padding-left-2" data-switch-lang="tr"><a>한국인</a></li>
+			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
         </ul>
       </li>
     </ul>
@@ -723,23 +725,21 @@ $(function(){
   <div class="sections desktop">
     <div class="left uppercase">We <svg style="width:27px;height:25px;margin-bottom:-3px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use></svg> our community</div>
     <div class="center">
-      <ul class="menu uppercase">
+
+      <ul class="menu uppercase" data-lang="en">
         <li><a href="privacy.html">Privacy</a></li>
         <li><a href="terms.html">Terms of Use</a></li>
         <li><a href="press.html">Press Kit</a></li>
         <li><div class="popupTrigger opacity-8" data-popup-id="contact">Donations</div></li>
       </ul>
+      
     </div>
     <div class="right">
       <ul class="menu crop">
-        <li style="margin:0 5px 0 5px;"><a href="https://www.facebook.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
         <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://www.instagram.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
         <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
         <li style="margin:0 5px 0 5px;"><a href="https://medium.com/@techadept" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
         <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://www.reddit.com/r/ReddCoin/" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reddit"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://discord.gg/vKyEVnw" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#discord"></use></svg></a></li>
       </ul>
     </div>
   </div>
@@ -754,7 +754,7 @@ $(function(){
 <!-- Deutsch language -->
 <nav class="panel bottom exceptFirstSlide" data-lang="de" style="display:none;">
   <div class="sections desktop">
-    <div class="left uppercase">Wir <svg style="width:27px;height:25px;margin-bottom:-3px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use></svg> unsere Gemeinschaft</div>
+    <div class="left uppercase">Wir <svg style="width:27px;height:25px;margin-bottom:-3px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use></svg> euch</div>
     <div class="center">
       <ul class="menu uppercase">
         <li><a href="privacy.html">Privatsphäre</a></li>
@@ -765,14 +765,10 @@ $(function(){
     </div>
     <div class="right">
       <ul class="menu crop">
-        <li style="margin:0 5px 0 5px;"><a href="https://www.facebook.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
         <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://www.instagram.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
         <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
         <li style="margin:0 5px 0 5px;"><a href="https://medium.com/@techadept" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
         <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://www.reddit.com/r/ReddCoin/" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reddit"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://discord.gg/vKyEVnw" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#discord"></use></svg></a></li>
       </ul>
     </div>
   </div>
@@ -798,14 +794,10 @@ $(function(){
     </div>
     <div class="right">
       <ul class="menu crop">
-        <li style="margin:0 5px 0 5px;"><a href="https://www.facebook.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
         <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://www.instagram.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
         <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
         <li style="margin:0 5px 0 5px;"><a href="https://medium.com/@techadept" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
         <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://www.reddit.com/r/ReddCoin/" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reddit"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://discord.gg/vKyEVnw" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#discord"></use></svg></a></li>
       </ul>
     </div>
   </div>
