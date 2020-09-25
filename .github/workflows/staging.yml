@@ -1,0 +1,25 @@
+name: all
+
+on:
+  push:
+    branches:
+    - staging
+
+jobs:
+
+  deployment:
+ 
+    runs-on: ubuntu-latest
+ 
+    steps:
+    - uses: actions/checkout@master
+      with:
+        ref: staging
+    - name: deploy to cloud
+      uses: appleboy/ssh-action@master
+      with:
+        host: 104.131.119.143
+        username: root
+        key: ${{ secrets.DEPLOY_KEY }}
+        command_timeout: 10m
+        script: cd /root/www-data/redd.love/staging && git pull
