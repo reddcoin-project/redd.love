@@ -932,11 +932,7 @@ $(document).ready(function() { "use strict";
           var totalWidth = 0;
 
           desktop.children().each(function(){
-            if ( $(this).outerWidth() > $(this).children().outerWidth() ){
-              totalWidth += Math.round($(this).outerWidth());
-            } else {
-              totalWidth += Math.round($(this).children().outerWidth());
-            }
+            totalWidth += Math.round($(this).outerWidth());
           });
 
           // if width of space is not enough or we are on mobile
