@@ -17,17 +17,20 @@
 
     <!-- Compressed Styles -->
     <link href="css/slides.min.css?51351" rel="stylesheet" type="text/css">
+    
+    <!-- Uncompressed Styles -->
+    <link href="css/slides.min.css?512351" rel="stylesheet" type="text/css">
 
     <!-- Custom Styles -->
     <link href="css/custom.css" rel="stylesheet" type="text/css">
 
     <!-- Fonts and Material Icons -->
-    <link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;800&family=Rubik:wght@500&family=Material+Icons&display=swap"/>
+    <link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;800&family=Rubik:wght@500&family=Gothic+A1:wght@100;300;400;500;600;800&family=Material+Icons&display=swap"/>
 
     <style type="text/css">
         .slides,
         .slides p {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto', 'Gothic+A1', sans-serif;
             font-weight: 400;
         }
         .slides h1,
@@ -36,7 +39,7 @@
         .slides h4,
         .slides h5,
         .slides h6 {
-            font-family: 'Rubik', sans-serif;
+            font-family: 'Rubik', 'Gothic+A1', sans-serif;
             font-weight: 500;
         }
     </style>
@@ -722,12 +725,14 @@ $(function(){
   <div class="sections desktop">
     <div class="left uppercase">We <svg style="width:27px;height:25px;margin-bottom:-3px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use></svg> our community</div>
     <div class="center">
-      <ul class="menu uppercase">
+
+      <ul class="menu uppercase" data-lang="en">
         <li><a href="privacy.html">Privacy</a></li>
         <li><a href="terms.html">Terms of Use</a></li>
         <li><a href="press.html">Press Kit</a></li>
         <li><div class="popupTrigger opacity-8" data-popup-id="contact">Donations</div></li>
       </ul>
+      
     </div>
     <div class="right">
       <ul class="menu crop">
