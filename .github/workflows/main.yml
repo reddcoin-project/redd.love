@@ -1,4 +1,4 @@
-name: all
+name: main deployment
 
 on:
   push:
