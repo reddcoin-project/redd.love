@@ -865,7 +865,7 @@
   <script>
     $(document).ready(function () {
       $.ajax({
-        url: 'https://fundsapi.redd.love/get',
+        url: '/fundsapi/get',
         dataType: 'json',
         success: function (data) {
           $('#DynamicDevWalletOneUSD').html(data.DevWalletOne.USD)
