@@ -131,15 +131,30 @@
   <symbol id="telegram" viewBox="0 0 24 24"><path d="M9.417 15.181l-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931l3.622-16.972.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693 12.643-7.911c.595-.394 1.136-.176.691.218z"></path></symbol>
 </svg>
 
-<!-- Sidebar Submenu -->
+<!-- Sidebar Submenu #1 -->
 <script>
 $(function(){
 
-  $('.submenu-dropdown').click(function(){
-    $('.submenu-elements').slideToggle();
+  $('.submenu-dropdown1').click(function(){
+    $('.submenu-elements1').slideToggle();
 
     //change icon
-    $('.submenu-dropdown .material-icons').toggleText('arrow_drop_up', 'arrow_drop_down');
+    $('.submenu-dropdown1 .material-icons').toggleText('arrow_drop_up', 'arrow_drop_down');
+  });
+  //toggle text function
+  $.fn.extend({ toggleText: function(a, b){ return this.text(this.text() == b ? a : b); } });
+})
+</script>
+
+<!-- Sidebar Submenu #2 -->
+<script>
+$(function(){
+
+  $('.submenu-dropdown2').click(function(){
+    $('.submenu-elements2').slideToggle();
+
+    //change icon
+    $('.submenu-dropdown2 .material-icons').toggleText('arrow_drop_up', 'arrow_drop_down');
   });
   //toggle text function
   $.fn.extend({ toggleText: function(a, b){ return this.text(this.text() == b ? a : b); } });

@@ -311,24 +311,35 @@
     </symbol>
   </svg>
 
-  <!-- Sidebar Submenu -->
-  <script>
-    $(function () {
+<!-- Sidebar Submenu #1 -->
+<script>
+$(function(){
 
-      $('.submenu-dropdown').click(function () {
-        $('.submenu-elements').slideToggle();
+  $('.submenu-dropdown1').click(function(){
+    $('.submenu-elements1').slideToggle();
 
-        //change icon
-        $('.submenu-dropdown .material-icons').toggleText('arrow_drop_up', 'arrow_drop_down');
-      });
-      //toggle text function
-      $.fn.extend({
-        toggleText: function (a, b) {
-          return this.text(this.text() == b ? a : b);
-        }
-      });
-    })
-  </script>
+    //change icon
+    $('.submenu-dropdown1 .material-icons').toggleText('arrow_drop_up', 'arrow_drop_down');
+  });
+  //toggle text function
+  $.fn.extend({ toggleText: function(a, b){ return this.text(this.text() == b ? a : b); } });
+})
+</script>
+
+<!-- Sidebar Submenu #2 -->
+<script>
+$(function(){
+
+  $('.submenu-dropdown2').click(function(){
+    $('.submenu-elements2').slideToggle();
+
+    //change icon
+    $('.submenu-dropdown2 .material-icons').toggleText('arrow_drop_up', 'arrow_drop_down');
+  });
+  //toggle text function
+  $.fn.extend({ toggleText: function(a, b){ return this.text(this.text() == b ? a : b); } });
+})
+</script>
 
   <!-- Multilingual -->
   <script>
