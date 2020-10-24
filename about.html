@@ -127,15 +127,30 @@
   <symbol id="discord" viewBox="0 0 24 24"><path d="M3.58 21.196h14.259l-.681-2.205 1.629 1.398 1.493 1.338 2.72 2.273v-21.525c-.068-1.338-1.22-2.475-2.648-2.475l-16.767.003c-1.427 0-2.585 1.139-2.585 2.477v16.24c0 1.411 1.156 2.476 2.58 2.476zm10.548-15.513l-.033.012.012-.012zm-7.631 1.269c1.833-1.334 3.532-1.27 3.532-1.27l.137.135c-2.243.535-3.26 1.537-3.26 1.537s.272-.133.747-.336c3.021-1.188 6.32-1.102 9.374.402 0 0-1.019-.937-3.124-1.537l.186-.183c.291.001 1.831.055 3.479 1.26 0 0 1.844 3.15 1.844 7.02-.061-.074-1.144 1.666-3.931 1.726 0 0-.472-.534-.808-1 1.63-.468 2.24-1.404 2.24-1.404-.535.337-1.023.537-1.419.737-.609.268-1.219.4-1.828.535-2.884.468-4.503-.315-6.033-.936l-.523-.266s.609.936 2.174 1.404c-.411.469-.818 1.002-.818 1.002-2.786-.066-3.802-1.806-3.802-1.806 0-3.876 1.833-7.02 1.833-7.02zM14.308 12.771c.711 0 1.29-.6 1.29-1.34 0-.735-.576-1.335-1.29-1.335v.003c-.708 0-1.288.598-1.29 1.338 0 .734.579 1.334 1.29 1.334zM9.69 12.771c.711 0 1.29-.6 1.29-1.34 0-.735-.575-1.335-1.286-1.335l-.004.003c-.711 0-1.29.598-1.29 1.338 0 .734.579 1.334 1.29 1.334z"></path></symbol>
 </svg>
 
-<!-- Sidebar Submenu -->
+<!-- Sidebar Submenu #1 -->
 <script>
 $(function(){
 
-  $('.submenu-dropdown').click(function(){
-    $('.submenu-elements').slideToggle();
+  $('.submenu-dropdown1').click(function(){
+    $('.submenu-elements1').slideToggle();
 
     //change icon
-    $('.submenu-dropdown .material-icons').toggleText('arrow_drop_up', 'arrow_drop_down');
+    $('.submenu-dropdown1 .material-icons').toggleText('arrow_drop_up', 'arrow_drop_down');
+  });
+  //toggle text function
+  $.fn.extend({ toggleText: function(a, b){ return this.text(this.text() == b ? a : b); } });
+})
+</script>
+
+<!-- Sidebar Submenu #2 -->
+<script>
+$(function(){
+
+  $('.submenu-dropdown2').click(function(){
+    $('.submenu-elements2').slideToggle();
+
+    //change icon
+    $('.submenu-dropdown2 .material-icons').toggleText('arrow_drop_up', 'arrow_drop_down');
   });
   //toggle text function
   $.fn.extend({ toggleText: function(a, b){ return this.text(this.text() == b ? a : b); } });
@@ -240,16 +255,49 @@ $(function(){
   }
 </style>
 
-<!-- Panel Top #03 -->
+<!-- Dropdown Menu Style -->
+<style>
+  .panel .menu { cursor:pointer;}
+  .panel .menu > li {
+    outline: none;
+    border-radius: 50px;
+    padding: 7px 17px;
+    will-change: background;
+    -webkit-transition:0.25s background;
+    transition:0.25s background;
+  }
+  .panel .menu > li:focus,
+  .panel .menu > li:hover {
+    background: rgba(0, 0, 0, 0.15);
+  }
+  .panel .menu > li .material-icons {
+    vertical-align: middle;
+    position: relative;
+    top: 2px;
+    margin-top: -6px;
+  }
+
+  .dropdown.customDropdown { padding:10px 0; width: 200px;}
+  .dropdown.customDropdown .menu > li:not(.link),
+  .dropdown.customDropdown .menu > li.link a { font-size: 15px; padding: 8px 10px 8px 20px; cursor: pointer; display: block; text-align: left; }
+  .dropdown.customDropdown .menu > li:hover { background:rgba(0, 0, 0, 0.05);}
+  .dropdown.customDropdown .material-icons {
+    position: relative;
+    top: -3px;
+    float: right;
+  }
+</style>
+
+<!-- Panel Top #01 -->
 <nav class="panel top">
   <div class="sections desktop">
     <div class="left"><a href="index.html" title="Redd"><svg style="width:158px;height:60px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
     <div class="center">
     
       <!-- English language -->
-      <ul class="menu" data-lang="en">
+      <ul class="menu small" data-lang="en">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-en">About <i class="material-icons">expand_more</i></li>
         <li><a href="technology.html">Technology</a></li>
         <li><a href="developers.html">Developers</a></li>
         <li><a href="https://medium.com/projectredd">News</a></li>
@@ -259,7 +307,7 @@ $(function(){
       <!-- Deutsch language -->
       <ul class="menu" data-lang="de" style="display:none;">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">Über Uns</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-de">Über Uns <i class="material-icons">expand_more</i></li>
         <li><a href="technology.html">Technologie</a></li>
         <li><a href="developers.html">Entwickler</a></li>
         <li><a href="https://medium.com/projectredd">Nachrichten</a></li>
@@ -269,7 +317,7 @@ $(function(){
       <!-- Korean language -->
       <ul class="menu" data-lang="ko" style="display:none;">
         <li><a href="index.html">홈</a></li>
-        <li><a href="about.html">소개</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ko">소개 <i class="material-icons">expand_more</i></li>
         <li><a href="technology.html">기술</a></li>
         <li><a href="developers.html">개발자</a></li>
         <li><a href="https://medium.com/projectredd">뉴스</a></li>
@@ -285,16 +333,50 @@ $(function(){
   </div>
 </nav>
 
-<!-- Panel Top #03 -->
+<!-- English Menu dropdown -->
+<div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-en">
+    <li class="selected wide">
+      <ul class="menu small">
+        <li><a href="about.html">Project Redd</a></li>
+        <li><a href="roadmap.html">The ReddMap</a></li>
+        <li><a href="funding.html">Funding</a></li>
+      </ul>
+    </li>
+</div>
+
+<!-- German Menu dropdown -->
+<div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-de">
+    <li class="selected wide">
+      <ul class="menu small">
+        <li><a href="about.html">Projekt Redd</a></li>
+        <li><a href="roadmap.html">Die ReddMap</a></li>
+        <li><a href="funding.html">Finanzierung</a></li>
+      </ul>
+    </li>
+</div>
+
+<!-- Korean Menu dropdown -->
+<div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-ko">
+    <li class="selected wide">
+      <ul class="menu small">
+        <li><a href="about.html">프로젝트 Redd</a></li>
+        <li><a href="roadmap.html">ReddMap</a></li>
+        <li><a href="funding.html">자금</a></li>
+      </ul>
+    </li>
+</div>
+
+
+<!-- Panel Top #02 -->
 <nav class="panel top white exceptFirstSlide">
   <div class="sections desktop">
     <div class="left"><a href="#" title="Redd"><svg style="width:158px;height:60px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
     <div class="center">
     
       <!-- English language -->
-      <ul class="menu" data-lang="en">
+      <ul class="menu small" data-lang="en">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-en">About <i class="material-icons">expand_more</i></li>
         <li><a href="technology.html">Technology</a></li>
         <li><a href="developers.html">Developers</a></li>
         <li><a href="https://medium.com/projectredd">News</a></li>
@@ -304,7 +386,7 @@ $(function(){
       <!-- Deutsch language -->
       <ul class="menu" data-lang="de" style="display:none;">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">Über Uns</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-de">Über Uns <i class="material-icons">expand_more</i></li>
         <li><a href="technology.html">Technologie</a></li>
         <li><a href="developers.html">Entwickler</a></li>
         <li><a href="https://medium.com/projectredd">Nachrichten</a></li>
@@ -314,7 +396,7 @@ $(function(){
       <!-- Korean language -->
       <ul class="menu" data-lang="ko" style="display:none;">
         <li><a href="index.html">홈</a></li>
-        <li><a href="about.html">소개</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ko">소개 <i class="material-icons">expand_more</i></li>
         <li><a href="technology.html">기술</a></li>
         <li><a href="developers.html">개발자</a></li>
         <li><a href="https://medium.com/projectredd">뉴스</a></li>
@@ -339,14 +421,21 @@ $(function(){
     <!-- English language -->
     <ul class="mainMenu margin-top-3" data-lang="en">
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
+      <li>
+        <a class="submenu-dropdown1">About<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements1" style="display: none">
+			<li class="padding-left-2"><a href="about.html">Project Redd</a></li>
+			<li class="padding-left-2"><a href="roadmap.html">The ReddMap</a></li>
+			<li class="padding-left-2"><a href="funding.html">Funding</a></li>
+        </ul>
+      </li>
       <li><a href="technology.html">Technology</a></li>
       <li><a href="developers.html">Developers</a></li>
       <li><a href="https://medium.com/projectredd">News</a></li>
       <li><a href="join.html">Join</a></li>
       <li>
-        <a class="submenu-dropdown translate">Language<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
-        <ul class="mainMenu small submenu-elements" style="display: none">
+        <a class="submenu-dropdown2 translate">Language<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements2" style="display: none">
 			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
 			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
 			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
@@ -363,14 +452,21 @@ $(function(){
     <!-- Deutsch language -->
     <ul class="mainMenu margin-top-3" data-lang="de" style="display:none;">
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">Über</a></li>
+      <li>
+        <a class="submenu-dropdown1">Über Uns<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements1" style="display: none">
+			<li class="padding-left-2"><a href="about.html">Projekt Redd</a></li>
+			<li class="padding-left-2"><a href="roadmap.html">Die ReddMap</a></li>
+			<li class="padding-left-2"><a href="funding.html">Finanzierung</a></li>
+        </ul>
+      </li>
       <li><a href="technology.html">Technologie</a></li>
       <li><a href="developers.html">Entwickler</a></li>
       <li><a href="https://medium.com/projectredd">Nachrichten</a></li>
       <li><a href="join.html">Mitmachen</a></li>
       <li>
-        <a class="submenu-dropdown translate">Sprache<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
-        <ul class="mainMenu small submenu-elements" style="display: none">
+        <a class="submenu-dropdown2 translate">Sprache<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements2" style="display: none">
 			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
 			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
 			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
@@ -387,14 +483,21 @@ $(function(){
     <!-- Korean language -->
     <ul class="mainMenu margin-top-3" data-lang="ko" style="display:none;">
       <li><a href="index.html">홈</a></li>
-      <li><a href="about.html">소개</a></li>
+      <li>
+        <a class="submenu-dropdown1">소개<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements1" style="display: none">
+			<li class="padding-left-2"><a href="about.html">프로젝트 Redd</a></li>
+			<li class="padding-left-2"><a href="roadmap.html">ReddMap</a></li>
+			<li class="padding-left-2"><a href="funding.html">자금</a></li>
+        </ul>
+      </li>
       <li><a href="technology.html">기술</a></li>
       <li><a href="developers.html">개발자</a></li>
       <li><a href="https://medium.com/projectredd">뉴스</a></li>
       <li><a href="join.html">함께해요</a></li>
       <li>
-        <a class="submenu-dropdown translate">언어<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
-        <ul class="mainMenu small submenu-elements" style="display: none">
+        <a class="submenu-dropdown2 translate">언어<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements2" style="display: none">
 			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
 			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
 			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
@@ -434,7 +537,7 @@ $(function(){
         <!-- Deutsch language -->
         <div class="fix-9-12" data-lang="de" style="display:none;">
           <h1 class="margin-bottom-2 ae-1">Es ist Zeit, die Welt zu verändern.</h1>
-          <p class="largest ae-2"><span class="opacity-8">Wir unternehmen große Anstrengungen, um Redd und Social Tipping als führendes Instrument zur Unterstützung, Spende und Finanzierung verschiedener Anliegen auf allen Plattformen auf alle Plattformen zu bringen.</span></p>
+          <p class="largest ae-2"><span class="opacity-8">Wir bemühen uns, Redd und Social Tipping als führendes Instrument zur Unterstützung, Spende und Finanzierung von verschiedenen Anlässen auf alle Plattformen zu bringen.</span></p>
         </div>
         
         <!-- Korean language -->
@@ -489,7 +592,7 @@ $(function(){
         <!-- Deutsch language -->
         <div class="fix-10-12 toCenter" data-lang="de" style="display:none;">
           <h1 class="smaller margin-bottom-2 ae-1">Was ist Redd und für wen ist es?</h1>
-          <p class="large ae-2"><span class="opacity-8">ReddCoin ist ein Werkzeug, um Menschen einen Mehrwert zu bieten. Es ist eine digitale soziale Währung, die es Followern, Unterstützern oder Fans ermöglicht, Trinkgeld zu geben und 100% ihres Wertes an jede Person, Sache oder Organisation ohne Zwischenhändler weiterzugeben.</span></p>
+          <p class="large ae-2"><span class="opacity-8">ReddCoin ist ein Instrument, um Menschen einen Mehrwert zu bieten. Es ist eine digitale soziale Währung, die es Anhängern, Unterstützern oder Fans ermöglicht, Trinkgeld zu geben und 100% ihres Wertes an jede Person, Sache oder Organisation ohne Zwischenhändler weiterzugeben.</span></p>
         </div>
         <div class="fix-12-12 margin-top-4" data-lang="de" style="display:none;">  
           <ul class="flex flex-49 later equal">
@@ -503,15 +606,15 @@ $(function(){
             <li class="col-4-12">
               <div class="fix-4-12 ae-4">
                 <img class="wide margin-bottom-1 ae-5" src="assets/img/Who-socialcause.jpg" style="border-radius: 5px;" alt="Social Cause"/>
-                <h4 class="small margin-bottom-1 equalElement ae-5">Soziale Ursachen</h4>
-                <div class="ae-6"><p class="small opacity-8">Mit Redd können Sie diejenigen unterstützen, die sich für für Sie wichtige Anliegen einsetzen.</p>
+                <h4 class="small margin-bottom-1 equalElement ae-5">Soziale Anlässe</h4>
+                <div class="ae-6"><p class="small opacity-8">Mit Redd können Sie diejenigen unterstützen, die sich für Sie wichtige Anlässe einsetzen.</p>
               </div>
             </li>
             <li class="col-4-12">
               <div class="fix-4-12 ae-5">
                 <img class="wide margin-bottom-1 ae-6" src="assets/img/Who-humanitarian.jpg" style="border-radius: 5px;" alt="Humanitarian"/>
                 <h4 class="small margin-bottom-1 equalElement ae-6">Humanitäre Programme</h4>
-                <div class="ae-7"><p class="small opacity-8">Mit Redd können Sie jedes Programm unterstützen, von der Rettung der Wale bis zur Unterstützung eines vom Krieg heimgesuchten Dorfes.</p>
+                <div class="ae-7"><p class="small opacity-8">Mit Redd können Sie jedes Programm unterstützen, von der Rettung der Wale bis zur Unterstützung eines vom Krieg zerrissenen Dorfes.</p>
               </div>
             </li>
           </ul>
@@ -576,8 +679,8 @@ $(function(){
             <!-- Deutsch language -->
             <li class="col-7-12 left" data-lang="de" style="display:none;">
               <h1 class="smaller margin-bottom-2 ae-1 fromLeft">Wie sind wir hierher gekommen?</h1>
-              <p class="ae-2 fromLeft"><span class="opacity-8">Redd ist eines der ältesten und etabliertesten Kryptowährungsprojekte im Weltraum. Es wurde Anfang 2014 erstellt und war zunächst als "Reddcoin" bekannt. In den letzten sechs Jahren hat das Projekt mehrere Entwicklungen seines Netzwerks und seiner Technologie durchlaufen.</span></p>
-              <p class="ae-3 fromLeft"><span class="opacity-8">Vielen Menschen ist nicht bewusst, dass Redd eine 100% freiwillige Organisation ist. Dies ist eine große Leistung, die nicht nur die Leidenschaft und den Glauben zeigt, die jeder an dieses Projekt hat, sondern auch die Ziele, die wir verwirklichen wollen.</span></p>
+              <p class="ae-2 fromLeft"><span class="opacity-8">Redd ist eines der ältesten und etabliertesten Kryptowährungsprojekte im Weltraum. Es wurde Anfang 2014 erstellt und ist zunächst als "Reddcoin" bekannt worden. In den letzten sechs Jahren hat das Projekt mehrere Entwicklungen seines Netzwerks und seiner Technologie durchlaufen.</span></p>
+              <p class="ae-3 fromLeft"><span class="opacity-8">Vielen Menschen ist es nicht bekannt, dass Redd eine 100% freiwillige Organisation ist. Dies ist eine große Leistung, die nicht nur die Leidenschaft und den Glauben zeigt, das jeder an dieses Projekt hat, sondern auch die Ziele, die wir verwirklichen wollen.</span></p>
               <a href="funding.html" class="button small red margin-left-0 margin-right-1 ae-5 fromCenter">Projektfinanzierungsseite</a><a href="assets/doc/PoSV-v2-FAQ.pdf" class="button small white rounded crop margin-top-0 ae-5">Erfahren Sie mehr über POSv2</a>
             </li>
             
@@ -618,9 +721,9 @@ $(function(){
               <!-- Deutsch language -->
               <div class="fix-6-12 toLeft margin-left-tablet-auto margin-right-tablet-auto" data-lang="de" style="display:none;">
                 <h1 class="ae-1 fromLeft smaller margin-bottom-2">Die Bedeutung von Redd</h1>
-                <p class="ae-2 fromLeft"><span class="opacity-8">Mit unserer jüngsten Neugestaltung haben wir uns bewusst bemüht, unsere fortwährende Botschaft der Inklusion und gegenseitigen Fürsorge zu betonen. Die Grafik in unserem Logo symbolisiert Unterstützung und Community. Keine Form oder Farbe ist gleich. Dennoch bilden alle Teile ein Ganzes.</span></p>
-                <p class="ae-3 fromLeft"><span class="opacity-8">Das ist die Kraft von Redd. Es ist ein Ort, der jeden willkommen heißt und jeden befähigt. In unserem kommenden Redd Book erfahren Sie mehr über Redd oder in unserem Redd Paper, um mehr über ReddCoin zu erfahren, die Engine, die Redd antreibt.</span></p>
-                <a class="button small red margin-left-0 margin-right-1 ae-5 fromCenter">Lesen Sie unser Redd Book</a><a href="assets/doc/Redd-Paper.pdf" class="button small white margin-left-0 ae-6 fromCenter">Siehe unser Redd Paper</a>
+                <p class="ae-2 fromLeft"><span class="opacity-8">Mit unserer Neugestaltung haben wir uns bewusst bemüht, unsere fortwährende Botschaft der Inklusion und gegenseitigen Fürsorge zu betonen. Die Grafik in unserem Logo symbolisiert Unterstützung und Community. Keine Form oder Farbe ist gleich. Dennoch bilden alle Teile ein Ganzes.</span></p>
+                <p class="ae-3 fromLeft"><span class="opacity-8">Das ist die Kraft von Redd. Es ist ein Ort, das jeden willkommen heißt und jeden befähigt. In unserem kommenden Redd Book erfahren Sie mehr über Redd und in unserem Redd Paper erfahren Sie mehr über ReddCoin, den Motor, der Redd antreibt.</span></p>
+                <a class="button small red margin-left-0 margin-right-1 ae-5 fromCenter">Lesen Sie unser Redd Book</a><a href="assets/doc/Redd-Paper.pdf" class="button small white margin-left-0 ae-6 fromCenter">Schauen Sie unser Redd Paper an</a>
               </div>
               
               <!-- Korean language -->
@@ -821,7 +924,7 @@ $(function(){
         <div class="fix-8-12 toCenter" data-lang="de" style="display:none;">
           <p class="larger margin-bottom-1 ae-1"><span class="opacity-4">Das Redd-Team</span></p>
           <h1 class="smaller margin-bottom-2 ae-1">Nebendarsteller</h1>
-          <p class="large ae-2"><span class="opacity-8">Ohne die wichtigsten Support-Mitglieder des Redd-Teams, die Sie unten sehen, gäbe es keine Community oder kein Bewusstsein für unser Projekt.</span></p>
+          <p class="large ae-2"><span class="opacity-8">Ohne die wichtigsten Support-Mitglieder des Redd-Teams, die Sie unten sehen, gäbe es keine Community oder Wahrnehmung für unser Projekt.</span></p>
         </div>
         
         <!-- Korean language -->
@@ -926,7 +1029,7 @@ $(function(){
         <div class="fix-8-12 toCenter margin-bottom-2" data-lang="de" style="display:none;">
           <p class="larger margin-bottom-1 ae-1"><span class="opacity-4">Die Rothaarigen</span></p>
           <h1 class="smaller margin-bottom-2 ae-1">Unsere Gemeinschaft</h1>
-          <p class="large ae-2"><span class="opacity-8">Eines der besten Dinge an Redd ist unsere erstaunliche Benutzergemeinschaft, die nicht nur unsere Vision unterstützt, sondern dieselben Werte teilt.</span></p>
+          <p class="large ae-2"><span class="opacity-8">Eines der besten Dinge an Redd ist unsere erstaunliche Community, die nicht nur unsere Vision unterstützt, sondern dieselben Werte teilt.</span></p>
         </div>
         
         <!-- Korean language -->

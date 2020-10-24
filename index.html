@@ -131,15 +131,30 @@
   <symbol id="telegram" viewBox="0 0 24 24"><path d="M9.417 15.181l-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931l3.622-16.972.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693 12.643-7.911c.595-.394 1.136-.176.691.218z"></path></symbol>
 </svg>
 
-<!-- Sidebar Submenu -->
+<!-- Sidebar Submenu #1 -->
 <script>
 $(function(){
 
-  $('.submenu-dropdown').click(function(){
-    $('.submenu-elements').slideToggle();
+  $('.submenu-dropdown1').click(function(){
+    $('.submenu-elements1').slideToggle();
 
     //change icon
-    $('.submenu-dropdown .material-icons').toggleText('arrow_drop_up', 'arrow_drop_down');
+    $('.submenu-dropdown1 .material-icons').toggleText('arrow_drop_up', 'arrow_drop_down');
+  });
+  //toggle text function
+  $.fn.extend({ toggleText: function(a, b){ return this.text(this.text() == b ? a : b); } });
+})
+</script>
+
+<!-- Sidebar Submenu #2 -->
+<script>
+$(function(){
+
+  $('.submenu-dropdown2').click(function(){
+    $('.submenu-elements2').slideToggle();
+
+    //change icon
+    $('.submenu-dropdown2 .material-icons').toggleText('arrow_drop_up', 'arrow_drop_down');
   });
   //toggle text function
   $.fn.extend({ toggleText: function(a, b){ return this.text(this.text() == b ? a : b); } });
@@ -227,16 +242,49 @@ $(function(){
   </div>
 </nav>
 
-<!-- Panel Top #03 -->
+<!-- Dropdown Menu Style -->
+<style>
+  .panel .menu { cursor:pointer;}
+  .panel .menu > li {
+    outline: none;
+    border-radius: 50px;
+    padding: 7px 17px;
+    will-change: background;
+    -webkit-transition:0.25s background;
+    transition:0.25s background;
+  }
+  .panel .menu > li:focus,
+  .panel .menu > li:hover {
+    background: rgba(0, 0, 0, 0.15);
+  }
+  .panel .menu > li .material-icons {
+    vertical-align: middle;
+    position: relative;
+    top: 2px;
+    margin-top: -6px;
+  }
+
+  .dropdown.customDropdown { padding:10px 0; width: 200px;}
+  .dropdown.customDropdown .menu > li:not(.link),
+  .dropdown.customDropdown .menu > li.link a { font-size: 15px; padding: 8px 10px 8px 20px; cursor: pointer; display: block; text-align: left; }
+  .dropdown.customDropdown .menu > li:hover { background:rgba(0, 0, 0, 0.05);}
+  .dropdown.customDropdown .material-icons {
+    position: relative;
+    top: -3px;
+    float: right;
+  }
+</style>
+
+<!-- Panel Top #01 -->
 <nav class="panel top exceptFirstSlide">
   <div class="sections desktop">
     <div class="left"><a href="#" title="Redd"><svg style="width:158px;height:60px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
     <div class="center">
     
       <!-- English language -->
-      <ul class="menu" data-lang="en">
+      <ul class="menu small" data-lang="en">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-en">About <i class="material-icons">expand_more</i></li>
         <li><a href="technology.html">Technology</a></li>
         <li><a href="developers.html">Developers</a></li>
         <li><a href="https://medium.com/projectredd">News</a></li>
@@ -246,7 +294,7 @@ $(function(){
       <!-- Deutsch language -->
       <ul class="menu" data-lang="de" style="display:none;">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">Über Uns</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-de">Über Uns <i class="material-icons">expand_more</i></li>
         <li><a href="technology.html">Technologie</a></li>
         <li><a href="developers.html">Entwickler</a></li>
         <li><a href="https://medium.com/projectredd">Nachrichten</a></li>
@@ -256,7 +304,7 @@ $(function(){
       <!-- Korean language -->
       <ul class="menu" data-lang="ko" style="display:none;">
         <li><a href="index.html">홈</a></li>
-        <li><a href="about.html">소개</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ko">소개 <i class="material-icons">expand_more</i></li>
         <li><a href="technology.html">기술</a></li>
         <li><a href="developers.html">개발자</a></li>
         <li><a href="https://medium.com/projectredd">뉴스</a></li>
@@ -272,6 +320,39 @@ $(function(){
   </div>
 </nav>
 
+<!-- English Menu dropdown -->
+<div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-en">
+    <li class="selected wide">
+      <ul class="menu small">
+        <li><a href="about.html">Project Redd</a></li>
+        <li><a href="roadmap.html">The ReddMap</a></li>
+        <li><a href="funding.html">Funding</a></li>
+      </ul>
+    </li>
+</div>
+
+<!-- German Menu dropdown -->
+<div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-de">
+    <li class="selected wide">
+      <ul class="menu small">
+        <li><a href="about.html">Projekt Redd</a></li>
+        <li><a href="roadmap.html">Die ReddMap</a></li>
+        <li><a href="funding.html">Finanzierung</a></li>
+      </ul>
+    </li>
+</div>
+
+<!-- Korean Menu dropdown -->
+<div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-ko">
+    <li class="selected wide">
+      <ul class="menu small">
+        <li><a href="about.html">프로젝트 Redd</a></li>
+        <li><a href="roadmap.html">ReddMap</a></li>
+        <li><a href="funding.html">자금</a></li>
+      </ul>
+    </li>
+</div>
+
 <!-- Sidebar -->
 <nav class="sidebar" data-sidebar-id="1">
   <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
@@ -281,14 +362,21 @@ $(function(){
     <!-- English language -->
     <ul class="mainMenu margin-top-3" data-lang="en">
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
+      <li>
+        <a class="submenu-dropdown1">About<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements1" style="display: none">
+			<li class="padding-left-2"><a href="about.html">Project Redd</a></li>
+			<li class="padding-left-2"><a href="roadmap.html">The ReddMap</a></li>
+			<li class="padding-left-2"><a href="funding.html">Funding</a></li>
+        </ul>
+      </li>
       <li><a href="technology.html">Technology</a></li>
       <li><a href="developers.html">Developers</a></li>
       <li><a href="https://medium.com/projectredd">News</a></li>
       <li><a href="join.html">Join</a></li>
       <li>
-        <a class="submenu-dropdown translate">Language<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
-        <ul class="mainMenu small submenu-elements" style="display: none">
+        <a class="submenu-dropdown2 translate">Language<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements2" style="display: none">
 			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
 			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
 			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
@@ -305,14 +393,21 @@ $(function(){
     <!-- Deutsch language -->
     <ul class="mainMenu margin-top-3" data-lang="de" style="display:none;">
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">Über</a></li>
+      <li>
+        <a class="submenu-dropdown1">Über Uns<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements1" style="display: none">
+			<li class="padding-left-2"><a href="about.html">Projekt Redd</a></li>
+			<li class="padding-left-2"><a href="roadmap.html">Die ReddMap</a></li>
+			<li class="padding-left-2"><a href="funding.html">Finanzierung</a></li>
+        </ul>
+      </li>
       <li><a href="technology.html">Technologie</a></li>
       <li><a href="developers.html">Entwickler</a></li>
       <li><a href="https://medium.com/projectredd">Nachrichten</a></li>
       <li><a href="join.html">Mitmachen</a></li>
       <li>
-        <a class="submenu-dropdown translate">Sprache<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
-        <ul class="mainMenu small submenu-elements" style="display: none">
+        <a class="submenu-dropdown2 translate">Sprache<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements2" style="display: none">
 			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
 			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
 			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
@@ -329,14 +424,21 @@ $(function(){
     <!-- Korean language -->
     <ul class="mainMenu margin-top-3" data-lang="ko" style="display:none;">
       <li><a href="index.html">홈</a></li>
-      <li><a href="about.html">소개</a></li>
+      <li>
+        <a class="submenu-dropdown1">소개<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements1" style="display: none">
+			<li class="padding-left-2"><a href="about.html">프로젝트 Redd</a></li>
+			<li class="padding-left-2"><a href="roadmap.html">ReddMap</a></li>
+			<li class="padding-left-2"><a href="funding.html">자금</a></li>
+        </ul>
+      </li>
       <li><a href="technology.html">기술</a></li>
       <li><a href="developers.html">개발자</a></li>
       <li><a href="https://medium.com/projectredd">뉴스</a></li>
       <li><a href="join.html">함께해요</a></li>
       <li>
-        <a class="submenu-dropdown translate">언어<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
-        <ul class="mainMenu small submenu-elements" style="display: none">
+        <a class="submenu-dropdown2 translate">언어<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements2" style="display: none">
 			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
 			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
 			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
@@ -444,7 +546,7 @@ $(function(){
         <div class="fix-12-12" data-lang="de" style="display:none;">
           <div class="fix-6-12 left toLeft">
             <h1 class="ae-1 small margin-bottom-2">Redd ist jeder.</h1>
-            <p class="ae-2 large"><span class="opacity-8">ReddID wird derzeit in über 50 Ländern eingesetzt und ermöglicht Ihnen in kurzer Zeit, alle wichtigen Social-Media-Plattformen zu unterstützen, Trinkgeld zu geben und an alle zu spenden.</span></p>
+            <p class="ae-2 large"><span class="opacity-8">Unsere Benutzer stellen sich aus allen Farben, Religionen und Sprachen zusammen. Mit über 60.000 Benutzern bietet Redd Ihnen die Tools, um Menschen und soziale Anliegen für ihre Bemühungen zu unterstützen und zu belohnen.</span></p>
             <a href="about.html" class="button red rounded crop margin-top-1 ae-3">Erfahren Sie mehr</a>
           </div>
         </div>
@@ -656,7 +758,7 @@ $(function(){
             </li>
             <li class="col-4-12 left ae-5 margin-bottom-3">
               <h4 class="small margin-bottom-1 ae-6">ReddWallet</h4>
-              <div class="ae-7"><p class="small opacity-8">Eine Applikation, womit wir ReddCoin speichern, senden und empfangen.</p><a href="technology.html#redd-wallet" class="button small red margin-left-0 ae-5 fromCenter">Brieftasche herunterladen</a></div>
+              <div class="ae-7"><p class="small opacity-8">Eine Applikation, mit der wir ReddCoin speichern, senden und empfangen.</p><a href="technology.html#redd-wallet" class="button small red margin-left-0 ae-5 fromCenter">Brieftasche herunterladen</a></div>
             </li>
           </ul>
           <ul class="flex later">
@@ -666,7 +768,7 @@ $(function(){
             </li>
             <li class="col-4-12 left ae-7 margin-bottom-3">
               <h4 class="small margin-bottom-1 ae-5">ReddID</h4>
-              <div class="ae-6"><p class="small opacity-8">Eine einzelne Benutzer-ID, womit Sie auf allen wichtigen sozialen Plattformen Trinkgeld geben und spenden können.</p><a class="button rounded small white white margin-left-0 ae-5 fromCenter">Kommt bald</a></div>
+              <div class="ae-6"><p class="small opacity-8">Eine einzelne Benutzer-ID, mit der Sie auf allen wichtigen sozialen Plattformen Trinkgeld geben und spenden können.</p><a class="button rounded small white white margin-left-0 ae-5 fromCenter">Kommt bald</a></div>
             </li>
             <li class="col-4-12 left ae-8 margin-bottom-3">
               <h4 class="small margin-bottom-1 ae-6">ReddFoundation</h4>

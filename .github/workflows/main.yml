@@ -1,4 +1,4 @@
-name: main deployment
+name: Deploy to PRODOCTION
 
 on:
   push:

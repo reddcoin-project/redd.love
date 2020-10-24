@@ -8,11 +8,12 @@
 
 ## Automated Deployment
 
+🔥 **The branches are connected to an automated deployment!**
+
 The following branches are connected with the Redd Webserver and will be triggered and updated on every push event.
 
-- `production`: Updates Production Stage
-- `staging`: Updates Staging Stage
-- `master`: Updates Testing Stage
+- `main`: Deployes to PRODUCTION
+- `staging`: Deployes to STAGING
 
 ## Docker
 
