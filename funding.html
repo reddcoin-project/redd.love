@@ -148,6 +148,11 @@
         d="M5.621 10.138l9.232-3.81-1.687-6.105c-.401-.041-.786-.06-1.167-.06-4.098 0-7.819 2.055-10.004 5.509l3.626 4.466zM16.833 13.499l-1.787-6.474-8.953 3.695 5.427 6.682zM.172 12.387l4.758-1.963-3.323-4.091c-.945 1.731-1.443 3.68-1.443 5.667l.008.387zM13.938.326l3.515 12.718 5.913-4.344c-1.258-4.341-4.982-7.636-9.428-8.374zM23.836 12c0-.857-.095-1.713-.277-2.551l-5.902 4.335 1.999 7.238c2.664-2.256 4.18-5.515 4.18-9.022zM19.047 21.507l-2.01-7.269-5.065 3.722 4.164 5.13c1.041-.389 2.017-.919 2.911-1.583zM5.454 21.858l5.487-4.031-5.54-6.822-5.179 2.137c.34 3.522 2.276 6.749 5.232 8.716zM6.11 22.265c1.79 1.03 3.814 1.571 5.89 1.571 1.16 0 2.304-.169 3.412-.503l-4.019-4.948-5.283 3.88z" />
     </symbol>
 
+  <symbol id="checkmark" viewBox="0 0 25 25"><path d="M20.985,20.985c4.686-4.688,4.686-12.283,0-16.97c-4.688-4.687-12.283-4.687-16.97,0s-4.687,12.283,0,16.97
+	C8.702,25.671,16.304,25.671,20.985,20.985z M8.198,10.666l2.699,2.698l5.911-5.906l2.091,2.091l-5.907,5.905l-2.095,2.092
+	l-2.091-2.092l-2.699-2.698L8.198,10.666L8.198,10.666z"/></symbol>
+
+
     <symbol id="close" viewBox="0 0 30 30">
       <path
         d="M15 0c-8.3 0-15 6.7-15 15s6.7 15 15 15 15-6.7 15-15-6.7-15-15-15zm5.7 19.3c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3s-.5-.1-.7-.3l-4.3-4.3-4.3 4.3c-.2.2-.4.3-.7.3s-.5-.1-.7-.3c-.4-.4-.4-1 0-1.4l4.3-4.3-4.3-4.3c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l4.3 4.3 4.3-4.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-4.3 4.3 4.3 4.3z">
@@ -726,10 +731,10 @@ $(function(){
                 <p class="light margin-bottom-1 opacity-8"><span class="weight-6">2,942,113.00 RDD</span> – RoniToni (@teeroni)</p>
                 <p class="light margin-bottom-1 opacity-8"><span class="weight-6">2,940,769.43 RDD</span> – rtong (@rebible)</p>
                 <p class="light margin-bottom-1 opacity-8"><span class="weight-6">2,110,659.00 RDD</span> – Christopher (@Krestofa)</p>
-                <p class="light margin-bottom-1 opacity-8"><span class="weight-6">2,110,559.85 RDD</span> – 소풍같은삶 (@kbs10000)</p>
+                <p class="light margin-bottom-1 opacity-8"><span class="weight-6">2,110,559.85 RDD</span> – 소풍같은삶 (@kbs10000) <svg class="popupTrigger" data-popup-id="pu-kbs" style="fill:orange;width:21px;height:21px;margin-bottom:-5px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#checkmark"></use></svg></p>
                 <p class="light margin-bottom-1 opacity-8"><span class="weight-6">1,554,620.00 RDD</span> – @Chillh89</p>
                 <p class="light margin-bottom-1 opacity-8"><span class="weight-6">1,252,200.00 RDD</span> – @fiische</p>
-                <!--<p class="light italic margin-bottom-1 opacity-8">* Click on XX to see how much has been paid back</p>-->
+                <p class="light italic margin-bottom-1 opacity-8">* Click on <svg class="opacity-6" style="width:18px;height:18px;margin-bottom:-2px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#checkmark"></use></svg> to see how much has been paid back.</p>
               </li>
             </ul>
           </div>
@@ -740,6 +745,31 @@ $(function(){
     </div>
     <div class="background" style="background-image:url(assets/img/background/img-65.jpg)"></div>
   </section>
+
+<!-- Popup KBS10000 -->
+<div class="popup" data-popup-id="pu-kbs">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <div class="container">
+      <div class="wrap spaces">
+        
+        
+        <h1>Repayment Status</h1>
+        <p><span class="opacity-8">Status of 소풍같은삶 (@kbs10000) donation.</span></p>
+        <div class="form-55 fix-5-12 popupContent">
+          <div class="pad padding-top-3 shadow left selected">
+          
+          <p class="padding-top-2 cropBottom">1,000,000 RDD – REPAID</p>
+          <p class="cropTop cropBottom">-------------</p>
+          <p class="bold">1,110,559.85 RDD – Remaining Balance</p>
+                   
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- Panel Bottom #12 -->
   <!-- English language -->
