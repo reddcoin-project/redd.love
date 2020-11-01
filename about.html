@@ -206,7 +206,8 @@ $(function(){
   
   [data-current-lang="en"] .dropdown.translate li[data-switch-lang="en"],
   [data-current-lang="de"] .dropdown.translate li[data-switch-lang="de"],
-  [data-current-lang="ko"] .dropdown.translate li[data-switch-lang="ko"] {
+  [data-current-lang="ko"] .dropdown.translate li[data-switch-lang="ko"],
+  [data-current-lang="ru"] .dropdown.translate li[data-switch-lang="ru"] {
     color:#E91556;
     background:transparent;
     cursor:default;
@@ -220,6 +221,7 @@ $(function(){
     <li data-switch-lang="en">English</li>
     <li data-switch-lang="de">Deutsch</li>
     <li data-switch-lang="ko">한국인</li>
+    <li data-switch-lang="ru">Pусский</li>
     <!-- <li data-switch-lang="tr">Türkçe</li> -->
   </ul>
 </div>
@@ -324,6 +326,16 @@ $(function(){
         <li><a href="join.html">함께해요</a></li>
       </ul>
       
+      <!-- Russian language -->
+      <ul class="menu small" data-lang="ru" style="display:none;">
+        <li><a href="index.html">Главная</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ru">О нас <i class="material-icons">expand_more</i></li>
+        <li><a href="technology.html">Технология</a></li>
+        <li><a href="developers.html">Разработчики</a></li>
+        <li><a href="https://medium.com/projectredd">Присоединиться</a></li>
+        <li><a href="join.html">Присоединиться</a></li>
+      </ul>
+      
     </div>
     <div class="right"><span data-dropdown-id="language" class="button actionButton dropdownTrigger">EN</span></div>
   </div>
@@ -366,6 +378,16 @@ $(function(){
     </li>
 </div>
 
+<!-- Russian Menu dropdown -->
+<div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-ru">
+    <li class="selected wide">
+      <ul class="menu small">
+        <li><a href="about.html">Проект Redd</a></li>
+        <li><a href="roadmap.html">ReddMap</a></li>
+        <li><a href="funding.html">Финансирование</a></li>
+      </ul>
+    </li>
+</div>
 
 <!-- Panel Top #02 -->
 <nav class="panel top white exceptFirstSlide">
@@ -401,6 +423,16 @@ $(function(){
         <li><a href="developers.html">개발자</a></li>
         <li><a href="https://medium.com/projectredd">뉴스</a></li>
         <li><a href="join.html">함께해요</a></li>
+      </ul>
+      
+      <!-- Russian language -->
+      <ul class="menu small" data-lang="ru" style="display:none;">
+        <li><a href="index.html">Главная</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ru">О нас <i class="material-icons">expand_more</i></li>
+        <li><a href="technology.html">Технология</a></li>
+        <li><a href="developers.html">Разработчики</a></li>
+        <li><a href="https://medium.com/projectredd">Присоединиться</a></li>
+        <li><a href="join.html">Присоединиться</a></li>
       </ul>
       
     </div>
@@ -439,6 +471,7 @@ $(function(){
 			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
 			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
 			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
+			<li class="padding-left-2" data-switch-lang="ru"><a>Pусский</a></li>
         </ul>
       </li>
     </ul>
@@ -470,6 +503,7 @@ $(function(){
 			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
 			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
 			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
+			<li class="padding-left-2" data-switch-lang="ru"><a>Pусский</a></li>
         </ul>
       </li>
     </ul>
@@ -501,6 +535,7 @@ $(function(){
 			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
 			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
 			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
+			<li class="padding-left-2" data-switch-lang="ru"><a>Pусский</a></li>
         </ul>
       </li>
     </ul>
@@ -511,14 +546,48 @@ $(function(){
 		<li><div class="popupTrigger opacity-8" data-popup-id="contact">기부</div></li>
     </ul>
     
+    <!-- Russian language -->
+    <ul class="mainMenu margin-top-3" data-lang="ru" style="display:none;">
+      <li><a href="index.html">Главная</a></li>
+      <li>
+        <a class="submenu-dropdown1">О нас<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements1" style="display: none">
+			<li class="padding-left-2"><a href="about.html">Проект Redd</a></li>
+			<li class="padding-left-2"><a href="roadmap.html">ReddMap</a></li>
+			<li class="padding-left-2"><a href="funding.html">Финансирование</a></li>
+        </ul>
+      </li>
+      <li><a href="technology.html">Технология</a></li>
+      <li><a href="developers.html">Разработчики</a></li>
+      <li><a href="https://medium.com/projectredd">Новости</a></li>
+      <li><a href="join.html">Присоединиться</a></li>
+      <li>
+        <a class="submenu-dropdown2 translate">Язык<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements2" style="display: none">
+			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
+			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
+			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
+			<li class="padding-left-2" data-switch-lang="ru"><a>Pусский</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="subMenu small opacity-8" data-lang="ru" style="display:none;">
+		<li><a href="privacy.html">Политика конфиденциальности</a></li>
+		<li><a href="terms.html">Условия использования</a></li>
+		<li><a href="press.html">Подборка для прессы</a></li>
+		<li><div class="popupTrigger opacity-8" data-popup-id="contact">Пожертвования</div></li>
+    </ul>
+    
+    <!-- Social Media Icons -->
     <ul class="social opacity-8">
         <li><a href="https://www.facebook.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
         <li><a href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
         <li><a href="https://www.instagram.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li></br>
-        <li><a href="https://medium.com/@techadept" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+        <li><a href="https://medium.com/projectredd" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
         <li><a href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
         <li><a href="https://www.reddit.com/r/ReddCoin/" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reddit"></use></svg></a></li>
     </ul>
+    
   </div>
 </nav>
 
@@ -544,6 +613,12 @@ $(function(){
         <div class="fix-8-12" data-lang="ko" style="display:none;">
           <h1 class="margin-bottom-2 weight-6 ae-1">세상을 바꿀 때입니다.</h1>
           <p class="largest ae-2"><span class="opacity-8">우리는 전 세계의 다양한 대의를 지원하고 기부 및 자금을 조달하는 선도적인 수단으로서 Redd 및 사회적 팁을 모든 플랫폼에 제공하기 위해서 많은 노력을 기울이고 있습니다.</span></p>
+        </div>
+        
+        <!-- Russian language -->
+        <div class="fix-10-12" data-lang="ru" style="display:none;">
+          <h1 class="margin-bottom-2 ae-1">Пришло время изменить мир.</h1>
+          <p class="largest ae-2"><span class="opacity-8">Мы делаем большое усилие, чтобы привнести Redd и социальные чаевые на все платформы в качестве ведущего средства для поддержки, пожертвований и финансирования различных проектов по всему миру.</span></p>
         </div>
       
       </div>
@@ -651,6 +726,37 @@ $(function(){
           </ul>
         </div>
         
+        <!-- Russian language -->
+        <div class="fix-10-12 toCenter" data-lang="ru" style="display:none;">
+          <h1 class="smaller margin-bottom-2 ae-1">Что такое Редд и для кого он предназначен?</h1>
+          <p class="large ae-2"><span class="opacity-8">ReddCoin - это инструмент, приносящий пользу людям. Это цифровая социальная валюта, которая позволяет давать чаевые последователям, сторонникам или фанатам и делиться 100% своей стоимости  по любому поводу, с любым человеком или организацией без посредников.</span></p>
+        </div>
+        <div class="fix-10-12 margin-top-4" data-lang="ru">  
+          <ul class="flex flex-49 later equal">
+            <li class="col-4-12">
+              <div class="fix-4-12 ae-3">
+                <img class="wide margin-bottom-1 ae-4" src="assets/img/Who-contentcreator.jpg" style="border-radius: 5px;" alt="Content Creator"/>
+                <h4 class="small margin-bottom-1 equalElement ae-4">Создателям контента</h4>
+                <div class="ae-5"><p class="opacity-8">Любой человек, от разработчика на GitHub до влиятельного лица в социальных сетях, может создать ReddID и зарабатывать ReddCoins.</p>
+              </div>
+            </li>
+            <li class="col-4-12">
+              <div class="fix-4-12 ae-4">
+                <img class="wide margin-bottom-1 ae-5" src="assets/img/Who-socialcause.jpg" style="border-radius: 5px;" alt="Social Cause"/>
+                <h4 class="small margin-bottom-1 equalElement ae-5">Социальные причины</h4>
+                <div class="ae-6"><p class="opacity-8">Используя Redd, вы можете поддерживать тех, кто отстаивает важные для вас вопросы.</p>
+              </div>
+            </li>
+            <li class="col-4-12">
+              <div class="fix-4-12 ae-5">
+                <img class="wide margin-bottom-1 ae-6" src="assets/img/Who-humanitarian.jpg" style="border-radius: 5px;" alt="Humanitarian"/>
+                <h4 class="small margin-bottom-1 equalElement ae-6">Гуманитарные программы</h4>
+                <div class="ae-7"><p class="opacity-8">С Redd вы можете поддержать любую программу - от спасения китов до помощи разоренному войной поселку.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
       </div>
     </div>
   </div>
@@ -692,6 +798,14 @@ $(function(){
               <a href="funding.html" class="button small red margin-left-0 margin-right-1 ae-5 fromCenter">프로젝트 자금 지원 페이지</a><a href="assets/doc/PoSV-v2-FAQ.pdf" class="button small white rounded crop margin-top-0 ae-5">POSV v2에 대해 알아보기</a>
             </li>
             
+            <!-- Russian language -->
+            <li class="col-7-12 left" data-lang="ru" style="display:none;">
+              <h1 class="smaller margin-bottom-2 ae-1 fromLeft">Как мы тут оказались?</h1>
+              <p class="ae-2 fromLeft"><span class="opacity-8">Redd - один из старейших и наиболее устоявшихся проектов в криптовалютнном пространстве. Созданный в начале 2014 года, сначала был известен как "Reddcoin", но за последние шесть лет проект прошел через несколько эволюционных изменений своей сети и технологии.</span></p>
+              <p class="ae-3 fromLeft"><span class="opacity-8">Многие люди не знают, что Redd - это 100% волонтерская организация. Это важное достижение, которое показывает не только страсть и веру каждого в этот проект, но и цели, которые мы пытаемся воплотить в жизнь.</span></p>
+              <a href="funding.html" class="button small red margin-left-0 margin-right-1 ae-5 fromCenter">Страница финансирования проекта</a><a href="assets/doc/PoSV-v2-FAQ.pdf" class="button small white rounded crop margin-top-0 ae-5">Узнать о POSV v2</a>
+            </li>
+            
           </ul>
         </div>
         
@@ -700,6 +814,7 @@ $(function(){
   </div>
   
 </section>
+
 <!-- White Slide 4 (#34) -->
 <section class="slide whiteSlide" data-name="about-redd">
   <div class="content">
@@ -732,6 +847,14 @@ $(function(){
                 <p class="ae-2 fromLeft"><span class="opacity-8">최근의 재설계를 통해서 우린 서로를 배려하고 포용하는 지속적인 메시지를 강조하기 위해 의식적인 노력을 기울였습니다. 저희 로고의 그래픽은 지원와 커뮤니티를 상징합니다. 어떤 모양이나 색깔도 같지 않습니다. 그러나 모든 조각들이 모여서 하나의 전체를 형성합니다.</span></p>
                 <p class="ae-3 fromLeft"><span class="opacity-8">이것이 바로 Redd의 힘입니다. 모든 사람을 환영하고 모든 사람에게 권한을 부여하는 곳입니다. Redd에 대해 자세히 알아 보려면 곧 출시 될 Redd Book을 참조하고 Redd를 구동하는 엔진인 ReddCoin에 대해 자세히 알아 보려면 Redd Paper를 참조하세요.</span></p>
                 <a href="assets/doc/Redd-Book.pdf" class="button small red margin-left-0 margin-right-1 ae-5 fromCenter">Redd Book 읽기</a><a href="assets/doc/Redd-Paper.pdf" class="button small white margin-left-0 ae-6 fromCenter">Redd Paper 보기</a>
+              </div>
+              
+              <!-- Russian language -->
+              <div class="fix-6-12 toLeft margin-left-tablet-auto margin-right-tablet-auto" data-lang="ru" style="display:none;">
+                <h1 class="ae-1 fromLeft smaller margin-bottom-2">Что означает Redd</h1>
+                <p class="ae-2 fromLeft"><span class="opacity-8">В нашем последнем редизайне мы приложили огромные усилия, чтобы подчеркнуть наше постоянное послание о вовлеченности и заботе друг о друге. Изображение в нашем логотипе символизирует поддержку и объединение. Ни одна форма или цвет не похожи. Тем не менее, все части собираются вместе и образуют одно целое.</span></p>
+                <p class="ae-3 fromLeft"><span class="opacity-8">В этом сила Redd. Это место, которое приветствует всех и вдохновляет всех. Прочтите  нашу книгу Redd Book, чтобы узнать больше о Redd, или наш Redd Paper, чтобы узнать больше о ReddCoin движке, на котором работает Redd.</span></p>
+                <a href="assets/doc/Redd-Book.pdf" class="button small red margin-left-0 margin-right-1 ae-5 fromCenter">Прочтите нашу книгу Redd Book</a><a href="assets/doc/Redd-Paper.pdf" class="button small white margin-left-0 ae-6 fromCenter">Смотрите наш Redd Paper</a>
               </div>
               
             </li>
@@ -772,6 +895,13 @@ $(function(){
           <p class="larger margin-bottom-1 ae-1"><span class="opacity-4">Redd 팀</span></p>
           <h1 class="smaller weight-6 margin-bottom-2 ae-1">핵심 멤버</h1>
           <p class="large ae-2"><span class="opacity-8">이 열정적인 사람들은 Redd를 현실로 만드는 책임을 지고 있습니다. 그들의 비전과 헌신으로, 이 프로젝트의 미래는 오늘과 같지 않을 것입니다.</span></p>
+        </div>
+        
+        <!-- Russian language -->
+        <div class="fix-8-12 toCenter" data-lang="ru" style="display:none;">
+          <p class="larger margin-bottom-1 ae-1"><span class="opacity-4">Команда Redd</span></p>
+          <h1 class="smaller margin-bottom-2 ae-1">Наши Основные Сотрудники</h1>
+          <p class="large ae-2"><span class="opacity-8">Эти увлеченные люди создают возможность того, чтобы Redd стал реальностью. Без их виденья и целеустремленности этот проект не был бы там, где он есть сегодня.</span></p>
         </div>
         
         <div class="fix-12-12 margin-top-4">
@@ -850,6 +980,13 @@ $(function(){
           <p class="larger margin-bottom-1 ae-1"><span class="opacity-4">Redd 팀</span></p>
           <h1 class="smaller weight-6 margin-bottom-2 ae-1">고위 실무자</h1>
           <p class="large ae-2"><span class="opacity-8">고위 실무자를 포함한 팀의 모든 사람들은 Redd를 사회적 상호작용의 미래로 이끌기 위해서 많은 공헌을 했습니다.</span></p>
+        </div>
+        
+        <!-- Russian language -->
+        <div class="fix-8-12 toCenter" data-lang="ru" style="display:none;">
+          <p class="larger margin-bottom-1 ae-1"><span class="opacity-4">Команда Redd</span></p>
+          <h1 class="smaller margin-bottom-2 ae-1">Старшие сотрудники</h1>
+          <p class="large ae-2"><span class="opacity-8">Все в команде, включая старших сотрудников, внесли большой вклад в то, чтобы Redd стал будущим социальным взаимодействием.</span></p>
         </div>
         
         <div class="fix-12-12 margin-top-4">
@@ -932,6 +1069,13 @@ $(function(){
           <p class="larger margin-bottom-1 ae-1"><span class="opacity-4">Redd 팀</span></p>
           <h1 class="smaller weight-6 margin-bottom-2 ae-1">커뮤니티 관리자</h1>
           <p class="large ae-2"><span class="opacity-8">아래 보이는 Redd 팀의 핵심 지원팀이 아니었다면 우리 프로젝트에 대한 커뮤니티나 인지도는 없었을 것입니다.</span></p>
+        </div>
+        
+        <!-- Russian language -->
+        <div class="fix-8-12 toCenter" data-lang="ru" style="display:none;">
+          <p class="larger margin-bottom-1 ae-1"><span class="opacity-4">Команда Redd</span></p>
+          <h1 class="smaller margin-bottom-2 ae-1">Вспомогательный состав</h1>
+          <p class="large ae-2"><span class="opacity-8">Не было бы никакого сообщества или осведомленности о нашем проекте, если бы не ключевые члены поддержки команды Redd, которых вы видите ниже.</span></p>
         </div>
         
         <div class="fix-12-12 margin-top-4">
@@ -1037,6 +1181,13 @@ $(function(){
           <p class="larger margin-bottom-1 ae-1"><span class="opacity-4">The Reddheads</span></p>
           <h1 class="smaller weight-6 margin-bottom-2 ae-1">우리의 커뮤니티</h1>
           <p class="large ae-2"><span class="opacity-8">Redd의 가장 좋은 점 중 하나는 우리의 비전을 지지할 뿐만 아니라 우리와 같은 가치를 공유하는 놀라운 사용자 커뮤니티입니다.</span></p>
+        </div>
+        
+        <!-- Russian language -->
+        <div class="fix-8-12 toCenter margin-bottom-2" data-lang="ru" style="display:none;">
+          <p class="larger margin-bottom-1 ae-1"><span class="opacity-4">Reddheads</span></p>
+          <h1 class="smaller margin-bottom-2 ae-1">Наше сообщество</h1>
+          <p class="large ae-2"><span class="opacity-8">Одна из лучших сторон Redd - это удивительное сообщество пользователей, которые поддерживают не только наше виденье, но и разделяют наши общие ценности.</span></p>
         </div>
         
         <div class="fix-10-12 margin-top-4">
@@ -1162,6 +1313,37 @@ $(function(){
   </div>
 </nav>
 
+<!-- Russian language -->
+<nav class="panel bottom exceptFirstSlide" data-lang="ru" style="display:none;">
+  <div class="sections desktop">
+    <div class="left uppercase">Мы <svg style="width:27px;height:25px;margin-bottom:-3px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use></svg> наше сообщество</div>
+    <div class="center">
+
+      <ul class="menu uppercase">
+        <li><a href="privacy.html">Политика конфиденциальности</a></li>
+        <li><a href="terms.html">Условия использования</a></li>
+        <li><a href="press.html">Подборка для прессы</a></li>
+        <li><div class="popupTrigger opacity-8" data-popup-id="contact">Пожертвования</div></li>
+      </ul>
+      
+    </div>
+    <div class="right">
+      <ul class="menu crop">
+        <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://medium.com/@techadept" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="sections compact hidden">
+    <!-- <div class="left">
+      <a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
+    </div> -->
+  </div>
+</nav>
+
 <!-- Popup Donation Window -->
 <div class="popup animated" data-popup-id="contact">
   <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
@@ -1193,6 +1375,13 @@ $(function(){
               <p class="large ae-2 fromLeft"><span class="opacity-8 break-word">여러분이 진심으로 팀에 대한 감사의 표시로 음료나 기부를 원하신다면 Ru6sDVdn4MhxXJauQ2GAJP4ozpPpmcDKdc 로 보내주세요.</span></p>
             </li>
             
+            <!-- Russian language -->
+            <li class="col-5-12 left" data-lang="ru" style="display:none;">
+              <h2 class="margin-top-5 margin-bottom-2 ae-1 fromLeft">Пожертвования</h1>
+              <p class="ae-2 fromLeft"><span class="opacity-8">"Поскольку Redd, после успешной активации PoSV v2 находится полностью на самофинансировании, все пожертвования отправленные на этот адрес будут использованы для благотворительной и общественной деятельности."</span></p>
+              <p class="ae-2 fromLeft"><span class="opacity-8 break-word">Если вы действительно хотите сделать пожертвование команде, чтобы угостить их выпивкой или просто в знак благодарности, отправьте ее на адрес: Ru6sDVdn4MhxXJauQ2GAJP4ozpPpmcDKdc</span></p>
+            </li>
+            
             <li class="col-1-12"></li>
             <li class="col-6-12">
 			<div class="form-55 fix-5-12 popupContent ae-3">
@@ -1215,6 +1404,13 @@ $(function(){
 			  <div class="pad padding-top-2 shadow center selected" data-lang="ko" style="display:none;">
 				<img class="margin-top-3" width="350" src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
 				<h4 class="smaller margin-top-2 margin-bottom-0">자선 및 지역 사회 활동</h4>
+				<p class="small margin-top-0 margin-bottom-0 break-word">Recrcq8moZjbEHVoJx6JiQ2mfZkQnktvnf</p>
+			  </div>
+			  
+			  <!-- Russian language -->
+			  <div class="pad padding-top-2 shadow center selected" data-lang="ru" style="display:none;">
+				<img class="margin-top-3" width="350" src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
+				<h4 class="smaller margin-top-2 margin-bottom-0">Благотворительность и общественная деятельность</h4>
 				<p class="small margin-top-0 margin-bottom-0 break-word">Recrcq8moZjbEHVoJx6JiQ2mfZkQnktvnf</p>
 			  </div>
 			  

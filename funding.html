@@ -386,50 +386,33 @@ $(function(){
     });
   </script>
 
-  <style>
-    .dropdown.translate {
-      padding: 10px 0;
-    }
+<style>
+  .dropdown.translate { padding:10px 0; }
+  .dropdown.translate li { text-align: center; font-size: 18px; padding: 10px; cursor:pointer; }
+  .dropdown.translate li:hover { background:rgba(0, 0, 0, 0.05); }
+  .dropdownTrigger[data-dropdown-id="language"] { color:#fff; text-align:center; font-size:14px; line-height:1.35; font-weight:600; text-transform:uppercase; }
+  
+  [data-current-lang="en"] .dropdown.translate li[data-switch-lang="en"],
+  [data-current-lang="de"] .dropdown.translate li[data-switch-lang="de"],
+  [data-current-lang="ko"] .dropdown.translate li[data-switch-lang="ko"],
+  [data-current-lang="ru"] .dropdown.translate li[data-switch-lang="ru"] {
+    color:#E91556;
+    background:transparent;
+    cursor:default;
+    opacity:1;
+  }
+</style>
 
-    .dropdown.translate li {
-      text-align: center;
-      font-size: 18px;
-      padding: 10px;
-      cursor: pointer;
-    }
-
-    .dropdown.translate li:hover {
-      background: rgba(0, 0, 0, 0.05);
-    }
-
-    .dropdownTrigger[data-dropdown-id="language"] {
-      color: #fff;
-      text-align: center;
-      font-size: 14px;
-      line-height: 1.35;
-      font-weight: 600;
-      text-transform: uppercase;
-    }
-
-    [data-current-lang="en"] .dropdown.translate li[data-switch-lang="en"],
-    [data-current-lang="de"] .dropdown.translate li[data-switch-lang="de"],
-    [data-current-lang="ko"] .dropdown.translate li[data-switch-lang="ko"] {
-      color: #E91556;
-      background: transparent;
-      cursor: default;
-      opacity: 1;
-    }
-  </style>
-
-  <!-- Language selector dropdown -->
-  <div class="dropdown translate top right" data-dropdown-id="language">
-    <ul>
-      <li data-switch-lang="en">English</li>
-      <li data-switch-lang="de">Deutsch</li>
-      <li data-switch-lang="ko">한국인</li>
-      <!-- <li data-switch-lang="tr">Türkçe</li> -->
-    </ul>
-  </div>
+<!-- Language selector dropdown -->
+<div class="dropdown translate top right" data-dropdown-id="language">
+  <ul>
+    <li data-switch-lang="en">English</li>
+    <li data-switch-lang="de">Deutsch</li>
+    <li data-switch-lang="ko">한국인</li>
+    <li data-switch-lang="ru">Pусский</li>
+    <!-- <li data-switch-lang="tr">Türkçe</li> -->
+  </ul>
+</div>
   
 <!-- Dropdown Menu Style -->
 <style>
@@ -501,6 +484,16 @@ $(function(){
         <li><a href="https://medium.com/projectredd">뉴스</a></li>
         <li><a href="join.html">함께해요</a></li>
       </ul>
+      
+      <!-- Russian language -->
+      <ul class="menu small" data-lang="ru" style="display:none;">
+        <li><a href="index.html">Главная</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ru">О нас <i class="material-icons">expand_more</i></li>
+        <li><a href="technology.html">Технология</a></li>
+        <li><a href="developers.html">Разработчики</a></li>
+        <li><a href="https://medium.com/projectredd">Присоединиться</a></li>
+        <li><a href="join.html">Присоединиться</a></li>
+      </ul>
 
       </div>
       <div class="right"><span data-dropdown-id="language" class="button actionButton dropdownTrigger">EN</span></div>
@@ -548,6 +541,17 @@ $(function(){
     </li>
 </div>
 
+<!-- Russian Menu dropdown -->
+<div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-ru">
+    <li class="selected wide">
+      <ul class="menu small">
+        <li><a href="about.html">Проект Redd</a></li>
+        <li><a href="roadmap.html">ReddMap</a></li>
+        <li><a href="funding.html">Финансирование</a></li>
+      </ul>
+    </li>
+</div>
+
 
   <!-- Sidebar -->
   <nav class="sidebar" data-sidebar-id="1">
@@ -580,6 +584,7 @@ $(function(){
 			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
 			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
 			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
+			<li class="padding-left-2" data-switch-lang="ru"><a>Pусский</a></li>
         </ul>
       </li>
     </ul>
@@ -611,6 +616,7 @@ $(function(){
 			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
 			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
 			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
+			<li class="padding-left-2" data-switch-lang="ru"><a>Pусский</a></li>
         </ul>
       </li>
     </ul>
@@ -642,6 +648,7 @@ $(function(){
 			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
 			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
 			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
+			<li class="padding-left-2" data-switch-lang="ru"><a>Pусский</a></li>
         </ul>
       </li>
     </ul>
@@ -652,26 +659,48 @@ $(function(){
 		<li><div class="popupTrigger opacity-8" data-popup-id="contact">기부</div></li>
     </ul>
 
-      <ul class="social opacity-8">
-        <li><a href="https://www.facebook.com/reddcoin" target="_blank"><svg>
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
-            </svg></a></li>
-        <li><a href="https://twitter.com/ProjectReddTW" target="_blank"><svg>
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
-            </svg></a></li>
-        <li><a href="https://www.instagram.com/reddcoin" target="_blank"><svg>
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
-            </svg></a></li></br>
-        <li><a href="https://medium.com/@techadept" target="_blank"><svg>
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use>
-            </svg></a></li>
-        <li><a href="https://t.me/ReddcoinOfficial" target="_blank"><svg>
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use>
-            </svg></a></li>
-        <li><a href="https://www.reddit.com/r/ReddCoin/" target="_blank"><svg>
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reddit"></use>
-            </svg></a></li>
-      </ul>
+    <!-- Russian language -->
+    <ul class="mainMenu margin-top-3" data-lang="ru" style="display:none;">
+      <li><a href="index.html">Главная</a></li>
+      <li>
+        <a class="submenu-dropdown1">О нас<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements1" style="display: none">
+			<li class="padding-left-2"><a href="about.html">Проект Redd</a></li>
+			<li class="padding-left-2"><a href="roadmap.html">ReddMap</a></li>
+			<li class="padding-left-2"><a href="funding.html">Финансирование</a></li>
+        </ul>
+      </li>
+      <li><a href="technology.html">Технология</a></li>
+      <li><a href="developers.html">Разработчики</a></li>
+      <li><a href="https://medium.com/projectredd">Новости</a></li>
+      <li><a href="join.html">Присоединиться</a></li>
+      <li>
+        <a class="submenu-dropdown2 translate">Язык<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
+        <ul class="mainMenu small submenu-elements2" style="display: none">
+			<li class="padding-left-2" data-switch-lang="en"><a>English</a></li>
+			<li class="padding-left-2" data-switch-lang="de"><a>Deutsch</a></li>
+			<li class="padding-left-2" data-switch-lang="ko"><a>한국인</a></li>
+			<li class="padding-left-2" data-switch-lang="ru"><a>Pусский</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="subMenu small opacity-8" data-lang="ru" style="display:none;">
+		<li><a href="privacy.html">Политика конфиденциальности</a></li>
+		<li><a href="terms.html">Условия использования</a></li>
+		<li><a href="press.html">Подборка для прессы</a></li>
+		<li><div class="popupTrigger opacity-8" data-popup-id="contact">Пожертвования</div></li>
+    </ul>
+    
+    <!-- Social Media Icons -->
+    <ul class="social opacity-8">
+        <li><a href="https://www.facebook.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+        <li><a href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li><a href="https://www.instagram.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li></br>
+        <li><a href="https://medium.com/projectredd" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+        <li><a href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
+        <li><a href="https://www.reddit.com/r/ReddCoin/" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reddit"></use></svg></a></li>
+    </ul>
+      
     </div>
   </nav>
 
@@ -775,7 +804,7 @@ $(function(){
 
   <!-- Panel Bottom #12 -->
   <!-- English language -->
-  <nav class="panel bottom exceptFirstSlide" data-lang="en">
+  <nav class="panel bottom" data-lang="en">
     <div class="sections desktop">
       <div class="left uppercase">We <svg style="width:27px;height:25px;margin-bottom:-3px;">
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use>
@@ -816,7 +845,7 @@ $(function(){
   </nav>
 
   <!-- Deutsch language -->
-  <nav class="panel bottom exceptFirstSlide" data-lang="de" style="display:none;">
+  <nav class="panel bottom" data-lang="de" style="display:none;">
     <div class="sections desktop">
       <div class="left uppercase">Wir <svg style="width:27px;height:25px;margin-bottom:-3px;">
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use>
@@ -857,7 +886,7 @@ $(function(){
   </nav>
 
   <!-- Korean language -->
-  <nav class="panel bottom exceptFirstSlide" data-lang="ko" style="display:none;">
+  <nav class="panel bottom" data-lang="ko" style="display:none;">
     <div class="sections desktop">
       <div class="left uppercase">우리는 <svg style="width:27px;height:25px;margin-bottom:-3px;">
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use>
@@ -896,6 +925,37 @@ $(function(){
     </div> -->
     </div>
   </nav>
+  
+  <!-- Russian language -->
+<nav class="panel bottom" data-lang="ru" style="display:none;">
+  <div class="sections desktop">
+    <div class="left uppercase">Мы <svg style="width:27px;height:25px;margin-bottom:-3px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use></svg> наше сообщество</div>
+    <div class="center">
+
+      <ul class="menu uppercase">
+        <li><a href="privacy.html">Политика конфиденциальности</a></li>
+        <li><a href="terms.html">Условия использования</a></li>
+        <li><a href="press.html">Подборка для прессы</a></li>
+        <li><div class="popupTrigger opacity-8" data-popup-id="contact">Пожертвования</div></li>
+      </ul>
+      
+    </div>
+    <div class="right">
+      <ul class="menu crop">
+        <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://medium.com/@techadept" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="sections compact hidden">
+    <!-- <div class="left">
+      <a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
+    </div> -->
+  </div>
+</nav>
 
   <!-- Popup Donation Window -->
   <div class="popup animated" data-popup-id="contact">
@@ -939,6 +999,13 @@ $(function(){
                   <p class="large ae-2 fromLeft"><span class="opacity-8 break-word">여러분이 진심으로 팀에 대한 감사의 표시로 음료나 기부를
                       원하신다면 Ru6sDVdn4MhxXJauQ2GAJP4ozpPpmcDKdc 로 보내주세요.</span></p>
               </li>
+              
+            <!-- Russian language -->
+            <li class="col-5-12 left" data-lang="ru" style="display:none;">
+              <h2 class="margin-top-5 margin-bottom-2 ae-1 fromLeft">Пожертвования</h1>
+              <p class="ae-2 fromLeft"><span class="opacity-8">"Поскольку Redd, после успешной активации PoSV v2 находится полностью на самофинансировании, все пожертвования отправленные на этот адрес будут использованы для благотворительной и общественной деятельности."</span></p>
+              <p class="ae-2 fromLeft"><span class="opacity-8 break-word">Если вы действительно хотите сделать пожертвование команде, чтобы угостить их выпивкой или просто в знак благодарности, отправьте ее на адрес: Ru6sDVdn4MhxXJauQ2GAJP4ozpPpmcDKdc</span></p>
+            </li>
 
               <li class="col-1-12"></li>
               <li class="col-6-12">
@@ -964,6 +1031,13 @@ $(function(){
                     <h4 class="smaller margin-top-2 margin-bottom-0">자선 및 지역 사회 활동</h4>
                     <p class="small margin-top-0 margin-bottom-0 break-word">Recrcq8moZjbEHVoJx6JiQ2mfZkQnktvnf</p>
                   </div>
+                  
+			  <!-- Russian language -->
+			  <div class="pad padding-top-2 shadow center selected" data-lang="ru" style="display:none;">
+				<img class="margin-top-3" width="350" src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
+				<h4 class="smaller margin-top-2 margin-bottom-0">Благотворительность и общественная деятельность</h4>
+				<p class="small margin-top-0 margin-bottom-0 break-word">Recrcq8moZjbEHVoJx6JiQ2mfZkQnktvnf</p>
+			  </div>
 
                 </div>
               </li>
