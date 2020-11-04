@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <base href="./">
+    <base href="/">
     <title>The Technology Behind Redd | The Social Currency</title>
     <meta property="og:title" content="The Technology Behind Redd | The Social Currency" />
     <meta name="twitter:title" content="The Technology Behind Redd | The Social Currency" />
