@@ -725,7 +725,7 @@ $(function(){
 					<span class="button play white button-86 absolute">
 					  <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#play"></use></svg>
 					</span>
-					<div class="text-86 margin-bottom-2"><p class="smaller bold uppercase cropBottom">Schau Video</p><p class="cropBottom small opacity-8">Redd ist überall (1:03)</p></div>
+					<div class="text-86 margin-bottom-2"><p class="smaller bold uppercase cropBottom">Video ansehen</p><p class="cropBottom small opacity-8">Redd ist überall (1:03)</p></div>
 				  </div>
 				</li>
 				<li class="col-6-12 left ae-4">
