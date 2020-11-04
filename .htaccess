@@ -1,8 +1,10 @@
 RewriteEngine On
 RewriteBase /
 
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
+# RewriteCond %{REQUEST_FILENAME}.html -f
+# RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
+
+RewriteRule ^([a-z]+)/?$ /src/views/$1.php [NC,L]
 
 RewriteRule ^api/contact/send/$ /ajax-email.php [NC,L]
 
