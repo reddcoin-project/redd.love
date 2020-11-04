@@ -4,6 +4,10 @@ RewriteBase /
 # RewriteCond %{REQUEST_FILENAME}.html -f
 # RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
 
+RewriteRule ^index\.html$ / [R=301,NC,L]
+RewriteRule ^([a-z]+)\.html$ /$1/ [R=301,NC,L]
+
+RewriteRule ^/?$ /src/views/index.php [NC,L]
 RewriteRule ^([a-z]+)/?$ /src/views/$1.php [NC,L]
 
 RewriteRule ^api/contact/send/$ /ajax-email.php [NC,L]
