@@ -4,6 +4,7 @@ services:
     container_name: website
     image: redd/redd.love:local
     build: .
+    env_file: .env
     ports:
       - "80:80"
     volumes:
