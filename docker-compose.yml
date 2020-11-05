@@ -2,8 +2,10 @@ version: "3.7"
 services:
   website:
     container_name: website
+    image: redd/redd.love:latest
     build: .
+    env_file: .env
     ports:
       - "80:80"
     volumes:
-      - "..:/var/www/html"
+      - "./web:/var/www/html/web"

@@ -1,14 +1,11 @@
 <?php
 
+include('../vendor/autoload.php');
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'phpmailer/Exception.php';
-require 'phpmailer/PHPMailer.php';
-require 'phpmailer/SMTP.php';
-
-$config = parse_ini_file('./.env');
-if(!isset($config['SMTP_Username']) or !isset($config['SMTP_Password'])) {
+if(!isset($_ENV['SMTP_Username']) or !isset($_ENV['SMTP_Password'])) {
   http_response_code(500);
   die("SMTP Configuration missing.");
 }
@@ -27,14 +24,20 @@ $originChecks = [
   'HTTP_REFERER' => false
 ];
 
+$allowedHosts = [
+  'https://redd.love',
+  'https://staging.redd.love',
+  'http://localhost'
+];
+
 if(isset($_SERVER["HTTP_ORIGIN"])) {
-  if($_SERVER["HTTP_ORIGIN"] === "https://redd.love") {
+  if(in_array($_SERVER["HTTP_ORIGIN"], $allowedHosts)) {
     $originChecks['HTTP_ORIGIN'] = true;
   }
 }
 
 if(isset($_SERVER["HTTP_ORIGIN"])) {
-  if(stripos($_SERVER["HTTP_REFERER"], 'https://redd.love/') !== false) {
+  if(in_array($_SERVER["HTTP_REFERER"], $allowedHosts)) {
     $originChecks['HTTP_REFERER'] = true;
   }
 }
@@ -89,8 +92,8 @@ try {
   $mail->Host = "smtp.gmail.com";
   $mail->Port = 465;
   
-  $mail->Username = $config['SMTP_Username'];
-  $mail->Password = $config['SMTP_Password'];
+  $mail->Username = $_ENV['SMTP_Username'];
+  $mail->Password = $_ENV['SMTP_Password'];
   
   $mail->CharSet = 'UTF-8';
   $mail->SetFrom ('social@reddcoin.solutions', 'ReddLove Website');

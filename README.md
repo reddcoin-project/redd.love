@@ -21,4 +21,4 @@ Requirements: [🐳 Docker](https://docs.docker.com/get-docker/)
 
 ### Getting Started
 
-Just run `docker-compose -f build/docker-compose.yml up -d --build` and adjust the volume according to the location of your files.
+Just run `docker-compose up -d --build` and adjust the volume according to the location of your files.

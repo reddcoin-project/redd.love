@@ -22,4 +22,4 @@ jobs:
         username: root
         key: ${{ secrets.DEPLOY_KEY }}
         command_timeout: 10m
-        script: cd /root/www-data/redd.love/staging && git pull && touch .deployed
+        script: git -C /root/www-data/redd.love/staging pull && docker-compose up -d --build reddlove-dev && touch .deployed
