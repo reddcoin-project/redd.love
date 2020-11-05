@@ -18,6 +18,14 @@ RewriteRule ^([a-z]+)\.html$ /$1/ [R=301,NC,L]
 
 RewriteRule ^api/contact/send/$ ajax-email.php [NC,L]
 
+
+# RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteCond %{DOCUMENT_ROOT}/cache/index -f
+RewriteRule ^(.+)/$ /cache/$1 [NC,L]
+
+RewriteCond %{DOCUMENT_ROOT}/cache/index -f
+RewriteRule ^$ /cache/index [NC,L]
+
 RewriteRule ^(.+)/$ index.php?view=$1 [NC,L]
 
 RedirectMatch 403 /\.git
