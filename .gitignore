@@ -1,2 +1,6 @@
 /.deployed
 /.env
+
+/vendor
+
+composer.lock

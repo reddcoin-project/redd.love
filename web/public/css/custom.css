@@ -1,0 +1,102 @@
+/* Social Colors */
+.social-telegram {
+  background: #2da4d7 !important;
+  color: #fff !important;
+}
+
+.social-telegram svg {
+  fill: #fff !important;
+  margin-left: -2px;
+}
+
+.text-social-telegram {
+  color: #2da4d7 !important;
+}
+.text-social-telegram.button svg {
+  fill: #2da4d7 !important;
+}
+
+.stroke.button.social-telegram {
+  color: #2da4d7 !important;
+  border-color: #2da4d7 !important;
+}
+.stroke.button.social-telegram svg {
+  fill: #2da4d7 !important;
+}
+
+.break-word {
+  word-wrap: break-word;
+}
+
+.dropdown .menu a {
+  display: block;
+}
+
+.panel .menu { cursor:pointer;}
+.panel .menu > li {
+  outline: none;
+  border-radius: 50px;
+  padding: 7px 17px;
+  will-change: background;
+  -webkit-transition:0.25s background;
+  transition:0.25s background;
+}
+.panel .menu > li:focus,
+.panel .menu > li:hover {
+  background: rgba(0, 0, 0, 0.15);
+}
+.panel .menu > li .material-icons {
+  vertical-align: middle;
+  position: relative;
+  top: 2px;
+  margin-top: -6px;
+}
+
+.dropdown.customDropdown { padding:10px 0; width: 200px;}
+.dropdown.customDropdown .menu > li:not(.link),
+.dropdown.customDropdown .menu > li.link a { font-size: 15px; padding: 8px 10px 8px 20px; cursor: pointer; display: block; text-align: left; }
+.dropdown.customDropdown .menu > li:hover { background:rgba(0, 0, 0, 0.05);}
+.dropdown.customDropdown .material-icons {
+  position: relative;
+  top: -3px;
+  float: right;
+}
+
+
+.customHover {
+  position:relative;  
+}
+.customHover:before {
+ content:"";
+ position:absolute;
+ bottom:0;
+ left:0;
+  width:100%;
+ height:2px;
+ background:#CCC;
+ z-index:-1;
+ -webkit-transition:0.35s;
+ transition:0.35s;
+}
+.customHover:hover:before {
+ background:red;
+ -webkit-transition:height 0.15s, width 0.35s 0.15s cubic-bezier(0.23, 2.01, 0.43, 0.66), -webkit-transform 0.35s 0.15s cubic-bezier(0.23, 2.01, 0.43, 0.66), color 0.35s;
+ transition:height 0.15s, width 0.35s 0.15s cubic-bezier(0.23, 2.01, 0.43, 0.66), transform 0.35s 0.15s cubic-bezier(0.23, 2.01, 0.43, 0.66), color 0.35s;
+ height:100%;
+ -webkit-transform:translateX(-6px);
+ transform:translateX(-6px);
+ 
+ width: calc(100% + 12px);
+ 
+ border-radius:3px;
+}
+
+.customHover:hover {
+  -webkit-transition:0.5s;
+  transition:0.5s;
+  color:#fff;
+}
+
+.slides.lastSlide:not(.firstSlide) .panel.top {
+  background:rgba(255,255,255,.975);
+}

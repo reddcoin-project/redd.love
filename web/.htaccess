@@ -1,16 +1,24 @@
 RewriteEngine On
 RewriteBase /
 
+# Deny from All
+
 # RewriteCond %{REQUEST_FILENAME}.html -f
 # RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
+
+# Rewrite static resources
+RewriteCond %{DOCUMENT_ROOT}/public/$1 -f
+RewriteRule (.+) /public/$1 [L]
 
 RewriteRule ^index\.html$ / [R=301,NC,L]
 RewriteRule ^([a-z]+)\.html$ /$1/ [R=301,NC,L]
 
-RewriteRule ^/?$ /src/views/index.php [NC,L]
-RewriteRule ^([a-z]+)/?$ /src/views/$1.php [NC,L]
+# RewriteRule ^/?$ /src/views/index.php [NC,L]
+# RewriteRule ^([a-z]+)/?$ /src/views/$1.php [NC,L]
 
-RewriteRule ^api/contact/send/$ /ajax-email.php [NC,L]
+RewriteRule ^api/contact/send/$ ajax-email.php [NC,L]
+
+RewriteRule ^(.+)/$ index.php?view=$1 [NC,L]
 
 RedirectMatch 403 /\.git
 RedirectMatch 403 /\.github
@@ -24,19 +32,3 @@ RedirectMatch 403 /\.build
 <filesMatch ".(css|js)$">
   Header set Cache-Control "max-age=2628000, public"
 </filesMatch>
-
-<Files .env>
-  Deny from All
-</Files>
-
-<Files .htaccess>
-  Deny from All
-</Files>
-
-<Files .gitignore>
-  Deny from All
-</Files>
-
-<Files .dockerignore>
-  Deny from All
-</Files>
