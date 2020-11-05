@@ -1,0 +1,14 @@
+{
+    "name": "redd/redd.love",
+    "description": "Official Redd Website",
+    "type": "project",
+    "authors": [
+        {
+            "name": "robin",
+            "email": "robin@shroomlife.de"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    }
+}
