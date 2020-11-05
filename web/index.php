@@ -1,11 +1,6 @@
 <?php
 
-  define('SRC_DIR', __DIR__ . '/src');
-
-  define('COMPONENT_DIR', SRC_DIR . '/components');
-  define('VIEW_DIR', SRC_DIR . '/views');
-
-  include('../vendor/autoload.php');
+  include('init.php');
 
   $page = 'index';
 
