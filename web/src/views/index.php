@@ -14,7 +14,7 @@
 <?php include(COMPONENT_DIR . '/sidebar.php'); ?>
 
 <!-- Slide 1 (#01) -->
-<section class="slide fade-6 video" data-name="intro">
+<div class="slide fade-6 video" data-name="intro">
   <div class="content">
     <div class="container toSlide-2 pointer">
       <div class="wrap">
@@ -47,16 +47,16 @@
     </div>
   </div>
   <div class="background" style="background-image:url('assets/vid/home-vid.jpg');">
-    <video poster="assets/img/home-vid-pic.jpg" autoplay loop muted webkit-playsinline>
+    <video poster="assets/img/home-vid-pic.jpg" autoplay loop muted playsinline>
       <source src="assets/vid/home-vid.mp4" type="video/mp4"/>
       <source src="assets/vid/home-vid.webm" type="video/webm"/>
       <source src="assets/vid/home-vid.ogv" type="video/ogv"/>
     </video>
   </div>
-</section>
+</div>
 
 <!-- Slide 2 (#37) -->
-<section class="slide fade-6 kenBurns" data-name="redd-msg">
+<div class="slide fade-6 kenBurns" data-name="redd-msg">
   <div class="content">
     <div class="container">
       <div class="wrap">
@@ -85,10 +85,10 @@
     </div>
   </div>
   <div class="background" style="background-image:url(assets/img/background/slide-2.jpg)"></div>
-</section>
+</div>
 
 <!-- Slide 3 (#14) -->
-<section class="slide fade-6 kenBurns fromRight" data-name="redd-everyone">
+<div class="slide fade-6 kenBurns fromRight" data-name="redd-everyone">
   <div class="content">
     <div class="container">
       <div class="wrap">
@@ -157,7 +157,7 @@
     </div>
   </div>
   <div class="background" style="background-image:url(assets/img/background/slide-3.jpg)"></div>
-</section>
+</div>
 
 <!-- English Redd is everyone Popup Video -->
 <div class="popup autoplay" data-popup-id="76">
@@ -167,7 +167,7 @@
       <div class="wrap">
         <div class="fix-10-12">
           <div class="embedVideo popupContent shadow rounded">
-            <iframe data-src="https://www.youtube.com/embed/N5dQPfXZRfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe data-src="https://www.youtube.com/embed/N5dQPfXZRfU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -176,7 +176,7 @@
 </div>
 
 <!-- Slide 4 (#15) -->
-<section class="slide fade-6 kenBurns fromLeft" data-name="redd-everywhere">
+<div class="slide fade-6 kenBurns fromLeft" data-name="redd-everywhere">
   <div class="content">
     <div class="container">
       <div class="wrap">
@@ -257,7 +257,7 @@
     </div>
   </div>
   <div class="background" style="background-image:url(assets/img/background/slide-4.jpg)"></div>
-</section>
+</div>
 
 <!-- English Redd is everywhere Popup Video -->
 <div class="popup autoplay" data-popup-id="86-en">
@@ -267,7 +267,7 @@
       <div class="wrap">
         <div class="fix-10-12">
           <div class="embedVideo popupContent shadow rounded">
-            <iframe data-src="https://www.youtube.com/embed/0AFQLVO4bvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe data-src="https://www.youtube.com/embed/0AFQLVO4bvM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -283,7 +283,7 @@
       <div class="wrap">
         <div class="fix-10-12">
           <div class="embedVideo popupContent shadow rounded">
-            <iframe data-src="https://www.youtube.com/embed/XpVp9D7c3yc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe data-src="https://www.youtube.com/embed/XpVp9D7c3yc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -299,7 +299,7 @@
       <div class="wrap">
         <div class="fix-10-12">
           <div class="embedVideo popupContent shadow rounded">
-            <iframe data-src="https://www.youtube.com/embed/z-r5_AuCBBw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe data-src="https://www.youtube.com/embed/z-r5_AuCBBw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -308,7 +308,7 @@
 </div>
 
 <!-- Slide 5 (#14) -->
-<section class="slide fade-6 kenBurns fromRight" data-name="redd-caring">
+<div class="slide fade-6 kenBurns fromRight" data-name="redd-caring">
   <div class="content">
     <div class="container">
       <div class="wrap">
@@ -353,10 +353,10 @@
     </div>
   </div>
   <div class="background" style="background-image:url(assets/img/background/slide-5.jpg)"></div>
-</section>
+</div>
 
 <!-- Slide 6 (#19) -->
-<section class="slide fade-6 kenBurns" data-name="redd-you">
+<div class="slide fade-6 kenBurns" data-name="redd-you">
   <div class="content">
     <div class="container">
       <div class="wrap">
@@ -393,10 +393,10 @@
     </div>
   </div>
   <div class="background" style="background-image:url(assets/img/background/slide-6.jpg)"></div>
-</section>
+</div>
 
 <!-- White Slide 7 (#50) -->
-<section class="slide whiteSlide" data-name="redd-products" data-name="redd-products">
+<div class="slide whiteSlide" data-name="redd-products">
   <div class="content">
     <div class="container">
       <div class="wrap">
@@ -536,6 +536,6 @@
       </div>
     </div>
   </div>
-</section>
+</div>
 
 <?php include(COMPONENT_DIR . '/footer.php'); ?>

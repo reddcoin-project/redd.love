@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- Test -->
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
@@ -17,6 +17,7 @@
 
     <link rel="preconnect" href="//fonts.gstatic.com/" crossorigin>
     <link rel="manifest" href="/manifest.json" />
+    <link rel="shortcut icon" href="/favicon.ico" />
 
     <!-- Compressed Styles -->
     <link href="/css/slides.min.css?[version]" rel="stylesheet" type="text/css">
@@ -28,9 +29,9 @@
     <link href="/css/custom.css?[version]" rel="stylesheet" type="text/css">
 
     <!-- Fonts and Material Icons -->
-    <link rel="stylesheet" as="font" href="//fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;800&family=Rubik:wght@500&family=Gothic+A1:wght@100;300;400;500;600;800&family=Material+Icons&display=swap"/>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;800&family=Rubik:wght@500&family=Gothic+A1:wght@100;300;400;500;600;800&family=Material+Icons&display=swap"/>
 
-    <style type="text/css">
+    <style>
         .slides,
         .slides p {
             font-family: 'Roboto', 'Gothic+A1', sans-serif;
@@ -46,13 +47,6 @@
             font-weight: 500;
         }
     </style>
-    
-    <!-- jQuery 3.5.1 -->
-    <script src="/js/jquery.min.js"></script>
-
-    <!-- Uncompressed Scripts -->
-    <script src="/js/slides.js?[version]" type="text/javascript"></script>
-    <script src="/js/plugins.js?[version]" type="text/javascript"></script>
   
   <?php if(PRODUCTION) { ?>
   <!-- Global site tag (gtag.js) - Google Analytics -->
