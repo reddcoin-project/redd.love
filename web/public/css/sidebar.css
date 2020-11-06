@@ -1,0 +1,33 @@
+.dropdown.translate {
+  padding: 10px 0;
+}
+
+.dropdown.translate li {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown.translate li:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.dropdownTrigger[data-dropdown-id="language"] {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+[data-current-lang="en"] .dropdown.translate li[data-switch-lang="en"],
+[data-current-lang="de"] .dropdown.translate li[data-switch-lang="de"],
+[data-current-lang="ko"] .dropdown.translate li[data-switch-lang="ko"],
+[data-current-lang="ru"] .dropdown.translate li[data-switch-lang="ru"] {
+  color: #E91556;
+  background: transparent;
+  cursor: default;
+  opacity: 1;
+}
