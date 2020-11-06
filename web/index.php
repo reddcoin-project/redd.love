@@ -11,8 +11,15 @@
   $viewPath = 'src/views/' . $page . '.php';
 
   if(file_exists($viewPath)) {
-    include($viewPath);
-    die();
+
+    ob_start();
+    include $viewPath;
+    $content = ob_get_clean();
+
+    echo strtr($content, [
+      '?[version]' => '?version=' . sha1(date('c'))
+    ]);
+
   }
 
 ?>
