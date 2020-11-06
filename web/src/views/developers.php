@@ -187,7 +187,7 @@
              <h4 class="small" data-lang="en">Block Explorers</h4>
              
              <!-- Deutsch language -->
-             <h4 class="small" data-lang="de" style="display:none;">Block Entdecker</h4>
+             <h4 class="small" data-lang="de" style="display:none;">Block Explorers</h4>
              
              <!-- Korean language -->
              <h4 class="small weight-6" data-lang="ko" style="display:none;">블록 탐색기</h4>
