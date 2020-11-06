@@ -9,6 +9,12 @@
   define('COMPONENT_DIR', SRC_DIR . '/components');
   define('VIEW_DIR', SRC_DIR . '/views');
 
+  if($_ENV['STAGE'] === 'production') {
+    define('PRODUCTION', true);
+  } else {
+    define('PRODUCTION', false);
+  }
+
   include(VENDOR_DIR . '/autoload.php');
 
 ?>

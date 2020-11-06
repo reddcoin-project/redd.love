@@ -9,9 +9,12 @@
         }
     ],
     "require": {
-        "phpmailer/phpmailer": "^6.1"
+        "phpmailer/phpmailer": "^6.1",
+        "wyrihaximus/html-compress": "^4.0"
     },
     "scripts": {
-      "build": "php web/build.php"
+      "start": "docker-compose up -d --build",
+      "clear": "php scripts/clear.php",
+      "build": "php scripts/build.php"
     }
 }

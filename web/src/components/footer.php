@@ -138,28 +138,28 @@
             
             <!-- English language -->
             <li class="col-5-12 left" data-lang="en">
-              <h2 class="margin-top-5 margin-bottom-2 ae-1 fromLeft">Donations</h1>
+              <h2 class="margin-top-5 margin-bottom-2 ae-1 fromLeft">Donations</h2>
               <p class="large ae-2 fromLeft"><span class="opacity-8">As Redd is now self-funded for all operations following successful PoSV v2 activation, all donations sent to this address will be used for charitable and community-oriented activities.</span></p>
               <p class="large ae-2 fromLeft"><span class="opacity-8 break-word">If you really, really want to donate to the team to buy them a drink or as a thank you, please send to Ru6sDVdn4MhxXJauQ2GAJP4ozpPpmcDKdc.</span></p>
             </li>
             
             <!-- Deutsch language -->
             <li class="col-5-12 left" data-lang="de" style="display:none;">
-              <h2 class="margin-top-4 margin-bottom-2 ae-1 fromLeft">Spenden</h1>
+              <h2 class="margin-top-4 margin-bottom-2 ae-1 fromLeft">Spenden</h2>
               <p class="ae-2 fromLeft"><span class="opacity-8">Da Redd nach erfolgreicher Aktivierung von PoSV v2 nun für alle Operationen selbst finanziert wird, werden alle an diese Adresse gesendeten Spenden für wohltätige und gemeinschaftsorientierte Aktivitäten verwendet.</span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8 break-word">Wenn Sie wirklich, wirklich an das Team spenden möchten, um ihnen ein Getränk zu kaufen, oder als Dankeschön, senden Sie es bitte an Ru6sDVdn4MhxXJauQ2GAJP4ozpPpmcDKdc.</span></p>
             </li>
             
             <!-- Korean language -->
             <li class="col-5-12 left" data-lang="ko" style="display:none;">
-              <h2 class="margin-top-5 margin-bottom-2 ae-1 fromLeft">기부</h1>
+              <h2 class="margin-top-5 margin-bottom-2 ae-1 fromLeft">기부</h2>
               <p class="large ae-2 fromLeft"><span class="opacity-8">Redd는 PoSV v2의 활성화에 성공한 후 모든 운영에 대해서 자체적으로 자금조달을 하고 있기 때문에 이 주소로 보내지는 모든 기부금은 자선 및 지역사회중심의 활동에 사용될 것입니다.</span></p>
               <p class="large ae-2 fromLeft"><span class="opacity-8 break-word">여러분이 진심으로 팀에 대한 감사의 표시로 음료나 기부를 원하신다면 Ru6sDVdn4MhxXJauQ2GAJP4ozpPpmcDKdc 로 보내주세요.</span></p>
             </li>
             
             <!-- Russian language -->
             <li class="col-5-12 left" data-lang="ru" style="display:none;">
-              <h2 class="margin-top-5 margin-bottom-2 ae-1 fromLeft">Пожертвования</h1>
+              <h2 class="margin-top-5 margin-bottom-2 ae-1 fromLeft">Пожертвования</h2>
               <p class="ae-2 fromLeft"><span class="opacity-8">"Поскольку Redd, после успешной активации PoSV v2 находится полностью на самофинансировании, все пожертвования отправленные на этот адрес будут использованы для благотворительной и общественной деятельности."</span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8 break-word">Если вы действительно хотите сделать пожертвование команде, чтобы угостить их выпивкой или просто в знак благодарности, отправьте ее на адрес: Ru6sDVdn4MhxXJauQ2GAJP4ozpPpmcDKdc</span></p>
             </li>
@@ -205,6 +205,13 @@
     </div>
   </div>
 </div>
-   
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/slides.js?[version]"></script>
+<script src="/js/plugins.js?[version]"></script>
+<script src="/js/sidebar.js?[version]"></script>
+<script src="/js/custom.js?[version]"></script>
+
 </body>
+
 </html>

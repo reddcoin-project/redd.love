@@ -1,91 +1,3 @@
-<!-- Sidebar Submenu #1 -->
-<script>
-$(function(){
-
-  $('.submenu-dropdown1').click(function(){
-    $('.submenu-elements1').slideToggle();
-
-    //change icon
-    $('.submenu-dropdown1 .material-icons').toggleText('arrow_drop_up', 'arrow_drop_down');
-  });
-  //toggle text function
-  $.fn.extend({ toggleText: function(a, b){ return this.text(this.text() == b ? a : b); } });
-})
-</script>
-
-<!-- Sidebar Submenu #2 -->
-<script>
-$(function(){
-
-  $('.submenu-dropdown2').click(function(){
-    $('.submenu-elements2').slideToggle();
-
-    //change icon
-    $('.submenu-dropdown2 .material-icons').toggleText('arrow_drop_up', 'arrow_drop_down');
-  });
-  //toggle text function
-  $.fn.extend({ toggleText: function(a, b){ return this.text(this.text() == b ? a : b); } });
-})
-</script>
-
-<!-- Multilingual -->
-<script>
-  $(function(){
-    //set or get lang
-    var defaultLang = 'en',
-        cookieLang = $.cookie('current-lang') ? $.cookie('current-lang') : defaultLang;
-
-    if (defaultLang !== cookieLang) switchToLang(cookieLang);
-
-    //switch languages on click from menu
-    $('[data-switch-lang]').click(function(){
-      var newLang = $(this).attr('data-switch-lang'),
-          currentLang = $('body').attr('data-current-lang');
-
-      if (newLang !== currentLang){
-        switchToLang(newLang);
-      }
-    });
-
-    //change content and set a cookie
-    function switchToLang(newLang) {
-      var currentLang = $('body').attr('data-current-lang') ? $('body').attr('data-current-lang') : defaultLang;
-        
-      //swap content
-      $('[data-lang="' + currentLang + '"]').hide();
-      $('[data-lang="' + newLang + '"]').show();
-
-      //change language in panel
-      $('.dropdownTrigger[data-dropdown-id="language"]').text(newLang);
-
-      //set language for future needs
-      $('body').attr('data-current-lang', newLang);
-      $.cookie('current-lang', newLang);
-      
-      //Recalculate panels and equal elements
-      $(window).resize();
-    }
-  });
-
-</script>
-
-<style>
-  .dropdown.translate { padding:10px 0; }
-  .dropdown.translate li { text-align: center; font-size: 18px; padding: 10px; cursor:pointer; }
-  .dropdown.translate li:hover { background:rgba(0, 0, 0, 0.05); }
-  .dropdownTrigger[data-dropdown-id="language"] { color:#fff; text-align:center; font-size:14px; line-height:1.35; font-weight:600; text-transform:uppercase; }
-  
-  [data-current-lang="en"] .dropdown.translate li[data-switch-lang="en"],
-  [data-current-lang="de"] .dropdown.translate li[data-switch-lang="de"],
-  [data-current-lang="ko"] .dropdown.translate li[data-switch-lang="ko"],
-  [data-current-lang="ru"] .dropdown.translate li[data-switch-lang="ru"] {
-    color:#E91556;
-    background:transparent;
-    cursor:default;
-    opacity:1;
-  }
-</style>
-
 <!-- Language selector dropdown -->
 <div class="dropdown translate top right" data-dropdown-id="language">
   <ul>
@@ -153,7 +65,7 @@ $(function(){
 </nav>
 
 <!-- English Menu dropdown -->
-<div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-en">
+<ul class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-en">
     <li class="selected wide">
       <ul class="menu small">
         <li><a href="/about/">Project Redd</a></li>
@@ -161,10 +73,10 @@ $(function(){
         <li><a href="/funding/">Funding</a></li>
       </ul>
     </li>
-</div>
+</ul>
 
 <!-- German Menu dropdown -->
-<div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-de">
+<ul class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-de">
     <li class="selected wide">
       <ul class="menu small">
         <li><a href="/about/">Projekt Redd</a></li>
@@ -172,10 +84,10 @@ $(function(){
         <li><a href="/funding/">Finanzierung</a></li>
       </ul>
     </li>
-</div>
+</ul>
 
 <!-- Korean Menu dropdown -->
-<div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-ko">
+<ul class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-ko">
     <li class="selected wide">
       <ul class="menu small">
         <li><a href="/about/">프로젝트 Redd</a></li>
@@ -183,10 +95,10 @@ $(function(){
         <li><a href="/funding/">자금</a></li>
       </ul>
     </li>
-</div>
+</ul>
 
 <!-- Russian Menu dropdown -->
-<div class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-ru">
+<ul class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-ru">
     <li class="selected wide">
       <ul class="menu small">
         <li><a href="/about/">Проект Redd</a></li>
@@ -194,7 +106,7 @@ $(function(){
         <li><a href="/funding/">Финансирование</a></li>
       </ul>
     </li>
-</div>
+</ul>
 
 <!-- Panel Top #02 -->
 <nav class="panel top <?php echo isset($headerNavBlackBackground) && $headerNavBlackBackground === true ? '' : 'white'; ?> exceptFirstSlide">
@@ -386,10 +298,12 @@ $(function(){
     </ul>
     
     <!-- Social Media Icons -->
-    <ul class="social opacity-8">
+    <ul class="social opacity-8 mb-0">
         <li><a href="https://www.facebook.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
         <li><a href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-        <li><a href="https://www.instagram.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li></br>
+        <li><a href="https://www.instagram.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+    </ul>
+    <ul class="social opacity-8 mt-0">
         <li><a href="https://medium.com/projectredd" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
         <li><a href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
         <li><a href="https://www.reddit.com/r/ReddCoin/" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reddit"></use></svg></a></li>
