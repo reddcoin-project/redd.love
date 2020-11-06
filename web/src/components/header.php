@@ -26,6 +26,7 @@
     <link href="/css/slides.min.css?[version]" rel="stylesheet" type="text/css">
 
     <!-- Custom Styles -->
+    <link href="/css/sidebar.css?[version]" rel="stylesheet" type="text/css">
     <link href="/css/custom.css?[version]" rel="stylesheet" type="text/css">
 
     <!-- Fonts and Material Icons -->

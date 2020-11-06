@@ -1,3 +1,8 @@
+<?php
+
+  $exceptFirstSlide = isset($exceptFirstSlide) ? $exceptFirstSlide : false;
+
+?>
 <!-- Language selector dropdown -->
 <div class="dropdown translate top right" data-dropdown-id="language">
   <ul>
@@ -108,6 +113,7 @@
     </li>
 </ul>
 
+<?php if($exceptFirstSlide !== true) { ?>
 <!-- Panel Top #02 -->
 <nav class="panel top <?php echo isset($headerNavBlackBackground) && $headerNavBlackBackground === true ? '' : 'white'; ?> exceptFirstSlide">
   <div class="sections desktop">
@@ -162,6 +168,7 @@
     <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
   </div>
 </nav>
+<?php } ?>
 
 <!-- Sidebar -->
 <nav class="sidebar" data-sidebar-id="1">

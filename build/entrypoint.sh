@@ -7,6 +7,7 @@ echo "STAGE: ${STAGE}"
 if [ "$STAGE" = "production" ]; then
   echo "Running PRODUCTION Build ..."
   composer run-script build
+  composer run-script create-sitemap
 fi
 
 # Set Permissions

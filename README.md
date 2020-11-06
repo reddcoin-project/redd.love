@@ -21,4 +21,7 @@ Requirements: [🐳 Docker](https://docs.docker.com/get-docker/)
 
 ### Getting Started
 
-Just run `docker-compose up -d --build` and adjust the volume according to the location of your files.
+- Rename `.env.sample` to `.env` and adjust configuration if needed.
+- Open a console/terminal in the root folder of this repository.
+- Run `docker-compose up -d --build` and build the container on your machine.
+- You are able to access the page at http://localhost
