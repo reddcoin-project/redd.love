@@ -13,6 +13,13 @@
 <?php include(COMPONENT_DIR . '/svg.php'); ?>
 <?php include(COMPONENT_DIR . '/sidebar.php'); ?>
 
+<!-- Navigation -->
+<nav class="side medium">
+  <div class="navigation default">
+    <ul></ul>
+  </div>
+</nav>
+
 <!-- Slide 1 (#01) -->
 <div class="slide fade-6 video" data-name="intro">
   <div class="content">
