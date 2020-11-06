@@ -12,6 +12,8 @@
         "phpmailer/phpmailer": "^6.1"
     },
     "scripts": {
-      "build": "php web/build.php"
+      "start": "docker-compose up -d --build",
+      "clear": "php scripts/clear.php",
+      "build": "php scripts/build.php"
     }
 }
