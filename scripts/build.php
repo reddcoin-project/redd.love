@@ -2,6 +2,8 @@
 
   include('web/init.php');
 
+  use WyriHaximus\CssCompress\Factory;
+
   $foundFiles = scandir(VIEW_DIR);
 
   foreach($foundFiles as $foundFile) {
@@ -18,13 +20,16 @@
 
     ob_start();
     include $fullPath;
-    $content = ob_get_clean() . PHP_EOL . '<!-- generated -->';
+    $content = ob_get_clean();
 
     $content = strtr($content, [
       '?[version]' => '?version=' . sha1(date('c'))
     ]);
 
-    $computedPath = CACHE_DIR . '/' . $pageName;
+    $parser = Factory::constructSmallest();
+    $content = $parser->compress($content);
+
+    $computedPath = CACHE_DIR . '/' . $pageName . '.html';
 
     file_put_contents($computedPath, $content);
 
