@@ -1,6 +1,6 @@
 FROM php:apache
 RUN a2enmod headers rewrite ssl proxy_http
-RUN apt-get update && apt-get install -y git
+RUN apt-get update && apt-get install -y git zip
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 COPY . .
 RUN composer install
