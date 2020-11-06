@@ -131,22 +131,22 @@
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-clr.jpg" alt="Redd Logo (Dark)"/>
               <h4 class="smaller margin-bottom-1">Main Logo (Light)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.jpg" class="customHover" target="_blank">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.png" class="customHover" target="_blank">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-EMB-CLR-BLK.zip" class="customHover" target="_blank">EMB</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.png" class="customHover" target="_blank" rel="noreferrer">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-EMB-CLR-BLK.zip" class="customHover" target="_blank" rel="noreferrer">EMB</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-clr-dark.jpg" alt="Redd Logo (Light)"/>
               <h4 class="smaller margin-bottom-1">Main Logo (Dark)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR-WHT.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR-WHT.png" class="customHover">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-blk.jpg" alt="Redd Symbol"/>
               <h4 class="smaller margin-bottom-1">Main Logo (Black)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.jpg" class="customHover" target="_blank">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.png" class="customHover" target="_blank">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-EMB-BLK.zip" class="customHover" target="_blank">EMB</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.png" class="customHover" target="_blank" rel="noreferrer">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-EMB-BLK.zip" class="customHover" target="_blank" rel="noreferrer">EMB</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-wht.jpg" alt="Redd Logo B/W"/>
               <h4 class="smaller margin-bottom-1">Main Logo (White)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-WHT.png" class="customHover" target="_blank">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-WHT.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
           </ul>
         </div>
@@ -156,22 +156,22 @@
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-tag-clr.jpg" alt="Redd Symbol"/>
               <h4 class="smaller margin-bottom-1">Tagline Logo (Light)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.jpg" class="customHover" target="_blank">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.png" class="customHover" target="_blank">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-tag-clr-dark.jpg" alt="Redd Logo B/W"/>
               <h4 class="smaller margin-bottom-1">Tagline Logo (Dark)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.png" class="customHover" target="_blank">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-tag-blk.jpg" alt="Redd Symbol"/>
               <h4 class="smaller margin-bottom-1">Tagline Logo (Black)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-BLK.jpg" class="customHover" target="_blank">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-BLK.png" class="customHover" target="_blank">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-BLK.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-BLK.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-tag-wht.jpg" alt="Redd Logo B/W"/>
               <h4 class="smaller margin-bottom-1">Tagline Logo (White)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-WHT.png" class="customHover" target="_blank">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-WHT.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
           </ul>
         </div>
@@ -288,22 +288,22 @@
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-symbol-clr.jpg" alt="Redd Logo (Dark)"/>
               <h4 class="smaller margin-bottom-1">Redd Symbol</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-CLR.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover" target="_blank">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.png" class="customHover" target="_blank">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-EMB-CLR.zip" class="customHover" target="_blank">EMB</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-CLR.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.png" class="customHover" target="_blank" rel="noreferrer">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-EMB-CLR.zip" class="customHover" target="_blank" rel="noreferrer">EMB</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-symbol-blk.jpg" alt="Redd Logo (Light)"/>
               <h4 class="smaller margin-bottom-1">Redd Symbol (Black)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover" target="_blank">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-BLK.png" class="customHover" target="_blank">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-EMB-BLK.zip" class="customHover" target="_blank">EMB</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-BLK.png" class="customHover" target="_blank" rel="noreferrer">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-EMB-BLK.zip" class="customHover" target="_blank" rel="noreferrer">EMB</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-symbol-wht.jpg" alt="Redd Symbol"/>
               <h4 class="smaller margin-bottom-1">Redd Symbol (White)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-WHT.png" class="customHover" target="_blank">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-EMB-WHT.zip" class="customHover" target="_blank">EMB</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-WHT.png" class="customHover" target="_blank" rel="noreferrer">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-EMB-WHT.zip" class="customHover" target="_blank" rel="noreferrer">EMB</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-pattern.jpg" alt="Redd Logo B/W"/>
               <h4 class="smaller margin-bottom-1">Redd Pattern</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Pattern.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern.jpg" class="customHover" target="_blank">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern.png" class="customHover" target="_blank">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Pattern.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
           </ul>
         </div>
@@ -313,22 +313,22 @@
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-heart-clr.jpg" alt="Redd Logo (Dark)"/>
               <h4 class="smaller margin-bottom-1">Redd Heart</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Heart-CLR.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-CLR.jpg" class="customHover" target="_blank">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-CLR.png" class="customHover" target="_blank">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Heart-CLR.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-CLR.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-CLR.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-heart-blk.jpg" alt="Redd Logo (Light)"/>
               <h4 class="smaller margin-bottom-1">Redd Heart (Black)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Heart-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-BLK.jpg" class="customHover" target="_blank">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-BLK.png" class="customHover" target="_blank">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Heart-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-BLK.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-BLK.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-heart-wht.jpg" alt="Redd Symbol"/>
               <h4 class="smaller margin-bottom-1">Redd Heart (White)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Heart-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-WHT.png" class="customHover" target="_blank">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Heart-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-WHT.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-pattern-blk.jpg" alt="Redd Logo B/W"/>
               <h4 class="smaller margin-bottom-1">Redd Pattern (Black)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Pattern-blk.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern-blk.jpg" class="customHover" target="_blank">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern-blk.png" class="customHover" target="_blank">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Pattern-blk.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern-blk.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern-blk.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
           </ul>
         </div>
@@ -573,32 +573,32 @@
         <div class="fix-12-12 margin-top-4 ae-3">
           <ul class="flex fixedSpaces later left">
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic.jpg" alt="Redd is everyone."/></a>
+              <a href="assets/img/RDD-socialpic.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic.jpg" alt="Redd is everyone."/></a>
               <h4 class="smaller margin-bottom-0">We are inclusive</h4>
               <div class="margin-bottom-3"><p class="small opacity-8">60k+ users of all colors, religions, & languages.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-everywhere.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-everywhere.jpg" alt="Redd is everywhere."/></a>
+              <a href="assets/img/RDD-socialpic-everywhere.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-everywhere.jpg" alt="Redd is everywhere."/></a>
               <h4 class="smaller margin-bottom-0">Used around the world</h4>
               <div class="margin-bottom-3"><p class="small opacity-8">Currently being used in over 50+ countries.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-about.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-about.jpg" alt="Redd is caring."/></a>
+              <a href="assets/img/RDD-socialpic-about.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-about.jpg" alt="Redd is caring."/></a>
               <h4 class="smaller margin-bottom-0">Meant for change</h4>
               <div class="margin-bottom-3"><p class="small opacity-8">We are volunteers focused on changing the world.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-tech.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-tech.jpg" alt="Redd is social."/></a>
+              <a href="assets/img/RDD-socialpic-tech.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-tech.jpg" alt="Redd is social."/></a>
               <h4 class="smaller margin-bottom-0">Encourages supporting others</h4>
               <div class="margin-bottom-3"><p class="small opacity-8">Tip anyone on any social media network.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-terms.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-terms.jpg" alt="Redd is you."/></a>
+              <a href="assets/img/RDD-socialpic-terms.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-terms.jpg" alt="Redd is you."/></a>
               <h4 class="smaller margin-bottom-0">Welcomes everyone</h4>
               <div class="margin-bottom-3"><p class="small opacity-8">Anyone can be apart of this movement.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-dev.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-dev.jpg" alt="Redd is secure."/></a>
+              <a href="assets/img/RDD-socialpic-dev.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-dev.jpg" alt="Redd is secure."/></a>
               <h4 class="smaller margin-bottom-0">Fast, cheap &amp; reliable</h4>
               <div class="margin-bottom-3"><p class="small opacity-8">Runs on a fully decentralized blockchain network.</p></div>
             </li>  
@@ -624,20 +624,20 @@
         <div class="fix-12-12 margin-top-4 ae-3">
           <ul class="flex flex-75 fixedSpaces">
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1 fadeIn">
-              <a href="assets/img/redd-img-1.jpg" download target="_blank"><img src="assets/img/redd-img-1.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
-              <a href="assets/img/redd-img-5.jpg" download target="_blank"><img src="assets/img/redd-img-5.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-1.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-1.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-5.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-5.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1 fadeIn">
-              <a href="assets/img/redd-img-2.jpg" download target="_blank"><img src="assets/img/redd-img-2.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
-              <a href="assets/img/redd-img-6.jpg" download target="_blank"><img src="assets/img/redd-img-6.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-2.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-2.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-6.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-6.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1 fadeIn">
-              <a href="assets/img/redd-img-3.jpg" download target="_blank"><img src="assets/img/redd-img-3.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
-              <a href="assets/img/redd-img-7.jpg" download target="_blank"><img src="assets/img/redd-img-7.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-3.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-3.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-7.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-7.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1 fadeIn">
-              <a href="assets/img/redd-img-4.jpg" download target="_blank"><img src="assets/img/redd-img-4.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
-              <a href="assets/img/redd-img-8.jpg" download target="_blank"><img src="assets/img/redd-img-8.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-4.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-4.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-8.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-8.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
             </li>
           </ul>
         </div>
@@ -674,10 +674,10 @@
                 <div class="fix-3-12 equalElement">
                   <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">Follow Us</p>
                   <ul class="social-circles">
-                    <li><a class="social-facebook" href="https://www.facebook.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook2"></use></svg></a></li>
-                    <li><a class="social-twitter" href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-                    <li><a class="social-telegram" href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>	
-                    <li><a class="social-medium" href="https://medium.com/@techadept" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+                    <li><a class="social-facebook" href="https://www.facebook.com/reddcoin" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook2"></use></svg></a></li>
+                    <li><a class="social-twitter" href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+                    <li><a class="social-telegram" href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>	
+                    <li><a class="social-medium" href="https://medium.com/@techadept" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
                   </ul>
                 </div>
               </li>

@@ -31,7 +31,7 @@
                   style="font-size:32pt;font-family: 'Rubik', sans-serif;">$---.--</span>&nbsp;&nbsp;<span
                   id="DynamicDevWalletOneRDD" class="weight-4 opacity-6"
                   style="font-size:15pt;font-family: 'Rubik', sans-serif;">(--- RDD)</span>
-                <a href="https://rdd.tokenview.com/en/address/Rmhzj2GptZxkKBMqbUL6VjFcX8npDneAXR" target="_blank">
+                <a href="https://rdd.tokenview.com/en/address/Rmhzj2GptZxkKBMqbUL6VjFcX8npDneAXR" target="_blank" rel="noreferrer">
                   <h4 class="small margin-bottom-1">POSV v2 Dev Wallet</h4>
                 </a>
                 <p class="opacity-8 fix-5-12 toLeft">All developer funds are generated here before being transfered to
@@ -41,7 +41,7 @@
                   style="font-size:32pt;font-family: 'Rubik', sans-serif;">$---.--</span>&nbsp;&nbsp;<span
                   id="DynamicDevWalletTwoRDD" class="weight-4 opacity-6"
                   style="font-size:15pt;font-family: 'Rubik', sans-serif;">(--- RDD)</span>
-                <a href="https://rdd.tokenview.com/en/address/Ru6sDVdn4MhxXJauQ2GAJP4ozpPpmcDKdc" target="_blank">
+                <a href="https://rdd.tokenview.com/en/address/Ru6sDVdn4MhxXJauQ2GAJP4ozpPpmcDKdc" target="_blank" rel="noreferrer">
                   <h4 class="small margin-bottom-1">Main Dev Wallet</h4>
                 </a>
                 <p class="opacity-8 fix-4-12 toLeft">This is the main project wallet where the majority of funds are
@@ -51,7 +51,7 @@
                   style="font-size:32pt;font-family: 'Rubik', sans-serif;">$---.--</span>&nbsp;&nbsp;<span
                   id="DynamicDevWalletThreeRDD" class="weight-4 opacity-6"
                   style="font-size:15pt;font-family: 'Rubik', sans-serif;">(--- RDD)</span>
-                <a href="https://rdd.tokenview.com/en/address/Recrcq8moZjbEHVoJx6JiQ2mfZkQnktvnf" target="_blank">
+                <a href="https://rdd.tokenview.com/en/address/Recrcq8moZjbEHVoJx6JiQ2mfZkQnktvnf" target="_blank" rel="noreferrer">
                   <h4 class="small margin-bottom-1">The Redd Charity Fund</h4>
                 </a>
                 <p class="opacity-8 fix-4-12 toLeft">For charitable events/efforts, as noted in the PoSV
@@ -111,22 +111,22 @@
 
   <!-- Sync to wallet balances -->
   <script>
-    $(document).ready(function () {
+    Redd.onReady.push(function() {
       $.ajax({
         url: '/fundsapi/get',
         dataType: 'json',
         success: function (data) {
-          $('#DynamicDevWalletOneUSD').html(data.DevWalletOne.USD)
-          $('#DynamicDevWalletOneRDD').html(data.DevWalletOne.RDD)
+          $('#DynamicDevWalletOneUSD').html(data.DevWalletOne.USD);
+          $('#DynamicDevWalletOneRDD').html(data.DevWalletOne.RDD);
 
-          $('#DynamicDevWalletTwoUSD').html(data.DevWalletTwo.USD)
-          $('#DynamicDevWalletTwoRDD').html(data.DevWalletTwo.RDD)
+          $('#DynamicDevWalletTwoUSD').html(data.DevWalletTwo.USD);
+          $('#DynamicDevWalletTwoRDD').html(data.DevWalletTwo.RDD);
 
-          $('#DynamicDevWalletThreeUSD').html(data.DevWalletThree.USD)
-          $('#DynamicDevWalletThreeRDD').html(data.DevWalletThree.RDD)
+          $('#DynamicDevWalletThreeUSD').html(data.DevWalletThree.USD);
+          $('#DynamicDevWalletThreeRDD').html(data.DevWalletThree.RDD);
         }
-      })
-    })
+      });
+    });
   </script>
 
 <?php include(COMPONENT_DIR . '/footer.php'); ?>

@@ -30,7 +30,7 @@
     <link href="/css/custom.css?[version]" rel="stylesheet" type="text/css">
 
     <!-- Fonts and Material Icons -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;800&family=Rubik:wght@500&family=Gothic+A1:wght@100;300;400;500;600;800&family=Material+Icons&display=swap"/>
+    <link rel="stylesheet" rel="preload" as="style" href="//fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;800&family=Rubik:wght@500&family=Gothic+A1:wght@100;300;400;500;600;800&family=Material+Icons&display=swap"/>
 
     <style>
         .slides,
@@ -59,5 +59,11 @@
     gtag('config', 'UA-121778538-6');
   </script>
   <?php } ?>
+
+  <script>
+    var Redd = {
+      onReady: []
+    };
+  </script>
 
 </head>

@@ -22,10 +22,10 @@
     </div>
     <div class="right">
       <ul class="menu crop">
-        <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://medium.com/@techadept" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://medium.com/@techadept" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
       </ul>
     </div>
   </div>
@@ -51,10 +51,10 @@
     </div>
     <div class="right">
       <ul class="menu crop">
-        <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://medium.com/@techadept" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://medium.com/@techadept" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
       </ul>
     </div>
   </div>
@@ -80,10 +80,10 @@
     </div>
     <div class="right">
       <ul class="menu crop">
-        <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://medium.com/@techadept" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://medium.com/@techadept" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
       </ul>
     </div>
   </div>
@@ -111,10 +111,10 @@
     </div>
     <div class="right">
       <ul class="menu crop">
-        <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://medium.com/@techadept" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://medium.com/@techadept" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+        <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
       </ul>
     </div>
   </div>
@@ -170,28 +170,28 @@
 			  
 			  <!-- English language -->
 			  <div class="pad padding-top-2 shadow center selected" data-lang="en">
-				<img class="margin-top-3" width="350" src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
+				<img class="margin-top-3" width="350" height="350" src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
 				<h4 class="smaller margin-top-2 margin-bottom-0">Charity &amp; Community Activities</h4>
 				<p class="small margin-top-0 margin-bottom-0 break-word">Recrcq8moZjbEHVoJx6JiQ2mfZkQnktvnf</p>
 			  </div>
 			  
 			  <!-- Deutsch language -->
 			  <div class="pad padding-top-2 shadow center selected" data-lang="de" style="display:none;">
-				<img class="margin-top-3" width="350" src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
+				<img class="margin-top-3" width="350" height="350"  src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
 				<h4 class="smaller margin-top-2 margin-bottom-0">Wohltätigkeits und Gemeinschaftsaktivitäten</h4>
 				<p class="small margin-top-0 margin-bottom-0 break-word">Recrcq8moZjbEHVoJx6JiQ2mfZkQnktvnf</p>
 			  </div>
 			  
 			  <!-- Korean language -->
 			  <div class="pad padding-top-2 shadow center selected" data-lang="ko" style="display:none;">
-				<img class="margin-top-3" width="350" src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
+				<img class="margin-top-3" width="350" height="350"  src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
 				<h4 class="smaller margin-top-2 margin-bottom-0">자선 및 지역 사회 활동</h4>
 				<p class="small margin-top-0 margin-bottom-0 break-word">Recrcq8moZjbEHVoJx6JiQ2mfZkQnktvnf</p>
 			  </div>
 			  
 			  <!-- Russian language -->
 			  <div class="pad padding-top-2 shadow center selected" data-lang="ru" style="display:none;">
-				<img class="margin-top-3" width="350" src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
+				<img class="margin-top-3" width="350" height="350"  src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
 				<h4 class="smaller margin-top-2 margin-bottom-0">Благотворительность и общественная деятельность</h4>
 				<p class="small margin-top-0 margin-bottom-0 break-word">Recrcq8moZjbEHVoJx6JiQ2mfZkQnktvnf</p>
 			  </div>

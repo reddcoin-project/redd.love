@@ -321,9 +321,9 @@
               <p class="larger margin-bottom-1 ae-1"><span>Project Leader</span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8">Jay works with a fluid and dynamic Redd core team to facilitate development, solve challenges, and bring Redd's vision of global social change to the world. He oversees all project management and prioritization of initiatives for the platform and evolving ecosystem. </span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8">Leveraging an extensive IT career, encompassing corporate, enterprise and global NGO technology roles, Jay has become a guardian and vocal supporter of an ethical and honorable approach to implementing Redd’s vision. As Project Leader, Jay has served as a shining example to other projects on how to conduct themselves while enshrining the original crypto-ethics found in projects such as Bitcoin and the words of Satoshi Nakomoto.</span></p>
-			  <a class="ae-3 fadeIn" href="https://t.me/TechAdept" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-			  <a class="ae-3 fadeIn" href="https://twitter.com/TechAdeptRDD" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
-			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/techadeptrdd/" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://t.me/TechAdept" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://twitter.com/TechAdeptRDD" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/techadeptrdd/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
 			  <span class="ae-4 fromRight"> |&nbsp;&nbsp;<a class="customHover" href="assets/img/Redd_JayLaurence.jpg" download>Download Image</a></span>
             </li>
             
@@ -333,9 +333,9 @@
               <p class="larger margin-bottom-1 ae-1"><span>Projektleiter</span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8">Jay arbeitet mit einem fließenden und dynamischen Redd-Kernteam zusammen, um die Entwicklung zu erleichtern, Herausforderungen zu lösen und Redds Vision des globalen sozialen Wandels in die Welt zu tragen. Er überwacht das gesamte Projektmanagement und die Priorisierung von Initiativen für die Plattform und das sich entwickelnde Ökosystem.</span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8">Jay verfügt über eine umfassende IT-Karriere, die Unternehmens-, Unternehmens- und globale NGO-Technologierollen umfasst, und ist zu einem Vormund und Befürworter eines ethischen und ehrbaren Ansatzes zur Umsetzung der Vision von Redd geworden. Als Project Lleader hat Jay anderen Projekten als leuchtendes Beispiel für ihr Verhalten gedient und gleichzeitig die ursprüngliche Krypto-Ethik verankert, die in Projekten wie Bitcoin und den Worten von Satoshi Nakomoto zu finden ist.</span></p>
-			  <a class="ae-3 fadeIn" href="https://t.me/TechAdept" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-			  <a class="ae-3 fadeIn" href="https://twitter.com/TechAdeptRDD" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
-			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/techadeptrdd/" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://t.me/TechAdept" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://twitter.com/TechAdeptRDD" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/techadeptrdd/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
 			  <span class="ae-4 fromRight"> |&nbsp;&nbsp;<a class="customHover" href="assets/img/Redd_JayLaurence.jpg" download>Bild herunterladen</a></span>
             </li>
             
@@ -345,9 +345,9 @@
               <p class="larger weight-6 margin-bottom-1 ae-1">프로젝트 리더</p>
               <p class="ae-2 fromLeft"><span class="opacity-8">제이(Jay)는 유연하고 역동적인 레드(Redd) 코어팀과 함께 개발을 촉진하고 과제를 해결하고 세계적인 사회 변화에 대한 레드(Redd)의 비전을 세상에  제공하기 위해 일하고 있습니다. 그는 모든 프로젝트 관리와 플랫폼 및 진화하는 생태계를 위한 계획의 우선순위를 감독합니다. </span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8">기업과 대규모의 글로벌 NGO 기술적 역할을 포함하는 폭넓은 IT경력을 바탕으로 제이(Jay)는 레드(Redd)의 비전을 실행하기 위한 윤리적이고 명예로운 접근방식의 수호자이자 지지하는 후견인이 되었습니다. 프로젝트 리더로서 제이는 비트코인 같은 프로젝트와 사토시 나카모토의 말들에서 추구하던 원래의 암호화폐 윤리를 간직하고 바르게 행동하는 방법에 대해서 다른 프로젝트들의 빛나는 모범이 되었습니다. </span></p>
-			  <a class="ae-3 fadeIn" href="https://t.me/TechAdept" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-			  <a class="ae-3 fadeIn" href="https://twitter.com/TechAdeptRDD" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
-			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/techadeptrdd/" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://t.me/TechAdept" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://twitter.com/TechAdeptRDD" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/techadeptrdd/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
 			  <span class="ae-4 fromRight"> |&nbsp;&nbsp;<a class="customHover" href="assets/img/Redd_JayLaurence.jpg" download><span class="weight-8">이미지 다운로드</span></a></span>
             </li>
             
@@ -357,9 +357,9 @@
               <p class="larger margin-bottom-1 ae-1"><span>Руководитель проекта</span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8">Джей работает с основной, гибкой и динамичной командой Redd, чтобы способствовать развитию, решать проблемы и нести миру виденье Redd о глобальных социальных изменениях. Он курирует все направления проекта в определение приоритетов, инициатив для платформы и развивающейся экосистемы.</span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8">Используя карьерный опыт в области ИТ, включающий в себя корпоративные, руководящие и глобальные технологические роли NGO, Джей стал защитником и активным сторонником этичного, благородного подхода к реализации виденья Redd. В качестве руководителя проекта Джей послужил ярким примером и для других проектов в отношении того, как себя вести сохраняя при этом оригинальную криптоэтику, заложенную в таких проектах как Биткойн и цитатах Сатоши Накамото.</span></p>
-			  <a class="ae-3 fadeIn" href="https://t.me/TechAdept" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-			  <a class="ae-3 fadeIn" href="https://twitter.com/TechAdeptRDD" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
-			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/techadeptrdd/" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://t.me/TechAdept" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://twitter.com/TechAdeptRDD" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/techadeptrdd/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
 			  <span class="ae-4 fromRight"> |&nbsp;&nbsp;<a class="customHover" href="assets/img/Redd_JayLaurence.jpg" download>Скачать изображение</a></span>
             </li>
             
@@ -386,9 +386,9 @@
               <p class="larger margin-bottom-1 ae-1"><span>Technology Evangelist</span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8">John is the major architect behind the Redd blockchain. He is responsible for overseeing all aspects of development on the network and related software applications. Managing a geographically dispersed team located in Belgium, United Kingdom, Canada, Philippines and USA, John continues to innovate and grow Redd.</span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8">He is a highly organized, experienced professional with a strong customer focus and a motivation to succeed. John has extensive experience in delivering solutions that meet ever changing customer needs and requirements; all the while meeting or exceeding the expectations for successfully hitting major milestones.</span></p>
-			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/johnnash00/" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
-			  <a href="https://t.me/CryptoGnasher" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-			  <a href="https://twitter.com/CryptoGnasher" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/johnnash00/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+			  <a href="https://t.me/CryptoGnasher" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+			  <a href="https://twitter.com/CryptoGnasher" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
 			  <span class="ae-4 fromRight"> |&nbsp;&nbsp;<a class="customHover" href="assets/img/Redd_JohnNash.jpg" download>Download Image</a></span>
             </li>
             
@@ -398,9 +398,9 @@
               <p class="larger margin-bottom-1 ae-1"><span>Technologie-Evangelist</span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8">John ist der Hauptarchitekt hinter der Redd-Blockchain. Er ist verantwortlich für die Überwachung aller Aspekte der Entwicklung im Netzwerk und den zugehörigen Softwareanwendungen. John leitet ein geografisch verteiltes Team in Belgien, Großbritannien, Kanada, den Philippinen und den USA und arbeitet weiterhin an Innovationen und dem Wachstum von Redd.</span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8">Er ist ein hoch organisierter, erfahrener Fachmann mit einer starken Kundenorientierung und einer Motivation zum Erfolg. John verfügt über umfangreiche Erfahrung in der Bereitstellung von Lösungen, die sich ständig ändernden Kundenbedürfnissen und -anforderungen entsprechen. währenddessen die Erwartungen erfüllen oder übertreffen, wichtige Meilensteine ​​erfolgreich zu erreichen.</span></p>
-			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/johnnash00/" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
-			  <a class="ae-3 fadeIn" href="https://t.me/CryptoGnasher" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-			  <a class="ae-3 fadeIn" href="https://twitter.com/CryptoGnasher" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/johnnash00/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://t.me/CryptoGnasher" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://twitter.com/CryptoGnasher" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
 			  <span class="ae-4 fromRight"> |&nbsp;&nbsp;<a class="customHover" href="assets/img/Redd_JohnNash.jpg" download>Bild herunterladen</a></span>
             </li>
             
@@ -410,9 +410,9 @@
               <p class="larger weight-6 margin-bottom-1 ae-1">기술 전도사</p>
               <p class="ae-2 fromLeft"><span class="opacity-8">존(John)은 레드(Redd) 블록체인의 주 설계자입니다. 그는 네트워크와 관련 소프트웨어 애플리케이션 개발의 모든 면에서 관리를 책임집니다. 벨기에, 영국, 캐나다, 필리핀과 미국에 위치하여 지리적으로 분산된 팀을 관리하는 존은 레드(Redd)의 혁신과 성장을 지속하고 있습니다.</span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8">그는 강한 고객중심의 성공을 위한 동기를 가진 매우 체계적이고 경험이 풍부한 전문가입니다. 존은 끊임없이 변화하는 고객의 필요 및 요구사항,  또한 중요한 단계들을 성공적으로 달성하기 위한 기대치를 충족하거나 초과할 수 있는 솔루션을 제공하는데 폭 넓은 경험을 가지고 있습니다.  </span></p>
-			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/johnnash00/" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
-			  <a href="https://t.me/CryptoGnasher" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-			  <a href="https://twitter.com/CryptoGnasher" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/johnnash00/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+			  <a href="https://t.me/CryptoGnasher" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+			  <a href="https://twitter.com/CryptoGnasher" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
 			  <span class="ae-4 fromRight"> |&nbsp;&nbsp;<a class="weight-8 customHover" href="assets/img/Redd_JohnNash.jpg" download>이미지 다운로드</a></span>
             </li>
             
@@ -422,9 +422,9 @@
               <p class="larger margin-bottom-1 ae-1"><span>Хранитель Виденья</span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8">Джон - главный архитектор блокчейна Redd. Он отвечает за надзор во всех аспектах разработки сетевых и связанных с этим программных приложений. Управляя географически удаленной командой, расположенной в Бельгии, Великобритании, Канаде, Филиппинах и США, Джон продолжает вносить новшества и развивать Redd.</span></p>
               <p class="ae-2 fromLeft"><span class="opacity-8">Он высокоорганизованный, опытный профессионал с сильной ориентацией на клиента и мотивацией к успеху. Джон имеет обширный опыт в предоставлении решений, отвечающих постоянно меняющимся потребностям и требованиям клиентов, при этом соответствовать или превосходить ожидания для успешного достижения основных этапов развития.</span></p>
-			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/johnnash00/" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
-			  <a href="https://t.me/CryptoGnasher" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-			  <a href="https://twitter.com/CryptoGnasher" target="_blank"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+			  <a class="ae-3 fadeIn" href="https://www.linkedin.com/in/johnnash00/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+			  <a href="https://t.me/CryptoGnasher" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+			  <a href="https://twitter.com/CryptoGnasher" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:20px;height:20px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
 			  <span class="ae-4 fromRight"> |&nbsp;&nbsp;<a class="customHover" href="assets/img/Redd_JohnNash.jpg" download>Скачать изображение</a></span>
             </li>
             
@@ -468,7 +468,7 @@
             </li>
             <li class="col-6-12 margin-bottom-1 ae-4">
               <h4 class="smaller margin-top-1 margin-bottom-1">What is POSV v2?</h4>
-              <p class="small opacity-8">POSV v2 is the second major upgrade to the Proof-of-Stake-Velocity algorithm of the ReddNetwork. It was designed to incentivize ownership (staking) and activity (velocity). The upgrade also included a self-funding mechanism which reserves a portion of new coins generated for on-going development of the project. <a class="weight-6" href="https://reddcoin.com/reddpaper-faq/" target="_blank">Click here to see more info on POSV v2</a></p>
+              <p class="small opacity-8">POSV v2 is the second major upgrade to the Proof-of-Stake-Velocity algorithm of the ReddNetwork. It was designed to incentivize ownership (staking) and activity (velocity). The upgrade also included a self-funding mechanism which reserves a portion of new coins generated for on-going development of the project. <a class="weight-6" href="https://reddcoin.com/reddpaper-faq/" target="_blank" rel="noreferrer">Click here to see more info on POSV v2</a></p>
             </li>
             <li class="col-6-12 margin-bottom-1 ae-4">
               <h4 class="smaller margin-top-1 margin-bottom-1">How has Redd funded the project up until now?</h4>
@@ -509,7 +509,7 @@
             </li>
             <li class="col-6-12 margin-bottom-1 ae-4">
               <h4 class="smaller margin-top-1 margin-bottom-1">Was ist POSV v2?</h4>
-              <p class="small opacity-8">POSV v2 ist das zweite große Upgrade des Proof-of-Stake-Velocity-Algorithmus des ReddNetwork. Es wurde entwickelt, um Anreize für Eigentum (Einsatz) und Aktivität (Geschwindigkeit) zu schaffen. Das Upgrade beinhaltete auch einen Selbstfinanzierungsmechanismus, der einen Teil der neuen Münzen reserviert, die für die weitere Entwicklung des Projekts generiert wurden.<a href="https://reddcoin.com/reddpaper-faq/" target="_blank">Klicken Sie hier, um weitere Informationen zu POSV v2 anzuzeigen</a></p>
+              <p class="small opacity-8">POSV v2 ist das zweite große Upgrade des Proof-of-Stake-Velocity-Algorithmus des ReddNetwork. Es wurde entwickelt, um Anreize für Eigentum (Einsatz) und Aktivität (Geschwindigkeit) zu schaffen. Das Upgrade beinhaltete auch einen Selbstfinanzierungsmechanismus, der einen Teil der neuen Münzen reserviert, die für die weitere Entwicklung des Projekts generiert wurden.<a href="https://reddcoin.com/reddpaper-faq/" target="_blank" rel="noreferrer">Klicken Sie hier, um weitere Informationen zu POSV v2 anzuzeigen</a></p>
             </li>
             <li class="col-6-12 margin-bottom-1 ae-4">
               <h4 class="smaller margin-top-1 margin-bottom-1">Wie hat Redd das Projekt bisher finanziert?</h4>
@@ -550,7 +550,7 @@
             </li>
             <li class="col-6-12 margin-bottom-1 ae-4">
               <h4 class="smaller margin-top-1 margin-bottom-1">PoSV v2<span class="weight-8">는 무엇인가요</span>?</h4>
-              <p class="small opacity-8">PoSV v2는 레드네트워크(ReddNetwork)의 지분속도증명 (Proof-of-Stake-Velocity) 알고리즘에 대한 두번째 주요 업그레이드입니다. 이것은 지분(스테이킹) 및 활동(속도)에 대한 보상을 위해 설계되었습니다. 이 업그레이드는 프로젝트의 지속적인 개발을 위해 새로 생성된 코인의 일부를 비축하는 자체자금조달 매커니즘을 포함하고 있습니다. <a class="weight-6" href="https://reddcoin.com/reddpaper-faq/" target="_blank">POSV v2에 대한 자세한 정보를 보려면 여기를 클릭하십시오.</a></p>
+              <p class="small opacity-8">PoSV v2는 레드네트워크(ReddNetwork)의 지분속도증명 (Proof-of-Stake-Velocity) 알고리즘에 대한 두번째 주요 업그레이드입니다. 이것은 지분(스테이킹) 및 활동(속도)에 대한 보상을 위해 설계되었습니다. 이 업그레이드는 프로젝트의 지속적인 개발을 위해 새로 생성된 코인의 일부를 비축하는 자체자금조달 매커니즘을 포함하고 있습니다. <a class="weight-6" href="https://reddcoin.com/reddpaper-faq/" target="_blank" rel="noreferrer">POSV v2에 대한 자세한 정보를 보려면 여기를 클릭하십시오.</a></p>
             </li>
             <li class="col-6-12 margin-bottom-1 ae-4">
               <h4 class="smaller margin-top-1 margin-bottom-1"><span class="weight-8">레드</span>(Redd)<span class="weight-8">는 지금까지 프로젝트에 어떻게 자금을 지원했나요</span>?</h4>
@@ -591,7 +591,7 @@
             </li>
             <li class="col-6-12 margin-bottom-1 ae-4">
               <h4 class="smaller margin-top-1 margin-bottom-1">Что такое POSV v2?</h4>
-              <p class="small opacity-8">POSV v2 - это второе крупное обновление алгоритма Proof-of-Stake-Velocity сети Redd. Он был разработан, чтобы стимулировать как владение монетами (делать ставки) так и их активное использование (частота движения). Обновление также включало механизм самофинансирования, который резервирует часть генерируемых новых монет для текущего развития проекта.<a class="weight-6" href="https://reddcoin.com/reddpaper-faq/" target="_blank">Нажмите здесь, чтобы узнать больше о POSV v2</a></p>
+              <p class="small opacity-8">POSV v2 - это второе крупное обновление алгоритма Proof-of-Stake-Velocity сети Redd. Он был разработан, чтобы стимулировать как владение монетами (делать ставки) так и их активное использование (частота движения). Обновление также включало механизм самофинансирования, который резервирует часть генерируемых новых монет для текущего развития проекта.<a class="weight-6" href="https://reddcoin.com/reddpaper-faq/" target="_blank" rel="noreferrer">Нажмите здесь, чтобы узнать больше о POSV v2</a></p>
             </li>
             <li class="col-6-12 margin-bottom-1 ae-4">
               <h4 class="smaller margin-top-1 margin-bottom-1">Как Redd финансировал проект до сих пор?</h4>
@@ -649,35 +649,35 @@
 
           <ul class="flex margin-top-4">
             <li class="col-3-12 margin-bottom-1 left ae-3">
-              <h4 class="smallest"><a href="https://news.bitcoin.com/reddcoin-rdd-nears-posv-v2-activation-clearing-way-for-explosive-developments/" target="_blank">Reddcoin (RDD) Nears PoSV v2 Activation, Clearing Way for Explosive Developments</a></h4>
+              <h4 class="smallest"><a href="https://news.bitcoin.com/reddcoin-rdd-nears-posv-v2-activation-clearing-way-for-explosive-developments/" target="_blank" rel="noreferrer">Reddcoin (RDD) Nears PoSV v2 Activation, Clearing Way for Explosive Developments</a></h4>
               <p class="small opacity-8">Bitcoin News</p>
             </li>
             <li class="col-3-12 margin-bottom-1 left ae-4">
-              <h4 class="smallest"><a href="https://www.coinnewsspan.com/reddcoin-cryptocurrency-announces-its-partnership-with-forgingblock-api/" target="_blank">Reddcoin Cryptocurrency Announces Its Partnership With ForgingBlock API</a></h4>
+              <h4 class="smallest"><a href="https://www.coinnewsspan.com/reddcoin-cryptocurrency-announces-its-partnership-with-forgingblock-api/" target="_blank" rel="noreferrer">Reddcoin Cryptocurrency Announces Its Partnership With ForgingBlock API</a></h4>
               <p class="small opacity-8">Coin News Span</p>
             </li>
             <li class="col-3-12 margin-bottom-1 left ae-5">
-              <h4 class="smallest"><a href="https://cryptobriefing.com/social-media-crypto-reddcoin-usa/" target="_blank">Social Media Crypto Projects Like Reddcoin (RDD) Should Thrive In The USA</a></h4>
+              <h4 class="smallest"><a href="https://cryptobriefing.com/social-media-crypto-reddcoin-usa/" target="_blank" rel="noreferrer">Social Media Crypto Projects Like Reddcoin (RDD) Should Thrive In The USA</a></h4>
               <p class="small opacity-8">Crypto Briefing</p>
             </li>
             <li class="col-3-12 margin-bottom-1 left ae-6">
-              <h4 class="smallest"><a href="https://www.fool.com/investing/2017/12/29/3-cryptocurrencies-that-rose-by-more-than-100000-i.aspx" target="_blank">3 Cryptocurrencies That Rose by More Than 100,000% in 2017</a></h4>
+              <h4 class="smallest"><a href="https://www.fool.com/investing/2017/12/29/3-cryptocurrencies-that-rose-by-more-than-100000-i.aspx" target="_blank" rel="noreferrer">3 Cryptocurrencies That Rose by More Than 100,000% in 2017</a></h4>
               <p class="small opacity-8">The Motley Fool</p>
             </li>
             <li class="col-3-12 margin-bottom-1 left ae-4">
-              <h4 class="smallest"><a href="https://cryptobriefing.com/reddcoin-reddid-wallet-online-tipping/" target="_blank">Is ReddID The Answer For Online Tipping?</a></h4>
+              <h4 class="smallest"><a href="https://cryptobriefing.com/reddcoin-reddid-wallet-online-tipping/" target="_blank" rel="noreferrer">Is ReddID The Answer For Online Tipping?</a></h4>
               <p class="small opacity-8">Crypto Briefing</p>
             </li>
             <li class="col-3-12 margin-bottom-1 left ae-5">
-              <h4 class="smallest"><a href="https://newslogical.com/reddcoin-rdd-is-undoubtedly-a-goldmine-in-the-crypto-space/" target="_blank">A Look Into ReddCoin (RDD)</a></h4>
+              <h4 class="smallest"><a href="https://newslogical.com/reddcoin-rdd-is-undoubtedly-a-goldmine-in-the-crypto-space/" target="_blank" rel="noreferrer">A Look Into ReddCoin (RDD)</a></h4>
               <p class="small opacity-8">NewsLogical</p>
             </li>
             <li class="col-3-12 margin-bottom-1 left ae-6">
-              <h4 class="smallest"><a href="https://coincentral.com/how-cryptocurrency-could-liberate-content-creators/" target="_blank">How Cryptocurrency Could Liberate Content Creators</a></h4>
+              <h4 class="smallest"><a href="https://coincentral.com/how-cryptocurrency-could-liberate-content-creators/" target="_blank" rel="noreferrer">How Cryptocurrency Could Liberate Content Creators</a></h4>
               <p class="small opacity-8">CoinCentral</p>
             </li>
             <li class="col-3-12 margin-bottom-1 left ae-7">
-              <h4 class="smallest"><a href="https://www.reddcoin.com/2020/02/08/reddcoin-solutions-rypplzz-inc-announce-strategic-partnership/" target="_blank">Reddcoin Solutions & Rypplzz Inc. Announce Strategic Partnership</a></h4>
+              <h4 class="smallest"><a href="https://www.reddcoin.com/2020/02/08/reddcoin-solutions-rypplzz-inc-announce-strategic-partnership/" target="_blank" rel="noreferrer">Reddcoin Solutions & Rypplzz Inc. Announce Strategic Partnership</a></h4>
               <p class="small opacity-8">Reddcoin</p>
             </li>
           </ul>
@@ -707,25 +707,25 @@
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-clr.jpg" alt="Redd Logo"/>
               <h4 class="smaller margin-bottom-1">Main Logo</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Light Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.png" class="customHover">PNG</a></p>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Dark Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR-WHT.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Light Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Dark Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR-WHT.png" class="customHover">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-tag-clr.jpg" alt="Redd Logo with Tagline"/>
               <h4 class="smaller margin-bottom-1">Logo with Tagline</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Light Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.png" class="customHover">PNG</a></p>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Dark Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Light Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Dark Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.png" class="customHover">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-symbol-clr.jpg" alt="Redd Symbol"/>
               <h4 class="smaller margin-bottom-1">Redd Symbol</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-CLR.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-CLR.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.png" class="customHover">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-blk.jpg" alt="Redd Logo B/W"/>
               <h4 class="smaller margin-bottom-1">Black &amp; White Logo</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Black Logo:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.png" class="customHover">PNG</a></p>
-              <p class="small cropBottom opacity-8"><span class="weight-5">White Logo:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-WHT.eps" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Black Logo:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">White Logo:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-WHT.eps" class="customHover">PNG</a></p>
             </li>
           </ul>
         </div>
@@ -742,25 +742,25 @@
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-clr.jpg" alt="Redd Logo"/>
               <h4 class="smaller margin-bottom-1">Hauptlogo</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Light Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.png" class="customHover">PNG</a></p>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Dark Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR-WHT.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Light Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Dark Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR-WHT.png" class="customHover">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-tag-clr.jpg" alt="Redd Logo with Tagline"/>
               <h4 class="smaller margin-bottom-1">Logo mit Slogan</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Light Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.png" class="customHover">PNG</a></p>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Dark Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Light Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Dark Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.png" class="customHover">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-symbol-clr.jpg" alt="Redd Symbol"/>
               <h4 class="smaller margin-bottom-1">Redd Symbol</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-CLR.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-CLR.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.png" class="customHover">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-blk.jpg" alt="Redd Logo B/W"/>
               <h4 class="smaller margin-bottom-1">Schwarzweiss-Logo</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Schwarzes Logo:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.png" class="customHover">PNG</a></p>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Weißes Logo:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-WHT.eps" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Schwarzes Logo:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Weißes Logo:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-WHT.eps" class="customHover">PNG</a></p>
             </li>
           </ul>
         </div>
@@ -777,25 +777,25 @@
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-clr.jpg" alt="Redd Logo"/>
               <h4 class="smaller weight-6 margin-bottom-1">메인 로고</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">밝은 배경:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.png" class="customHover">PNG</a></p>
-              <p class="small cropBottom opacity-8"><span class="weight-5">어두운 배경:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR-WHT.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">밝은 배경:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">어두운 배경:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR-WHT.png" class="customHover">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-tag-clr.jpg" alt="Redd Logo with Tagline"/>
               <h4 class="smaller weight-6 margin-bottom-1">로고와 태그라인</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">밝은 배경:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.png" class="customHover">PNG</a></p>
-              <p class="small cropBottom opacity-8"><span class="weight-5">어두운 배경:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">밝은 배경:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">어두운 배경:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.png" class="customHover">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-symbol-clr.jpg" alt="Redd Symbol"/>
               <h4 class="smaller weight-6 margin-bottom-1">레드 심볼</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">다운로드:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-CLR.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">다운로드:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-CLR.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.png" class="customHover">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-blk.jpg" alt="Redd Logo B/W"/>
               <h4 class="smaller weight-6 margin-bottom-1">블랙 앤 화이트 로고</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">블랙 로고:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.png" class="customHover">PNG</a></p>
-              <p class="small cropBottom opacity-8"><span class="weight-5">화이트 로고:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-WHT.eps" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">블랙 로고:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">화이트 로고:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-WHT.eps" class="customHover">PNG</a></p>
             </li>
           </ul>
         </div>
@@ -812,25 +812,25 @@
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-clr.jpg" alt="Redd Logo"/>
               <h4 class="smaller margin-bottom-1">Главный логотип</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Светлый Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.png" class="customHover">PNG</a></p>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Темный Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR-WHT.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Светлый Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Темный Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR-WHT.png" class="customHover">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-tag-clr.jpg" alt="Redd Logo with Tagline"/>
               <h4 class="smaller margin-bottom-1">Логотип со слоганом</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Светлый Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.png" class="customHover">PNG</a></p>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Темный Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Светлый Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Темный Bkgd:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.png" class="customHover">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-symbol-clr.jpg" alt="Redd Symbol"/>
               <h4 class="smaller margin-bottom-1">Эмблема Redd</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Скачать:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-CLR.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Скачать:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-CLR.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.png" class="customHover">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-blk.jpg" alt="Redd Logo B/W"/>
               <h4 class="smaller margin-bottom-1">Черный и белый логотип</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Черный логотип:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-BLK.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.png" class="customHover">PNG</a></p>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Белый логотип:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-WHT.eps" class="customHover" target="_blank">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-WHT.eps" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Черный логотип:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.jpg" class="customHover">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5">Белый логотип:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-WHT.eps" class="customHover">PNG</a></p>
             </li>
           </ul>
         </div>
@@ -855,32 +855,32 @@
         <div class="fix-12-12 margin-top-4 ae-3" data-lang="en">
           <ul class="flex fixedSpaces later left">
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic.jpg" alt="Redd is everyone."/></a>
+              <a href="assets/img/RDD-socialpic.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic.jpg" alt="Redd is everyone."/></a>
               <h4 class="smaller margin-bottom-0">We are inclusive</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">60k+ users of all colours, religions, & languages.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-everywhere.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-everywhere.jpg" alt="Redd is everywhere."/></a>
+              <a href="assets/img/RDD-socialpic-everywhere.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-everywhere.jpg" alt="Redd is everywhere."/></a>
               <h4 class="smaller margin-bottom-0">Used around the world</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">Currently being used in over 50+ countries.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-about.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-about.jpg" alt="Redd is caring."/></a>
+              <a href="assets/img/RDD-socialpic-about.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-about.jpg" alt="Redd is caring."/></a>
               <h4 class="smaller margin-bottom-0">Meant for change</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">We are volunteers focused on changing the world.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-tech.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-tech.jpg" alt="Redd is social."/></a>
+              <a href="assets/img/RDD-socialpic-tech.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-tech.jpg" alt="Redd is social."/></a>
               <h4 class="smaller margin-bottom-0">Encourages supporting others</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">Tip anyone on any social media network.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-terms.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-terms.jpg" alt="Redd is you."/></a>
+              <a href="assets/img/RDD-socialpic-terms.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-terms.jpg" alt="Redd is you."/></a>
               <h4 class="smaller margin-bottom-0">Welcomes everyone</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">Anyone can be a part of this movement.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-dev.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-dev.jpg" alt="Redd is secure."/></a>
+              <a href="assets/img/RDD-socialpic-dev.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-dev.jpg" alt="Redd is secure."/></a>
               <h4 class="smaller margin-bottom-0">Fast, cheap &amp; reliable</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">Runs on a fully decentralized blockchain network.</p></div>
             </li>  
@@ -896,32 +896,32 @@
         <div class="fix-12-12 margin-top-4 ae-3" data-lang="de" style="display:none;">
           <ul class="flex fixedSpaces later left">
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic.jpg" alt="Redd is everyone."/></a>
+              <a href="assets/img/RDD-socialpic.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic.jpg" alt="Redd is everyone."/></a>
               <h4 class="smaller margin-bottom-0">Wir sind inklusive</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">Über 60.000 Benutzer aller Farben, Religionen und Sprachen.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-everywhere.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-everywhere.jpg" alt="Redd is everywhere."/></a>
+              <a href="assets/img/RDD-socialpic-everywhere.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-everywhere.jpg" alt="Redd is everywhere."/></a>
               <h4 class="smaller margin-bottom-0">Weltweit eingesetzt</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">Wird derzeit in über 50 Ländern eingesetzt.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-about.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-about.jpg" alt="Redd is caring."/></a>
+              <a href="assets/img/RDD-socialpic-about.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-about.jpg" alt="Redd is caring."/></a>
               <h4 class="smaller margin-bottom-0">Zur Veränderung gedacht</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">Wir sind Freiwillige, die sich darauf konzentrieren, die Welt zu verändern.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-tech.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-tech.jpg" alt="Redd is social."/></a>
+              <a href="assets/img/RDD-socialpic-tech.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-tech.jpg" alt="Redd is social."/></a>
               <h4 class="smaller margin-bottom-0">Ermutigt andere zu unterstützen</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">Tippe jedem in einem Social-Media-Netzwerk.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-terms.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-terms.jpg" alt="Redd is you."/></a>
+              <a href="assets/img/RDD-socialpic-terms.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-terms.jpg" alt="Redd is you."/></a>
               <h4 class="smaller margin-bottom-0">Begrüßt alle</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">Jeder kann Teil dieser Bewegung sein.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-dev.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-dev.jpg" alt="Redd is secure."/></a>
+              <a href="assets/img/RDD-socialpic-dev.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-dev.jpg" alt="Redd is secure."/></a>
               <h4 class="smaller margin-bottom-0">Schnell, günstig und zuverlässig</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">Läuft in einem vollständig dezentralen Blockchain-Netzwerk.</p></div>
             </li>  
@@ -937,32 +937,32 @@
         <div class="fix-12-12 margin-top-4 ae-3" data-lang="ko" style="display:none;">
           <ul class="flex fixedSpaces later left">
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic.jpg" alt="Redd is everyone."/></a>
+              <a href="assets/img/RDD-socialpic.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic.jpg" alt="Redd is everyone."/></a>
               <h4 class="smaller weight-6 margin-bottom-0">우리는 포용적입니다</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">모든 인종, 종교와 언어의 6만명 이상의 사용자.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-everywhere.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-everywhere.jpg" alt="Redd is everywhere."/></a>
+              <a href="assets/img/RDD-socialpic-everywhere.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-everywhere.jpg" alt="Redd is everywhere."/></a>
               <h4 class="smaller weight-6 margin-bottom-0">세계적으로 사용됩니다</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">현재 50개국 이상에서 사용되고 있습니다.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-about.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-about.jpg" alt="Redd is caring."/></a>
+              <a href="assets/img/RDD-socialpic-about.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-about.jpg" alt="Redd is caring."/></a>
               <h4 class="smaller weight-6 margin-bottom-0">변화를 위해 만들어졌습니다</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">우리는 세상을 변화시키고자 하는 자원봉사자들입니다.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-tech.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-tech.jpg" alt="Redd is social."/></a>
+              <a href="assets/img/RDD-socialpic-tech.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-tech.jpg" alt="Redd is social."/></a>
               <h4 class="smaller weight-6 margin-bottom-0">다른 이들을 지원하도록 권장합니다</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">소셜미디어 네트워크의 모두에게 팁을 선물합니다.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-terms.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-terms.jpg" alt="Redd is you."/></a>
+              <a href="assets/img/RDD-socialpic-terms.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-terms.jpg" alt="Redd is you."/></a>
               <h4 class="smaller weight-6 margin-bottom-0">모두를 환영합니다</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">누구나 이 활동의 일부가 될 수 있습니다.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-dev.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-dev.jpg" alt="Redd is secure."/></a>
+              <a href="assets/img/RDD-socialpic-dev.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-dev.jpg" alt="Redd is secure."/></a>
               <h4 class="smaller weight-6 margin-bottom-0">빠르고, 저렴하고 신뢰할 수 있습니다</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">완전히 탈중앙화된 블록체인 네트워크에서 운영합니다.</p></div>
             </li>  
@@ -978,32 +978,32 @@
         <div class="fix-12-12 margin-top-4 ae-3" data-lang="ru" style="display:none;">
           <ul class="flex fixedSpaces later left">
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic.jpg" alt="Redd is everyone."/></a>
+              <a href="assets/img/RDD-socialpic.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic.jpg" alt="Redd is everyone."/></a>
               <h4 class="smaller margin-bottom-0">Мы включаем в себя</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">Более 60 тысяч пользователей всех цветов кожи, религий и языков.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-everywhere.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-everywhere.jpg" alt="Redd is everywhere."/></a>
+              <a href="assets/img/RDD-socialpic-everywhere.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-everywhere.jpg" alt="Redd is everywhere."/></a>
               <h4 class="smaller margin-bottom-0">Используется во всем мире</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">В настоящее время используется более чем в 50 странах.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-about.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-about.jpg" alt="Redd is caring."/></a>
+              <a href="assets/img/RDD-socialpic-about.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-about.jpg" alt="Redd is caring."/></a>
               <h4 class="smaller margin-bottom-0">Предназначенный для перемен</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">Мы волонтеры, стремящиеся изменить мир.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-tech.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-tech.jpg" alt="Redd is social."/></a>
+              <a href="assets/img/RDD-socialpic-tech.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-tech.jpg" alt="Redd is social."/></a>
               <h4 class="smaller margin-bottom-0">Призывает поддерживать других</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">Дайте чаевые любому в любой социальной сети.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-terms.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-terms.jpg" alt="Redd is you."/></a>
+              <a href="assets/img/RDD-socialpic-terms.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-terms.jpg" alt="Redd is you."/></a>
               <h4 class="smaller margin-bottom-0">Приветствовать всех</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">Любой может быть частью этого движения.</p></div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phone-1-1">
-              <a href="assets/img/RDD-socialpic-dev.jpg" class="button rounded empty margin-bottom-2" target="_blank"><img class="wide" src="assets/img/RDD-socialpic-dev.jpg" alt="Redd is secure."/></a>
+              <a href="assets/img/RDD-socialpic-dev.jpg" class="button rounded empty margin-bottom-2" target="_blank" rel="noreferrer"><img class="wide" src="assets/img/RDD-socialpic-dev.jpg" alt="Redd is secure."/></a>
               <h4 class="smaller margin-bottom-0">Быстро, дешево и надежно</h4>
               <div class="margin-bottom-2"><p class="small opacity-8">Работает на полностью децентрализованной блокчейн-сети.</p></div>
             </li>  
@@ -1053,20 +1053,20 @@
         <div class="fix-12-12 margin-top-4 ae-3">
           <ul class="flex flex-75 fixedSpaces">
             <li class="col-3-12 fadeIn">
-              <a href="assets/img/redd-img-1.jpg" download target="_blank"><img src="assets/img/redd-img-1.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
-              <a href="assets/img/redd-img-5.jpg" download target="_blank"><img src="assets/img/redd-img-5.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-1.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-1.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-5.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-5.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
             </li>
             <li class="col-3-12 fadeIn">
-              <a href="assets/img/redd-img-2.jpg" download target="_blank"><img src="assets/img/redd-img-2.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
-              <a href="assets/img/redd-img-6.jpg" download target="_blank"><img src="assets/img/redd-img-6.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-2.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-2.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-6.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-6.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
             </li>
             <li class="col-3-12 fadeIn">
-              <a href="assets/img/redd-img-3.jpg" download target="_blank"><img src="assets/img/redd-img-3.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
-              <a href="assets/img/redd-img-7.jpg" download target="_blank"><img src="assets/img/redd-img-7.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-3.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-3.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-7.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-7.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
             </li>
             <li class="col-3-12 fadeIn">
-              <a href="assets/img/redd-img-4.jpg" download target="_blank"><img src="assets/img/redd-img-4.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
-              <a href="assets/img/redd-img-8.jpg" download target="_blank"><img src="assets/img/redd-img-8.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-4.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-4.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
+              <a href="assets/img/redd-img-8.jpg" download target="_blank" rel="noreferrer"><img src="assets/img/redd-img-8.jpg" class="wide rounded margin-bottom-2" alt="Image"/></a>
             </li>
           </ul>
         </div>
@@ -1105,10 +1105,10 @@
                 <div class="fix-3-12 equalElement">
                   <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">Follow Us</p>
                   <ul class="social-circles">
-                    <li><a class="social-facebook" href="https://www.facebook.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook2"></use></svg></a></li>
-                    <li><a class="social-twitter" href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-                    <li><a class="social-telegram" href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>	
-                    <li><a class="social-medium" href="https://medium.com/@techadept" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+                    <li><a class="social-facebook" href="https://www.facebook.com/reddcoin" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook2"></use></svg></a></li>
+                    <li><a class="social-twitter" href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+                    <li><a class="social-telegram" href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>	
+                    <li><a class="social-medium" href="https://medium.com/@techadept" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
                   </ul>
                 </div>
               </li>
@@ -1138,10 +1138,10 @@
                 <div class="fix-3-12 equalElement">
                   <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">Folge uns</p>
                   <ul class="social-circles">
-                    <li><a class="social-facebook" href="https://www.facebook.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook2"></use></svg></a></li>
-                    <li><a class="social-twitter" href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-                    <li><a class="social-telegram" href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>	
-                    <li><a class="social-medium" href="https://medium.com/@techadept" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+                    <li><a class="social-facebook" href="https://www.facebook.com/reddcoin" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook2"></use></svg></a></li>
+                    <li><a class="social-twitter" href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+                    <li><a class="social-telegram" href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>	
+                    <li><a class="social-medium" href="https://medium.com/@techadept" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
                   </ul>
                 </div>
               </li>
@@ -1171,10 +1171,10 @@
                 <div class="fix-3-12 equalElement">
                   <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">우리를 팔로우하세요</p>
                   <ul class="social-circles">
-                    <li><a class="social-facebook" href="https://www.facebook.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook2"></use></svg></a></li>
-                    <li><a class="social-twitter" href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-                    <li><a class="social-telegram" href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>	
-                    <li><a class="social-medium" href="https://medium.com/@techadept" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+                    <li><a class="social-facebook" href="https://www.facebook.com/reddcoin" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook2"></use></svg></a></li>
+                    <li><a class="social-twitter" href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+                    <li><a class="social-telegram" href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>	
+                    <li><a class="social-medium" href="https://medium.com/@techadept" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
                   </ul>
                 </div>
               </li>
@@ -1204,10 +1204,10 @@
                 <div class="fix-3-12 equalElement">
                   <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">Подписывайтесь на нас</p>
                   <ul class="social-circles">
-                    <li><a class="social-facebook" href="https://www.facebook.com/reddcoin" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook2"></use></svg></a></li>
-                    <li><a class="social-twitter" href="https://twitter.com/ProjectReddTW" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-                    <li><a class="social-telegram" href="https://t.me/ReddcoinOfficial" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>	
-                    <li><a class="social-medium" href="https://medium.com/@techadept" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+                    <li><a class="social-facebook" href="https://www.facebook.com/reddcoin" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook2"></use></svg></a></li>
+                    <li><a class="social-twitter" href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+                    <li><a class="social-telegram" href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>	
+                    <li><a class="social-medium" href="https://medium.com/@techadept" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
                   </ul>
                 </div>
               </li>

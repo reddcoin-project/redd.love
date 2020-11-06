@@ -138,11 +138,11 @@
               <!-- Deutsch language -->
               <h4 class="small" data-lang="ru" style="display:none;">Statistics & Info</h4>
               
-              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://wiki.reddcoin.com/" class="customHover" target="_blank">Official Redd Wiki</a></p>
-              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://status.redd.love" class="customHover" target="_blank">Realtime Server/API Status</a></p>
-              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://bitinfocharts.com/reddcoin/" class="customHover" target="_blank">BitInfoCharts Redd Stats</a></p>
-              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://www.stakingrewards.com/earn/reddcoin" class="customHover" target="_blank">Redd Rewards Staking Stats</a></p>
-              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://app.flipsidecrypto.com/cooperative/reddcoin" class="customHover" target="_blank">Flipside Crypto Report</a></p>
+              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://wiki.reddcoin.com/" class="customHover" target="_blank" rel="noreferrer">Official Redd Wiki</a></p>
+              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://status.redd.love" class="customHover" target="_blank" rel="noreferrer">Realtime Server/API Status</a></p>
+              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://bitinfocharts.com/reddcoin/" class="customHover" target="_blank" rel="noreferrer">BitInfoCharts Redd Stats</a></p>
+              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://www.stakingrewards.com/earn/reddcoin" class="customHover" target="_blank" rel="noreferrer">Redd Rewards Staking Stats</a></p>
+              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://app.flipsidecrypto.com/cooperative/reddcoin" class="customHover" target="_blank" rel="noreferrer">Flipside Crypto Report</a></p>
             </li>
           
             <li class="col-3-12 margin-bottom-3 left ae-3">
@@ -159,9 +159,9 @@
               <!-- Russian language -->
               <h4 class="small" data-lang="ru" style="display:none;">Main Repositories</h4>
               
-              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://github.com/reddcoin-project" class="customHover" target="_blank">Official Redd Github</a></p>
-              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://download.reddcoin.com/bin/" class="customHover" target="_blank">Binaries &amp; Bootstrap Files</a></p>
-              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://github.com/reddcoin-project/reddcoin-docker" class="customHover" target="_blank">Dockerized Code</a></p>
+              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://github.com/reddcoin-project" class="customHover" target="_blank" rel="noreferrer">Official Redd Github</a></p>
+              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://download.reddcoin.com/bin/" class="customHover" target="_blank" rel="noreferrer">Binaries &amp; Bootstrap Files</a></p>
+              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://github.com/reddcoin-project/reddcoin-docker" class="customHover" target="_blank" rel="noreferrer">Dockerized Code</a></p>
             </li>
             <li class="col-3-12 margin-bottom-3 left ae-4">
              
@@ -177,9 +177,9 @@
              <!-- Russian language -->
              <h4 class="small" data-lang="ru" style="display:none;">APIs und Tutorials</h4>
              
-              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://x-team.com/blog/reddcoin-nodejs/" class="customHover" target="_blank">Using Node.JS with Redd</a></p>
-              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://api.forgingblock.io/docs/?go#connect-reddcoin-wallet" class="customHover" target="_blank">Forging Block Payment API</a></p>
-              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://gourl.io/reddcoin-payment-gateway-api.html" class="customHover" target="_blank">GoUrl Payment API</a></p>
+              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://x-team.com/blog/reddcoin-nodejs/" class="customHover" target="_blank" rel="noreferrer">Using Node.JS with Redd</a></p>
+              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://api.forgingblock.io/docs/?go#connect-reddcoin-wallet" class="customHover" target="_blank" rel="noreferrer">Forging Block Payment API</a></p>
+              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://gourl.io/reddcoin-payment-gateway-api.html" class="customHover" target="_blank" rel="noreferrer">GoUrl Payment API</a></p>
             </li>
             <li class="col-3-12 margin-bottom-3 left ae-5">
              
@@ -195,9 +195,9 @@
              <!-- Russian language -->
              <h4 class="small" data-lang="ru" style="display:none;">Block Explorers</h4>
              
-              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://live.reddcoin.com" class="customHover" target="_blank">Official Redd Explorer</a></p>
-              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://rdd.tokenview.com" class="customHover" target="_blank">Tokenview Explorer</a></p>
-              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://bitinfocharts.com/reddcoin/" class="customHover" target="_blank">BitInfoCharts Explorer</a></p>
+              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://live.reddcoin.com" class="customHover" target="_blank" rel="noreferrer">Official Redd Explorer</a></p>
+              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://rdd.tokenview.com" class="customHover" target="_blank" rel="noreferrer">Tokenview Explorer</a></p>
+              <p class="small opacity-8 margin-bottom-0" style="padding-bottom:2px;"><a href="https://bitinfocharts.com/reddcoin/" class="customHover" target="_blank" rel="noreferrer">BitInfoCharts Explorer</a></p>
             </li>
           </ul>
         </div>
@@ -241,19 +241,19 @@
         <div class="fix-8-12 margin-top-4">
           <ul class="flex fixedSpaces later center">
             <li class="col-3-12 col-tablet-1-4 col-phone-1-2 padding-bottom-4">
-              <p class="ae-3"><a href="http://rdd-dev.slack.com/" target="_blank"><svg style="width:80px;height:80px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#slack"></use></svg></a></p>
+              <p class="ae-3"><a href="http://rdd-dev.slack.com/" target="_blank" rel="noreferrer"><svg style="width:80px;height:80px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#slack"></use></svg></a></p>
               <h4 class="smaller ae-4">Slack</h4>
             </li>
             <li class="col-3-12 col-tablet-1-4 col-phone-1-2 padding-bottom-4">
-              <p class="ae-5"><a href="https://t.me/ReddcoinOfficial" target="_blank"><svg style="width:80px;height:80px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></p>
+              <p class="ae-5"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg style="width:80px;height:80px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></p>
               <h4 class="smaller ae-6">Telegram</h4>
             </li>
             <li class="col-3-12 col-tablet-1-4 col-phone-1-2 padding-bottom-4">
-              <p class="ae-6"><a href="https://www.reddit.com/r/ReddCoin/" target="_blank"><svg style="width:80px;height:80px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reddit"></use></svg></a></p>
+              <p class="ae-6"><a href="https://www.reddit.com/r/ReddCoin/" target="_blank" rel="noreferrer"><svg style="width:80px;height:80px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reddit"></use></svg></a></p>
               <h4 class="smaller ae-7">Reddit</h4>
             </li>
             <li class="col-3-12 col-tablet-1-4 col-phone-1-2 padding-bottom-4">
-              <p class="ae-6"><a href="https://discord.gg/vKyEVnw" target="_blank"><svg style="width:80px;height:80px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#discord"></use></svg></a></p>
+              <p class="ae-6"><a href="https://discord.gg/vKyEVnw" target="_blank" rel="noreferrer"><svg style="width:80px;height:80px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#discord"></use></svg></a></p>
               <h4 class="smaller ae-7">Discord</h4>
             </li>
           </ul>

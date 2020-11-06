@@ -331,9 +331,9 @@
               <h4 class="smaller ae-4">Jay &quot;TechAdept&quot; Laurence</h4>
               <div class="ae-5"><p class="small cropBottom opacity-8">Project Leader</p></div>
               <div class="ae-5">
-				  <a href="https://t.me/TechAdept" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-				  <a href="https://twitter.com/@TechAdeptRDD" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
-				  <a href="https://www.linkedin.com/in/techadeptrdd/" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+				  <a href="https://t.me/TechAdept" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://twitter.com/@TechAdeptRDD" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+				  <a href="https://www.linkedin.com/in/techadeptrdd/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
               </div>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
@@ -341,9 +341,9 @@
               <h4 class="smaller ae-6">John &quot;CryptoGnasher&quot; Nash</h4>
               <div class="ae-7"><p class="small cropBottom opacity-8">Technology Evangelist</p></div>
               <div class="ae-7">
-				  <a href="https://t.me/CryptoGnasher" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-				  <a href="https://twitter.com/CryptoGnasher" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
-				  <a href="http://www.linkedin.com/in/johnnash00" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+				  <a href="https://t.me/CryptoGnasher" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://twitter.com/CryptoGnasher" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+				  <a href="http://www.linkedin.com/in/johnnash00" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
               </div>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
@@ -351,9 +351,9 @@
               <h4 class="smaller ae-8">David Faust</h4>
               <div class="ae-9"><p class="small cropBottom opacity-8">Operations</p></div>
               <div class="ae-9">
-				  <a href="https://t.me/dfaust400" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-				  <a href="https://twitter.com/davidfaust2936" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
-				  <a href="https://www.linkedin.com/in/davidafaust" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+				  <a href="https://t.me/dfaust400" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://twitter.com/davidfaust2936" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+				  <a href="https://www.linkedin.com/in/davidafaust" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
               </div>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
@@ -361,9 +361,9 @@
               <h4 class="smaller ae-10">Tim &quot;MindReDDer&quot; Musick</h4>
               <div class="ae-10"><p class="small cropBottom opacity-8">Business Development</p></div>
               <div class="ae-10">
-				  <a href="https://t.me/MindReDDer" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-				  <a href="https://twitter.com/timothy_musick" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
-				  <a href="https://www.linkedin.com/in/timothymindreddermusick/" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+				  <a href="https://t.me/MindReDDer" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://twitter.com/timothy_musick" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+				  <a href="https://www.linkedin.com/in/timothymindreddermusick/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
               </div>
             </li>
           </ul>
@@ -416,8 +416,8 @@
               <h4 class="smaller ae-4">Roni Toni</h4>
               <div class="ae-5"><p class="small cropBottom opacity-8">Social Media Ambassador</p></div>
               <div class="ae-5">
-				  <a href="https://t.me/teeroni" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-				  <a href="http://twitter.com/TeeRoni" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+				  <a href="https://t.me/teeroni" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="http://twitter.com/TeeRoni" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
               </div>
             </li>
             <li class="col-2-10 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
@@ -425,9 +425,9 @@
               <h4 class="smaller ae-6">shroomlife</h4>
               <div class="ae-7"><p class="small cropBottom opacity-8">Fullstack Web Developer</p></div>
               <div class="ae-7">
-				  <a href="https://t.me/shroomlife" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-				  <a href="https://twitter.com/theshroomlife" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
-				  <a href="https://www.linkedin.com/in/shroomlife/" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+				  <a href="https://t.me/shroomlife" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://twitter.com/theshroomlife" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+				  <a href="https://www.linkedin.com/in/shroomlife/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
               </div>
             </li>
             <li class="col-2-10 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
@@ -435,8 +435,8 @@
               <h4 class="smaller ae-8">Michael Kirlew</h4>
               <div class="ae-9"><p class="small cropBottom opacity-8">Design &amp; Brand Strategy</p></div>
               <div class="ae-9">
-				  <a href="https://t.me/coinmarketdeals" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-				  <a href="https://www.linkedin.com/in/michaelkirlew/" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+				  <a href="https://t.me/coinmarketdeals" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://www.linkedin.com/in/michaelkirlew/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
               </div>
             </li>
             <li class="col-2-10 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
@@ -444,7 +444,7 @@
               <h4 class="smaller ae-10">ioDoug</h4>
               <div class="ae-10"><p class="small cropBottom opacity-8">Graphic Designer</p></div>
               <div class="ae-10">
-				  <a href="https://t.me/ioClub" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://t.me/ioClub" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
               </div>
             </li>
             <li class="col-2-10 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
@@ -452,7 +452,7 @@
               <h4 class="smaller ae-10">Yavuz Selim</h4>
               <div class="ae-10"><p class="small cropBottom opacity-8">Technical Advisor</p></div>
               <div class="ae-10">
-				  <a href="https://t.me/Yavuz_Selim" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://t.me/Yavuz_Selim" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
               </div>
             </li>
           </ul>
@@ -505,7 +505,7 @@
               <h4 class="smaller ae-4">Yoni</h4>
               <div class="ae-5"><p class="small cropBottom opacity-8">IT Specialist</p></div>
               <div class="ae-5">
-				  <a href="https://t.me/fireysword" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://t.me/fireysword" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
               </div>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
@@ -513,8 +513,8 @@
               <h4 class="smaller ae-6">Pro</h4>
               <div class="ae-7"><p class="small cropBottom opacity-8">Full Stack Developer</p></div>
               <div class="ae-7">
-				  <a href="https://t.me/projoshi" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-				  <a href="https://www.linkedin.com/in/pramod-joshi" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+				  <a href="https://t.me/projoshi" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://www.linkedin.com/in/pramod-joshi" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
               </div>
             </li>
             <li class="col-3-12 col-tablet-1-3 col-phone-1-1 padding-bottom-4">
@@ -522,7 +522,7 @@
               <h4 class="smaller ae-8">Walter</h4>
               <div class="ae-9"><p class="small cropBottom opacity-8">Legal Advisor</p></div>
               <div class="ae-9">
-				  <a href="https://t.me/waltlou" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://t.me/waltlou" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
               </div>
             </li>
             <li class="col-3-12 col-tablet-1-3 col-phone-1-1 padding-bottom-4">
@@ -530,7 +530,7 @@
               <h4 class="smaller ae-10">Pasquale Carbone</h4>
               <div class="ae-10"><p class="small cropBottom opacity-8">Social Media Advisor</p></div>
               <div class="ae-10">
-				  <a href="https://t.me/PasCarbs" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://t.me/PasCarbs" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
               </div>
             </li>
             <li class="col-3-12 col-tablet-1-3 col-phone-1-1 padding-bottom-4">
@@ -538,7 +538,7 @@
               <h4 class="smaller ae-5">Shin JK</h4>
               <div class="ae-6"><p class="small cropBottom opacity-8">Social Media Advisor</p></div>
               <div class="ae-6">
-				  <a href="https://t.me/Reddheadjk" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://t.me/Reddheadjk" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
               </div>
             </li>
             <li class="col-3-12 col-tablet-1-3 col-phone-1-1 padding-bottom-4">
@@ -546,7 +546,7 @@
               <h4 class="smaller ae-7">Willem Dik</h4>
               <div class="ae-8"><p class="small cropBottom opacity-8">Social Outreach</p></div>
               <div class="ae-8">
-				  <a href="https://t.me/WillemDik" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://t.me/WillemDik" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
               </div>
             </li>
             <li class="col-3-12 col-tablet-1-3 col-phone-1-1 padding-bottom-4">
@@ -554,7 +554,7 @@
               <h4 class="smaller ae-9">Randy</h4>
               <div class="ae-10"><p class="small cropBottom opacity-8">Social Outreach</p></div>
               <div class="ae-10">
-				  <a href="https://t.me/Fldammy" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://t.me/Fldammy" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
               </div>
             </li>
             <li class="col-3-12 col-tablet-1-3 col-phone-1-1 padding-bottom-4">
@@ -562,8 +562,8 @@
               <h4 class="smaller ae-10">This could be you!</h4>
               <div class="ae-10"><p class="small cropBottom opacity-8"><a href="/join/">Join Team Redd</a></p></div>
               <div class="ae-10">
-				  <a href="https://t.me/ReddcoinOfficial" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-				  <a href="https://twitter.com/ProjectReddTW" target="_blank"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+				  <a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
               </div>
             </li>
           </ul>
@@ -613,27 +613,27 @@
         <div class="fix-10-12 margin-top-4">
           <ul class="flex fixedSpaces later center">
             <li class="col-2-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
-              <p class="ae-3"><a href="https://www.facebook.com/reddcoin" target="_blank"><svg style="width:70px;height:70px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></p>
+              <p class="ae-3"><a href="https://www.facebook.com/reddcoin" target="_blank" rel="noreferrer"><svg style="width:70px;height:70px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></p>
               <h4 class="smaller ae-4">Facebook</h4>
             </li>
             <li class="col-2-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
-              <p class="ae-4"><a href="https://twitter.com/ProjectReddTW" target="_blank"><svg style="width:70px;height:70px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></p>
+              <p class="ae-4"><a href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg style="width:70px;height:70px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></p>
               <h4 class="smaller ae-5">Twitter</h4>
             </li>
             <li class="col-2-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
-              <p class="ae-5"><a href="https://t.me/ReddcoinOfficial" target="_blank"><svg style="width:70px;height:70px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></p>
+              <p class="ae-5"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg style="width:70px;height:70px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></p>
               <h4 class="smaller ae-6">Telegram</h4>
             </li>
             <li class="col-2-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
-              <p class="ae-6"><a href="https://www.reddit.com/r/ProjectRedd" target="_blank"><svg style="width:70px;height:70px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reddit"></use></svg></a></p>
+              <p class="ae-6"><a href="https://www.reddit.com/r/ProjectRedd" target="_blank" rel="noreferrer"><svg style="width:70px;height:70px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reddit"></use></svg></a></p>
               <h4 class="smaller ae-7">Reddit</h4>
             </li>
             <li class="col-2-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
-              <p class="ae-6"><a href="https://discord.gg/vKyEVnw" target="_blank"><svg style="width:70px;height:70px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#discord"></use></svg></a></p>
+              <p class="ae-6"><a href="https://discord.gg/vKyEVnw" target="_blank" rel="noreferrer"><svg style="width:70px;height:70px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#discord"></use></svg></a></p>
               <h4 class="smaller ae-7">Discord</h4>
             </li>
             <li class="col-2-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
-              <p class="ae-6"><a href="https://reddcointalk.org/" target="_blank"><svg style="width:70px;height:70px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-blk-symbol"></use></svg></a></p>
+              <p class="ae-6"><a href="https://reddcointalk.org/" target="_blank" rel="noreferrer"><svg style="width:70px;height:70px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-blk-symbol"></use></svg></a></p>
               <h4 class="smaller ae-7">Redd Talk</h4>
             </li>
           </ul>
