@@ -148,7 +148,7 @@
         
         <!-- Russian language -->
         <div class="fix-10-12 toCenter" data-lang="ru" style="display:none;">
-          <h1 class="smaller margin-bottom-2 ae-1">Что такое Редд и для кого он предназначен?</h1>
+          <h1 class="smaller margin-bottom-2 ae-1">Что такое Redd и для кого он предназначен?</h1>
           <p class="large ae-2"><span class="opacity-8">ReddCoin - это инструмент, приносящий пользу людям. Это цифровая социальная валюта, которая позволяет давать чаевые последователям, сторонникам или фанатам и делиться 100% своей стоимости  по любому поводу, с любым человеком или организацией без посредников.</span></p>
         </div>
         <div class="fix-10-12 margin-top-4" data-lang="ru" style="display:none;">  
