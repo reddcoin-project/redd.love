@@ -1,7 +1,10 @@
 <?php
 
-  if(!isset($exceptFirstSlideMode)) {
-    $exceptFirstSlideMode = false;
+  if(!isset($exceptFirstSlide)) {
+    $exceptFirstSlide = false;
+  }
+  if(!isset($whiteHeader)) {
+    $whiteHeader = false;
   }
 
 ?>
@@ -17,7 +20,7 @@
 </div>
 
 <!-- Panel Top #01 -->
-<nav class="panel top <?php echo $exceptFirstSlideMode === true ? 'exceptFirstSlide' : ''; ?>">
+<nav class="panel top <?php echo $whiteHeader === true ? 'white' : ''; ?> <?php echo $exceptFirstSlide=== true ? 'exceptFirstSlide' : ''; ?>">
   <div class="sections desktop">
     <div class="left"><a href="/" title="Redd"><svg style="width:158px;height:60px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
     <div class="center">
@@ -115,9 +118,9 @@
     </li>
 </ul>
 
-<?php if($exceptFirstSlideMode !== true) { ?>
+<?php if($exceptFirstSlide !== true) { ?>
 <!-- Panel Top #02 -->
-<nav class="panel top <?php echo $whiteMode === true ? 'white' : ''; ?>">
+<nav class="panel top <?php echo $whiteHeader === true ? 'white' : ''; ?>">
   <div class="sections desktop">
     <div class="left"><a href="/" title="Redd"><svg style="width:158px;height:60px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
     <div class="center">

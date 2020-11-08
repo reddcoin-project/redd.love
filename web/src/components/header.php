@@ -6,9 +6,6 @@
   if(!isset($exceptFirstSlideMode)) {
     $exceptFirstSlideMode = false;
   }
-  if(!isset($whiteMode)) {
-    $whiteMode = false;
-  }
 
 ?>
 <!doctype html>

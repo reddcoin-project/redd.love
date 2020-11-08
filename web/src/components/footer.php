@@ -1,10 +1,10 @@
 <?php
 
-  if(!isset($exceptFirstSlideMode)) {
-    $exceptFirstSlideMode = false;
+  if(!isset($exceptFirstSlide)) {
+    $exceptFirstSlide = false;
   }
-  if(!isset($whiteMode)) {
-    $whiteMode = false;
+  if(!isset($whiteFooter)) {
+    $whiteFooter = false;
   }
 
 ?>
@@ -17,7 +17,7 @@
 
 <!-- Panel Bottom #12 -->
 <!-- English language -->
-<nav class="panel bottom <?php echo $whiteMode === true ? 'white' : ''; ?> <?php echo $exceptFirstSlideMode === true ? 'exceptFirstSlide' : ''; ?>" data-lang="en">
+<nav class="panel bottom <?php echo $whiteFooter === true ? 'white' : ''; ?> <?php echo $exceptFirstSlide === true ? 'exceptFirstSlide' : ''; ?>" data-lang="en">
   <div class="sections desktop">
     <div class="left uppercase">We <svg style="width:27px;height:25px;margin-bottom:-3px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use></svg> our community</div>
     <div class="center">
@@ -48,7 +48,7 @@
 </nav>
 
 <!-- Deutsch language -->
-<nav class="panel bottom <?php echo $whiteMode === true ? 'white' : ''; ?> <?php echo $exceptFirstSlideMode === true ? 'exceptFirstSlide' : ''; ?>" data-lang="de" style="display:none;">
+<nav class="panel bottom <?php echo $whiteFooter === true ? 'white' : ''; ?> <?php echo $exceptFirstSlideMode === true ? 'exceptFirstSlide' : ''; ?>" data-lang="de" style="display:none;">
   <div class="sections desktop">
     <div class="left uppercase">Wir <svg style="width:27px;height:25px;margin-bottom:-3px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use></svg> euch</div>
     <div class="center">
@@ -77,7 +77,7 @@
 </nav>
 
 <!-- Korean language -->
-<nav class="panel bottom <?php echo $whiteMode === true ? 'white' : ''; ?> <?php echo $exceptFirstSlideMode === true ? 'exceptFirstSlide' : ''; ?>" data-lang="ko" style="display:none;">
+<nav class="panel bottom <?php echo $whiteFooter === true ? 'white' : ''; ?> <?php echo $exceptFirstSlideMode === true ? 'exceptFirstSlide' : ''; ?>" data-lang="ko" style="display:none;">
   <div class="sections desktop">
     <div class="left uppercase">우리는 <svg style="width:27px;height:25px;margin-bottom:-3px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use></svg> 우리의 커뮤니티</div>
     <div class="center">
@@ -106,7 +106,7 @@
 </nav>
 
 <!-- Russian language -->
-<nav class="panel bottom <?php echo $whiteMode === true ? 'white' : ''; ?> <?php echo $exceptFirstSlideMode === true ? 'exceptFirstSlide' : ''; ?>" data-lang="ru" style="display:none;">
+<nav class="panel bottom <?php echo $whiteFooter === true ? 'white' : ''; ?> <?php echo $exceptFirstSlideMode === true ? 'exceptFirstSlide' : ''; ?>" data-lang="ru" style="display:none;">
   <div class="sections desktop">
     <div class="left uppercase">Мы <svg style="width:27px;height:25px;margin-bottom:-3px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use></svg> наше сообщество</div>
     <div class="center">

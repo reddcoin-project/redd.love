@@ -4,8 +4,9 @@
   $title = 'Redd | The social currency.';
 
   // Page Frontend Settings
-  $exceptFirstSlideMode = true;
-  $whiteMode = false;
+  $exceptFirstSlide = true;
+  $whiteHeader = false;
+  $whiteFooter = false;
 
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>

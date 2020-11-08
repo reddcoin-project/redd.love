@@ -2,7 +2,8 @@
 
   // Page Configuration
   $title = 'Redd | The social currency.';
-  $whiteMode = true;
+  $whiteHeader = true;
+  $whiteFooter = true;
 
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>
