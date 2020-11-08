@@ -56,23 +56,18 @@
                 </a>
                 <p class="opacity-8 fix-4-12 toLeft">For charitable events/efforts, as noted in the PoSV
                   v2 spec. (See the <a href="assets/doc/Redd-Paper.pdf">Redd Paper</a> for details)</p>
+                  
+                <small class="opacity-6">Last Updated: <span id="lastUpdatedCaption"></span></small>
               </li>
               <li class="col-6-12 col-tablet-1-2 col-phablet-1-1 ae-3">
                 <h3 class="margin-bottom-1">Major Donors</h3>
-                <p class="light margin-bottom-1 opacity-8"><span class="weight-6">10,000,000.00 RDD</span> – Anonymous (AH)</p>
-                <p class="light margin-bottom-1 opacity-8"><span class="weight-6">5,075,577.10 RDD</span> – Reddhead JK (@ReddheadJK)</p>
-                <p class="light margin-bottom-1 opacity-8"><span class="weight-6">4,862,429.00 RDD</span> – Patrick Seegers (@patrickseegers)</p>
-                <p class="light margin-bottom-1 opacity-8"><span class="weight-6">4,101,508.25 RDD</span> – Tom (@MinasUngol)</p>
-                <p class="light margin-bottom-1 opacity-8"><span class="weight-6">3,031,364.00 RDD</span> – ioDoug (@ioClub)</p>
-                <p class="light margin-bottom-1 opacity-8"><span class="weight-6">2,942,113.00 RDD</span> – RoniToni (@teeroni)</p>
-                <p class="light margin-bottom-1 opacity-8"><span class="weight-6">2,940,769.43 RDD</span> – rtong (@rebible)</p>
-                <p class="light margin-bottom-1 opacity-8"><span class="weight-6">2,110,659.00 RDD</span> – Christopher (@Krestofa)</p>
-                <p class="light margin-bottom-1 opacity-8"><span class="weight-6">2,110,559.85 RDD</span> – 소풍같은삶 (@kbs10000) <svg class="popupTrigger" data-popup-id="pu-kbs" style="fill:orange;width:21px;height:21px;margin-bottom:-5px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#checkmark"></use></svg></p>
-                <p class="light margin-bottom-1 opacity-8"><span class="weight-6">1,554,620.00 RDD</span> – @Chillh89</p>
-                <p class="light margin-bottom-1 opacity-8"><span class="weight-6">1,252,200.00 RDD</span> – @fiische</p>
-                <p class="light italic margin-bottom-1 opacity-8">* Click on <svg class="opacity-6" style="width:18px;height:18px;margin-bottom:-2px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#checkmark"></use></svg> to see how much has been paid back.</p>
-                <p class="margin-bottom-0 opacity-8"><svg class="popupTrigger" data-popup-id="pu-kbs" style="fill:#8dc63f;width:21px;height:21px;margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#checkmark"></use></svg> – Fully Repaid</p>
-                <p class="margin-bottom-0 opacity-8"><svg class="popupTrigger" data-popup-id="pu-kbs" style="fill:orange;width:21px;height:21px;margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#checkmark"></use></svg> – Partially Repaid</p>
+                <p id="loadingDonorsCaption">Loading ...</p>
+                <div class="hidden">
+                  <div id="donorsContent"></div>
+                  <p class="light italic margin-bottom-1 opacity-8">* Click on <svg class="opacity-6" style="width:18px;height:18px;margin-bottom:-2px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#checkmark"></use></svg> to see how much has been paid back.</p>
+                  <p class="margin-bottom-0 opacity-8"><svg style="fill:#8dc63f;width:21px;height:21px;margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#checkmark"></use></svg> – Fully Repaid</p>
+                  <p class="margin-bottom-0 opacity-8"><svg style="fill:orange;width:21px;height:21px;margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#checkmark"></use></svg> – Partially Repaid</p>
+                </div>
               </li>
             </ul>
           </div>
@@ -85,22 +80,19 @@
   </section>
 
 <!-- Popup KBS10000 -->
-<div class="popup" data-popup-id="pu-kbs">
+<div id="donorPopups"></div>
+<div class="donorPopupDefault popup">
   <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
   <div class="content">
     <div class="container">
       <div class="wrap spaces">
-        
-        
         <h1>Repayment Status</h1>
-        <p><span class="opacity-8">Status of 소풍같은삶 (@kbs10000) donation.</span></p>
+        <p><span class="opacity-8">Status of <span class="donor-name"></span> donation.</span></p>
         <div class="form-55 fix-5-12 popupContent">
           <div class="pad padding-top-3 shadow left selected">
-          
-          <p class="padding-top-2 cropBottom">1,000,000 RDD – REPAID</p>
-          <p class="cropTop cropBottom">-------------</p>
-          <p class="bold">1,110,559.85 RDD – Remaining Balance</p>
-                   
+            <p class="padding-top-2 cropBottom"><span class="donor-paid"></span> – REPAID</p>
+            <p class="cropTop cropBottom">-------------</p>
+            <p class="bold"><span class="donor-rest"></span> – Remaining Balance</p>
           </div>
         </div>
         
@@ -116,6 +108,7 @@
         url: '/fundsapi/get',
         dataType: 'json',
         success: function (data) {
+
           $('#DynamicDevWalletOneUSD').html(data.DevWalletOne.USD);
           $('#DynamicDevWalletOneRDD').html(data.DevWalletOne.RDD);
 
@@ -124,6 +117,62 @@
 
           $('#DynamicDevWalletThreeUSD').html(data.DevWalletThree.USD);
           $('#DynamicDevWalletThreeRDD').html(data.DevWalletThree.RDD);
+
+          console.log(data)
+
+          const lastUpdatedCaption = [
+            new Date(data.LastUpdated).toLocaleDateString('en-US'),
+            new Date(data.LastUpdated).toLocaleTimeString('en-US')
+          ].join(", ")
+          
+          $('#lastUpdatedCaption').html(lastUpdatedCaption);
+
+          const $donorsContent = $('#donorsContent');
+          const $donorsPopups = $('#donorPopups');
+
+          data.PaybackData.map(function (Donor) {
+
+            // <p class="light margin-bottom-1 opacity-8"></p>
+            const DonorRow = $(document.createElement('p'));
+            DonorRow.addClass('light margin-bottom-1 opacity-8');
+
+            let Caption = [
+              '<span class="weight-6">',
+              Donor.DebtText,
+              '</span> – ',
+              Donor.Name
+            ].join('');
+
+            if(Donor.IsPartiallyPaid === true) {
+
+              const $donorPopup = $('.donorPopupDefault').clone();
+              $donorPopup.removeClass('donorPopupDefault');
+
+              $donorPopup.find('.donor-name').html(Donor.Name);
+              $donorPopup.find('.donor-paid').html(Donor.PaidText);
+              $donorPopup.find('.donor-rest').html(Donor.RestText);
+
+              $donorPopup.attr('data-popup-id', Donor.ID);
+
+              $donorsPopups.append($donorPopup);
+
+              if(Donor.IsFullyPaid === true) {
+                Caption += ' <svg class="popupTrigger" data-popup-id="' + Donor.ID + '" style="fill:#8dc63f;width:21px;height:21px;margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#checkmark"></use></svg>';
+              } else {
+                Caption += ' <svg class="popupTrigger" data-popup-id="' + Donor.ID + '" style="fill:orange;width:21px;height:21px;margin-bottom:-5px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#checkmark"></use></svg>';
+              }
+              
+            }
+
+            DonorRow.html(Caption);
+            
+            $donorsContent.append(DonorRow);
+
+          });
+
+          $('#loadingDonorsCaption').remove();
+          $donorsContent.parent().removeClass('hidden');
+
         }
       });
     });
