@@ -2,6 +2,7 @@
 
   // Page Configuration
   $title = 'Redd Terms &amp; Conditions | The Social Currency';
+  $whiteMode = true;
 
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>

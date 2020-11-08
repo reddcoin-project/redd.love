@@ -3,6 +3,12 @@
   if(!isset($title)) {
     $title = 'Redd | The social currency.';
   }
+  if(!isset($exceptFirstSlideMode)) {
+    $exceptFirstSlideMode = false;
+  }
+  if(!isset($whiteMode)) {
+    $whiteMode = false;
+  }
 
 ?>
 <!doctype html>
