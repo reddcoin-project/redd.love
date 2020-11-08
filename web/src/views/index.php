@@ -1,9 +1,12 @@
 <?php
 
-  // Page Configuration
+  // Page Title
   $title = 'Redd | The social currency.';
-  $headerNavBlackBackground = true;
+
+  // Page Frontend Settings
   $exceptFirstSlide = true;
+  $whiteHeader = false;
+  $whiteFooter = false;
 
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>

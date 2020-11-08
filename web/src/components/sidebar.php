@@ -1,6 +1,11 @@
 <?php
 
-  $exceptFirstSlide = isset($exceptFirstSlide) ? $exceptFirstSlide : false;
+  if(!isset($exceptFirstSlide)) {
+    $exceptFirstSlide = false;
+  }
+  if(!isset($whiteHeader)) {
+    $whiteHeader = false;
+  }
 
 ?>
 <!-- Language selector dropdown -->
@@ -15,7 +20,7 @@
 </div>
 
 <!-- Panel Top #01 -->
-<nav class="panel top <?php echo isset($exceptFirstSlide) && $exceptFirstSlide === true ? 'exceptFirstSlide' : ''; ?>">
+<nav class="panel top <?php echo $whiteHeader === true ? 'white' : ''; ?> <?php echo $exceptFirstSlide=== true ? 'exceptFirstSlide' : ''; ?>">
   <div class="sections desktop">
     <div class="left"><a href="/" title="Redd"><svg style="width:158px;height:60px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
     <div class="center">
@@ -115,7 +120,7 @@
 
 <?php if($exceptFirstSlide !== true) { ?>
 <!-- Panel Top #02 -->
-<nav class="panel top <?php echo isset($headerNavBlackBackground) && $headerNavBlackBackground === true ? '' : 'white'; ?> exceptFirstSlide">
+<nav class="panel top <?php echo $whiteHeader === true ? 'white' : ''; ?>">
   <div class="sections desktop">
     <div class="left"><a href="/" title="Redd"><svg style="width:158px;height:60px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
     <div class="center">

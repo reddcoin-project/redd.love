@@ -1,3 +1,13 @@
+<?php
+
+  if(!isset($title)) {
+    $title = 'Redd | The social currency.';
+  }
+  if(!isset($exceptFirstSlideMode)) {
+    $exceptFirstSlideMode = false;
+  }
+
+?>
 <!doctype html>
 <!-- Test -->
 <html lang="en">

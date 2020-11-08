@@ -2,6 +2,8 @@
 
   // Page Configuration
   $title = 'The Future of Redd | The social currency.';
+  $whiteHeader = false;
+  $whiteFooter = true;
 
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>
