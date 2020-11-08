@@ -1335,7 +1335,7 @@ $(document).ready(function() { "use strict";
 */
 
 
-  $('.popupTrigger[data-popup-id]').on('click', function(){
+$('body').on('click', '.popupTrigger[data-popup-id]', function(){
     var popupID   = $(this).data('popup-id'),
         focusOnID = $(this).data('popup-focus-input'); // ID of input to focus on after showing popup
     if(typeof(focusOnID)!="string" && focusOnID!=""){
