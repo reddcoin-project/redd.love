@@ -1,3 +1,10 @@
+<?php
+
+  if(!isset($title)) {
+    $title = 'Redd | The social currency.';
+  }
+
+?>
 <!doctype html>
 <!-- Test -->
 <html lang="en">
