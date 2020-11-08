@@ -1,2 +1,7 @@
 /.deployed
 /.env
+
+/vendor
+/web/public/sitemap.xml
+
+composer.lock

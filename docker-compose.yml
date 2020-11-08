@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  website:
+    container_name: website
+    image: redd/redd.love:local
+    build: .
+    env_file: .env
+    ports:
+      - "80:80"
+    volumes:
+      - "./web:/var/www/html/web"
