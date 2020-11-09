@@ -3,10 +3,12 @@
   // Page Title
   $title = 'Redd | The social currency.';
 
-  // Page Frontend Settings
-  $exceptFirstSlide = true;
-  $whiteHeader = false;
-  $whiteFooter = false;
+  // Page Configuration
+  $navigations = [
+    ['classes' => 'exceptFirstSlide']
+  ];
+  $footerClasses = 'exceptFirstSlide';
+  $showNextSlideButton = true;
 
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>

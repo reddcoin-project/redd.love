@@ -3,6 +3,13 @@
   // Page Configuration
   $title = 'Build with Redd | The Social Currency';
 
+  // Page Configuration
+  $navigations = [
+    [],
+    ['classes' => 'white exceptFirstSlide']
+  ];
+  $footerClasses = 'white exceptFirstSlide';
+
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>
 

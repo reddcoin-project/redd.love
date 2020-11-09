@@ -1,24 +1,26 @@
 <?php
 
-  if(!isset($exceptFirstSlide)) {
-    $exceptFirstSlide = false;
+  if(!isset($footerClasses)) {
+    $footerClasses = '';
   }
-  if(!isset($whiteFooter)) {
-    $whiteFooter = false;
+  if(!isset($showNextSlideButton)) {
+    $showNextSlideButton = false;
   }
 
 ?>
-<!-- Panel Bottom #09 -->
+<?php if($showNextSlideButton === true) { ?>
 <nav class="panel bottom firstSlideOnly">
   <div class="sections">
     <div class="center"><span class="nextSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg></span></div>
   </div>
 </nav>
+<?php } ?>
 
 <!-- Panel Bottom #12 -->
-<!-- English language -->
-<nav class="panel bottom <?php echo $whiteFooter === true ? 'white' : ''; ?> <?php echo $exceptFirstSlide === true ? 'exceptFirstSlide' : ''; ?>" data-lang="en">
-  <div class="sections desktop">
+<nav class="panel bottom <?php echo $footerClasses; ?>">
+
+  <!-- English language -->
+  <div class="sections desktop" data-lang="en">
     <div class="left uppercase">We <svg style="width:27px;height:25px;margin-bottom:-3px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use></svg> our community</div>
     <div class="center">
 
@@ -39,17 +41,9 @@
       </ul>
     </div>
   </div>
-  
-  <div class="sections compact hidden">
-    <!-- <div class="left">
-      <a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
-    </div> -->
-  </div>
-</nav>
 
-<!-- Deutsch language -->
-<nav class="panel bottom <?php echo $whiteFooter === true ? 'white' : ''; ?> <?php echo $exceptFirstSlideMode === true ? 'exceptFirstSlide' : ''; ?>" data-lang="de" style="display:none;">
-  <div class="sections desktop">
+  <!-- Deutsch language -->
+  <div class="sections desktop" data-lang="de" style="display:none;">
     <div class="left uppercase">Wir <svg style="width:27px;height:25px;margin-bottom:-3px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use></svg> euch</div>
     <div class="center">
       <ul class="menu uppercase">
@@ -68,17 +62,9 @@
       </ul>
     </div>
   </div>
-  
-  <div class="sections compact hidden">
-    <!-- <div class="left">
-      <a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
-    </div> -->
-  </div>
-</nav>
 
-<!-- Korean language -->
-<nav class="panel bottom <?php echo $whiteFooter === true ? 'white' : ''; ?> <?php echo $exceptFirstSlideMode === true ? 'exceptFirstSlide' : ''; ?>" data-lang="ko" style="display:none;">
-  <div class="sections desktop">
+  <!-- Korean language -->
+  <div class="sections desktop" data-lang="ko" style="display:none;">
     <div class="left uppercase">우리는 <svg style="width:27px;height:25px;margin-bottom:-3px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use></svg> 우리의 커뮤니티</div>
     <div class="center">
       <ul class="menu uppercase">
@@ -98,16 +84,8 @@
     </div>
   </div>
   
-  <div class="sections compact hidden">
-    <!-- <div class="left">
-      <a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
-    </div> -->
-  </div>
-</nav>
-
-<!-- Russian language -->
-<nav class="panel bottom <?php echo $whiteFooter === true ? 'white' : ''; ?> <?php echo $exceptFirstSlideMode === true ? 'exceptFirstSlide' : ''; ?>" data-lang="ru" style="display:none;">
-  <div class="sections desktop">
+  <!-- Russian language -->
+  <div class="sections desktop" data-lang="ru" style="display:none;">
     <div class="left uppercase">Мы <svg style="width:27px;height:25px;margin-bottom:-3px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use></svg> наше сообщество</div>
     <div class="center">
 

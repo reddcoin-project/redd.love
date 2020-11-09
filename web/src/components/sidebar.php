@@ -1,10 +1,7 @@
 <?php
 
-  if(!isset($exceptFirstSlide)) {
-    $exceptFirstSlide = false;
-  }
-  if(!isset($whiteHeader)) {
-    $whiteHeader = false;
+  if(!isset($navigations)) {
+    $navigations = [];
   }
 
 ?>
@@ -19,8 +16,8 @@
   </ul>
 </div>
 
-<!-- Panel Top #01 -->
-<nav class="panel top <?php echo $whiteHeader === true ? 'white' : ''; ?> <?php echo $exceptFirstSlide=== true ? 'exceptFirstSlide' : ''; ?>">
+<?php foreach($navigations as $navigation) { ?>
+<nav class="panel top <?php echo isset($navigation['classes']) ? $navigation['classes'] : ''; ?>">
   <div class="sections desktop">
     <div class="left"><a href="/" title="Redd"><svg style="width:158px;height:60px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
     <div class="center">
@@ -74,6 +71,9 @@
   </div>
 </nav>
 
+<?php } ?>
+
+
 <!-- English Menu dropdown -->
 <ul class="dropdown top left center customDropdown" data-dropdown-id="dropdown-menu-en">
     <li class="selected wide">
@@ -117,63 +117,6 @@
       </ul>
     </li>
 </ul>
-
-<?php if($exceptFirstSlide !== true) { ?>
-<!-- Panel Top #02 -->
-<nav class="panel top <?php echo $whiteHeader === true ? 'white' : ''; ?>">
-  <div class="sections desktop">
-    <div class="left"><a href="/" title="Redd"><svg style="width:158px;height:60px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
-    <div class="center">
-    
-      <!-- English language -->
-      <ul class="menu small" data-lang="en">
-        <li><a href="/">Home</a></li>
-        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-en">About <i class="material-icons">expand_more</i></li>
-        <li><a href="technology.html">Technology</a></li>
-        <li><a href="developers.html">Developers</a></li>
-        <li><a href="https://medium.com/projectredd">News</a></li>
-        <li><a href="join.html">Join</a></li>
-      </ul>
-      
-      <!-- Deutsch language -->
-      <ul class="menu" data-lang="de" style="display:none;">
-        <li><a href="/">Home</a></li>
-        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-de">Über Uns <i class="material-icons">expand_more</i></li>
-        <li><a href="technology.html">Technologie</a></li>
-        <li><a href="developers.html">Entwickler</a></li>
-        <li><a href="https://medium.com/projectredd">Nachrichten</a></li>
-        <li><a href="join.html">Mitmachen</a></li>
-      </ul>
-      
-      <!-- Korean language -->
-      <ul class="menu" data-lang="ko" style="display:none;">
-        <li><a href="/">홈</a></li>
-        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ko">소개 <i class="material-icons">expand_more</i></li>
-        <li><a href="technology.html">기술</a></li>
-        <li><a href="developers.html">개발자</a></li>
-        <li><a href="https://medium.com/projectredd">뉴스</a></li>
-        <li><a href="join.html">함께해요</a></li>
-      </ul>
-      
-      <!-- Russian language -->
-      <ul class="menu small" data-lang="ru" style="display:none;">
-        <li><a href="/">Главная</a></li>
-        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ru">О нас <i class="material-icons">expand_more</i></li>
-        <li><a href="technology.html">Технология</a></li>
-        <li><a href="developers.html">Разработчики</a></li>
-        <li><a href="https://medium.com/projectredd">Присоединиться</a></li>
-        <li><a href="join.html">Присоединиться</a></li>
-      </ul>
-      
-    </div>
-    <div class="right"><span data-dropdown-id="language" class="button actionButton dropdownTrigger">EN</span></div>
-  </div>
-  <div class="sections compact hidden">
-    <div class="left"><a href="/" title="Redd"><svg style="width:158px;height:60px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
-    <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
-  </div>
-</nav>
-<?php } ?>
 
 <!-- Sidebar -->
 <nav class="sidebar" data-sidebar-id="1">

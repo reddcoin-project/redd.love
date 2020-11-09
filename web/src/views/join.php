@@ -3,6 +3,11 @@
   // Page Configuration
   $title = 'Join Redd | The Social Currency';
 
+  // Page Configuration
+  $navigations = [
+    []
+  ];
+
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>
 

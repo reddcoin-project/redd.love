@@ -2,8 +2,12 @@
 
   // Page Configuration
   $title = 'Redd | The social currency.';
-  $whiteHeader = true;
-  $whiteFooter = true;
+
+  // Page Configuration
+  $navigations = [
+    ['classes' => 'white']
+  ];
+  $footerClasses = 'white';
 
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>
