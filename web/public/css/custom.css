@@ -107,3 +107,9 @@
 .mt-0 {
   margin-top: 0 !important;
 }
+
+.donation-qr-code {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}

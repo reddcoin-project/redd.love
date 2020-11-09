@@ -158,28 +158,28 @@
 			  
 			  <!-- English language -->
 			  <div class="pad padding-top-2 shadow center selected" data-lang="en">
-				<img class="margin-top-3" width="350" height="350" src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
+				<img class="margin-top-3 donation-qr-code" width="350" height="350" src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
 				<h4 class="smaller margin-top-2 margin-bottom-0">Charity &amp; Community Activities</h4>
 				<p class="small margin-top-0 margin-bottom-0 break-word">Recrcq8moZjbEHVoJx6JiQ2mfZkQnktvnf</p>
 			  </div>
 			  
 			  <!-- Deutsch language -->
 			  <div class="pad padding-top-2 shadow center selected" data-lang="de" style="display:none;">
-				<img class="margin-top-3" width="350" height="350"  src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
+				<img class="margin-top-3 donation-qr-code" width="350" height="350"  src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
 				<h4 class="smaller margin-top-2 margin-bottom-0">Wohltätigkeits und Gemeinschaftsaktivitäten</h4>
 				<p class="small margin-top-0 margin-bottom-0 break-word">Recrcq8moZjbEHVoJx6JiQ2mfZkQnktvnf</p>
 			  </div>
 			  
 			  <!-- Korean language -->
 			  <div class="pad padding-top-2 shadow center selected" data-lang="ko" style="display:none;">
-				<img class="margin-top-3" width="350" height="350"  src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
+				<img class="margin-top-3 donation-qr-code" width="350" height="350"  src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
 				<h4 class="smaller margin-top-2 margin-bottom-0">자선 및 지역 사회 활동</h4>
 				<p class="small margin-top-0 margin-bottom-0 break-word">Recrcq8moZjbEHVoJx6JiQ2mfZkQnktvnf</p>
 			  </div>
 			  
 			  <!-- Russian language -->
 			  <div class="pad padding-top-2 shadow center selected" data-lang="ru" style="display:none;">
-				<img class="margin-top-3" width="350" height="350"  src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
+				<img class="margin-top-3 donation-qr-code" width="350" height="350"  src="assets/img/redd-qr.jpg" alt="Redd Donation Address"/>
 				<h4 class="smaller margin-top-2 margin-bottom-0">Благотворительность и общественная деятельность</h4>
 				<p class="small margin-top-0 margin-bottom-0 break-word">Recrcq8moZjbEHVoJx6JiQ2mfZkQnktvnf</p>
 			  </div>
