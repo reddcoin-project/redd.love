@@ -47,9 +47,16 @@
 }
 .panel .menu > li .material-icons {
   vertical-align: middle;
+  position: absolute;
+  top: 7px;
+  right: 14px;
+}
+
+.panel.top .menu .dropdownTrigger {
   position: relative;
-  top: 2px;
-  margin-top: -6px;
+}
+.panel.top .menu .dropdownTrigger a {
+  padding-right: 42px;
 }
 
 .dropdown.customDropdown { padding:10px 0; width: 200px;}
