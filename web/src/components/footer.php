@@ -7,6 +7,15 @@
     $showNextSlideButton = false;
   }
 
+  $footerScriptsString = '';
+  if(PRODUCTION === true && file_exists(CACHE_DIR . '/scripts.min.js')) {
+    $footerScriptsString = '<script src="/scripts.min.js?[version]"></script>';
+  } else {
+    foreach($js as $jsPath) {
+      $footerScriptsString .= '<script src="' . $jsPath . '?[version]"></script>';
+    }
+  }
+
 ?>
 <?php if($showNextSlideButton === true) { ?>
 <nav class="panel bottom firstSlideOnly">
@@ -28,7 +37,7 @@
         <li><a href="/privacy/">Privacy</a></li>
         <li><a href="/privacy/">Terms of Use</a></li>
         <li><a href="/press/">Press Kit</a></li>
-        <li><div class="popupTrigger opacity-8" data-popup-id="contact">Donations</div></li>
+        <li><a href="javascript:" class="popupTrigger opacity-8" data-popup-id="contact">Donations</a></li>
       </ul>
       
     </div>
@@ -50,7 +59,7 @@
         <li><a href="/privacy/">Privatsphäre</a></li>
         <li><a href="/privacy/">Nutzungsbedingungen</a></li>
         <li><a href="/press/">Pressemappe</a></li>
-        <li><div class="popupTrigger opacity-8" data-popup-id="contact">Spenden</div></li>
+        <li><a href="javascript:" class="popupTrigger opacity-8" data-popup-id="contact">Spenden</a></li>
       </ul>
     </div>
     <div class="right">
@@ -71,7 +80,7 @@
         <li><a href="/privacy/">개인정보</a></li>
         <li><a href="/privacy/">이용약관</a></li>
         <li><a href="/press/">보도자료</a></li>
-        <li><div class="popupTrigger opacity-8" data-popup-id="contact">기부</div></li>
+        <li><a href="javascript:" class="popupTrigger opacity-8" data-popup-id="contact">기부</a></li>
       </ul>
     </div>
     <div class="right">
@@ -93,7 +102,7 @@
         <li><a href="/privacy/">Политика конфиденциальности</a></li>
         <li><a href="/privacy/">Условия использования</a></li>
         <li><a href="/press/">Подборка для прессы</a></li>
-        <li><div class="popupTrigger opacity-8" data-popup-id="contact">Пожертвования</div></li>
+        <li><a href="javascript:" class="popupTrigger opacity-8" data-popup-id="contact">Пожертвования</a></li>
       </ul>
       
     </div>
@@ -194,11 +203,7 @@
   </div>
 </div>
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/slides.js?[version]"></script>
-<script src="/js/plugins.js?[version]"></script>
-<script src="/js/sidebar.js?[version]"></script>
-<script src="/js/custom.js?[version]"></script>
+<?php echo $footerScriptsString; ?>
 
 </body>
 
