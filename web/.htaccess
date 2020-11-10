@@ -12,6 +12,12 @@ RewriteRule (.*) %{REQUEST_URI}/ [R=301,L]
 
 RewriteRule ^api/contact/send/$ ajax-email.php [NC,L]
 
+RewriteCond %{DOCUMENT_ROOT}/cache/styles.min.css -f
+RewriteRule ^styles\.min\.css$ /cache/styles.min.css [NC,L]
+
+RewriteCond %{DOCUMENT_ROOT}/cache/scripts.min.js -f
+RewriteRule ^scripts\.min\.js /cache/scripts.min.js [NC,L]
+
 RewriteCond %{DOCUMENT_ROOT}/cache/index.html -f
 RewriteRule ^(.+)/$ /cache/$1.html [NC,L]
 
