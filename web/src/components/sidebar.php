@@ -25,7 +25,7 @@
       <!-- English language -->
       <ul class="menu small" data-lang="en">
         <li><a href="/">Home</a></li>
-        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-en">About <i class="material-icons">expand_more</i></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-en"><a href="javascript:">About</a> <i class="material-icons">expand_more</i></li>
         <li><a href="/technology/">Technology</a></li>
         <li><a href="/developers/">Developers</a></li>
         <li><a href="https://medium.com/projectredd">News</a></li>
