@@ -20,6 +20,16 @@
       '?[version]' => '?version=' . sha1(date('c'))
     ]);
 
+    die();
+
   }
+
+  if(!isset($_SERVER["HTTP_REFERER"])) {
+    header('Location: /');
+    die();
+  }
+
+  header("HTTP/1.0 404 Not Found");
+  die();
 
 ?>
