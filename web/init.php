@@ -9,11 +9,26 @@
   define('COMPONENT_DIR', SRC_DIR . '/components');
   define('VIEW_DIR', SRC_DIR . '/views');
 
-  if($_ENV['STAGE'] === 'production') {
+  $overrideStage = isset($stage) ? $stage : false;
+  if($_ENV['STAGE'] === 'production' or $overrideStage === 'production') {
     define('PRODUCTION', true);
   } else {
     define('PRODUCTION', false);
   }
+
+  $css = [
+    '/css/slides.css',
+    '/css/sidebar.css',
+    '/css/custom.css'
+  ];
+
+  $js = [
+    '/js/jquery.min.js',
+    '/js/slides.js',
+    '/js/plugins.js',
+    '/js/sidebar.js',
+    '/js/custom.js'
+  ];
 
   include(VENDOR_DIR . '/autoload.php');
 
