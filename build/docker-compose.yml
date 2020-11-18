@@ -1,9 +1,0 @@
-version: "3.7"
-services:
-  website:
-    container_name: website
-    build: .
-    ports:
-      - "80:80"
-    volumes:
-      - "..:/var/www/html"

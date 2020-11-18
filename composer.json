@@ -1,0 +1,22 @@
+{
+    "name": "redd/redd.love",
+    "description": "Official Redd Website",
+    "type": "project",
+    "authors": [
+        {
+            "name": "robin",
+            "email": "robin@shroomlife.de"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.1",
+        "wyrihaximus/html-compress": "^4.0",
+        "matthiasmullie/minify": "^1.3"
+    },
+    "scripts": {
+      "start": "docker-compose up -d --build",
+      "clear": "php scripts/clear.php",
+      "build": "php scripts/build.php",
+      "create-sitemap": "php scripts/create-sitemap.php"
+    }
+}
