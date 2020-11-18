@@ -28,6 +28,10 @@ $.fn.extend({
 var defaultLang = 'en',
   cookieLang = $.cookie('current-lang') ? $.cookie('current-lang') : defaultLang;
 
+if($.cookie('current-lang') === null) {
+  $.cookie('current-lang', defaultLang, { expires: 30, path: '/' });
+}
+
 if (defaultLang !== cookieLang) switchToLang(cookieLang);
 
 //switch languages on click from menu
@@ -53,7 +57,7 @@ function switchToLang(newLang) {
 
   //set language for future needs
   $('body').attr('data-current-lang', newLang);
-  $.cookie('current-lang', newLang);
+  $.cookie('current-lang', newLang, { expires: 30, path: '/' });
 
   //Recalculate panels and equal elements
   $(window).resize();
