@@ -2005,8 +2005,13 @@ html.mobile .showForMobileInline {
   padding: 7px 27px;
 }
 
-.panel .sections .menu li a:hover {
-	opacity: 1
+.panel .sections .menu li i.material-icons {
+  pointer-events: none !important;
+  
+}
+.panel .sections .menu li a:hover,
+.panel .sections .menu li a:hover + i {
+	opacity: 1 !important
 }
 
 .panel .sections .menu.uppercase li {
