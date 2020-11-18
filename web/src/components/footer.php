@@ -116,11 +116,6 @@
     </div>
   </div>
   
-  <div class="sections compact hidden">
-    <!-- <div class="left">
-      <a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
-    </div> -->
-  </div>
 </nav>
 
 <!-- Popup Donation Window -->

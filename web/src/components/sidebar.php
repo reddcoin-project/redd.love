@@ -25,7 +25,7 @@
       <!-- English language -->
       <ul class="menu small" data-lang="en">
         <li><a href="/">Home</a></li>
-        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-en"><a href="javascript:">About</a> <i class="material-icons">expand_more</i></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-en"><a href="javascript:">About</a> <i class="material-icons opacity-8">expand_more</i></li>
         <li><a href="/technology/">Technology</a></li>
         <li><a href="/developers/">Developers</a></li>
         <li><a href="https://medium.com/projectredd">News</a></li>
@@ -35,7 +35,7 @@
       <!-- Deutsch language -->
       <ul class="menu" data-lang="de" style="display:none;">
         <li><a href="/">Home</a></li>
-        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-de">Über Uns <i class="material-icons">expand_more</i></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-de"><a href="javascript:">Über Uns</a> <i class="material-icons">expand_more</i></li>
         <li><a href="/technology/">Technologie</a></li>
         <li><a href="/developers/">Entwickler</a></li>
         <li><a href="https://medium.com/projectredd">Nachrichten</a></li>
@@ -45,7 +45,7 @@
       <!-- Korean language -->
       <ul class="menu" data-lang="ko" style="display:none;">
         <li><a href="/">홈</a></li>
-        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ko">소개 <i class="material-icons">expand_more</i></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ko"><a href="javascript:">소개</a> <i class="material-icons">expand_more</i></li>
         <li><a href="/technology/">기술</a></li>
         <li><a href="/developers/">개발자</a></li>
         <li><a href="https://medium.com/projectredd">뉴스</a></li>
@@ -55,7 +55,7 @@
       <!-- Russian language -->
       <ul class="menu small" data-lang="ru" style="display:none;">
         <li><a href="/">Главная</a></li>
-        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ru">О нас <i class="material-icons">expand_more</i></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ru"><a href="javascript:">О нас</a> <i class="material-icons">expand_more</i></li>
         <li><a href="/technology/">Технология</a></li>
         <li><a href="/developers/">Разработчики</a></li>
         <li><a href="https://medium.com/projectredd">Присоединиться</a></li>

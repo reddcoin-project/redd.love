@@ -10,11 +10,10 @@
   $footerClasses = 'exceptFirstSlide';
   $showNextSlideButton = true;
 
+  $bodyClasses = 'stack';
+
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>
-
-<body class="slides stack animated noPreload">
-
 <?php include(COMPONENT_DIR . '/svg.php'); ?>
 <?php include(COMPONENT_DIR . '/sidebar.php'); ?>
 

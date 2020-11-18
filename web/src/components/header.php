@@ -13,6 +13,10 @@
     }
   }
 
+  if(!isset($bodyClasses)) {
+    $bodyClasses = 'scroll';
+  }
+
 ?>
 <!doctype html>
 <!-- Test -->
@@ -75,3 +79,5 @@
   </script>
 
 </head>
+
+<body class="slides animated noPreload <?php echo $bodyClasses; ?>">

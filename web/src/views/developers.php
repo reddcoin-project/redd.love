@@ -12,9 +12,6 @@
 
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>
-
-<body class="slides scroll animated noPreload">
-
 <?php include(COMPONENT_DIR . '/svg.php'); ?>
 <?php include(COMPONENT_DIR . '/sidebar.php'); ?>
 
