@@ -12,4 +12,6 @@ $(document).ready(function() {
 
   }
 
+  $('body').removeClass('js-loading');
+
 })

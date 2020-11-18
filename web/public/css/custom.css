@@ -50,6 +50,7 @@
   position: absolute;
   top: 7px;
   right: 14px;
+  transition: .35s;
 }
 
 .panel.top .menu .dropdownTrigger {
@@ -119,4 +120,10 @@
   width: 100%;
   max-width: 350px;
   height: auto;
+}
+
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
 }
