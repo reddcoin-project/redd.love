@@ -123,7 +123,7 @@
           const lastUpdatedCaption = [
             new Date(data.LastUpdated).toLocaleDateString('en-US'),
             new Date(data.LastUpdated).toLocaleTimeString('en-US')
-          ].join(", ")
+          ].join(", ");
           
           $('#lastUpdatedCaption').html(lastUpdatedCaption);
 
