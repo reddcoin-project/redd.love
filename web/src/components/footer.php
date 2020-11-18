@@ -115,6 +115,8 @@
       </ul>
     </div>
   </div>
+
+  <div class="sections compact hidden"></div>
   
 </nav>
 
