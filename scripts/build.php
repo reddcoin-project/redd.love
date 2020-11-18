@@ -19,6 +19,14 @@
     if($fileInfo['extension'] !== 'php') continue;
 
     $pageName = $fileInfo['filename'];
+    
+    // Header Attributes
+    if(isset($title)) unset($title);
+    if(isset($bodyClasses)) unset($bodyClasses);
+
+    // Footer Attributes
+    if(isset($bodyClasses)) unset($showNextSlideButton);
+    if(isset($bodyClasses)) unset($footerClasses);
 
     ob_start();
     include $fullPath;
