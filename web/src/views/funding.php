@@ -8,7 +8,7 @@
     []
   ];
 
-  $bodyClasses = 'loadFundsData';
+  $bodyClasses = 'stack loadFundsData';
 
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>
