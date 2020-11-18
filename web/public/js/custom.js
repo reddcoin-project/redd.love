@@ -1,4 +1,7 @@
 $(document).ready(function () {
+  
+  $("body").removeClass("js-loading");
+
   if (typeof Redd !== "undefined") {
     if (typeof Redd.onReady !== "undefined") {
       for (onReadyFunction of Redd.onReady) {
@@ -79,7 +82,5 @@ $(document).ready(function () {
       },
     });
   }
-
-  $("body").removeClass("js-loading");
 
 });
