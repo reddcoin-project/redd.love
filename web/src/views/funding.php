@@ -120,8 +120,6 @@
           $('#DynamicDevWalletThreeUSD').html(data.DevWalletThree.USD);
           $('#DynamicDevWalletThreeRDD').html(data.DevWalletThree.RDD);
 
-          console.log(data)
-
           const lastUpdatedCaption = [
             new Date(data.LastUpdated).toLocaleDateString('en-US'),
             new Date(data.LastUpdated).toLocaleTimeString('en-US')
