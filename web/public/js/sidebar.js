@@ -50,7 +50,7 @@ function switchToLang(newLang) {
 
   //swap content
   $('[data-lang="' + currentLang + '"]').hide();
-  $('[data-lang="' + newLang + '"]').show();
+  $('[data-lang="' + newLang + '"]:not(.hidden)').show();
 
   //change language in panel
   $('.dropdownTrigger[data-dropdown-id="language"]').text(newLang);
