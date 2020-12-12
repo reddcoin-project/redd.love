@@ -130,7 +130,7 @@ $(function(){
             <li class="col-7-12">
               <h1>ReddCoin (RDD) Exchange Crowdfund</h1>
               <p>As mentioned in a recent blog post, Redd is exploring listing ReddCoin (RDD) on either BitMart, Liquid.com, Bitrue, CoinTiger or ProBit. As various members of our community has long requested more access to RDD, being a voluntary-based project we don’t exactly have the funds necessary to meet most requirements outlined by exchanges. As a result, we are looking to the community to help crowdfund this process. If you would like to donate ReddCoin to these efforts, please send it to the below address.</p>
-              <h4>So far XXX RDD has been raised!</h4>
+              <h4>So far <span style="color:red;">1,348,569 RDD</span> has been raised!</h4>
               <p><strong>ReddCoin (RDD) Donation Address:</strong> RqQ4qnJCAcqxPqsvMtyJx73eyVyWtpjN73</p>
               <a href="https://medium.com/projectredd/reddhead-community-outreach-reddcoin-rdd-exchange-crowdfund-2020-cc65c0f7c55b" target="_blank" class="button red small cropLeft">See details<i class="material-icons right">open_in_new</i></a>
             </li>
