@@ -25,6 +25,8 @@ $(document).ready(function () {
         $("#DynamicDevWalletThreeUSD").html(data.DevWalletThree.USD);
         $("#DynamicDevWalletThreeRDD").html(data.DevWalletThree.RDD);
 
+        $("#FundingExchanges2021Amount").html(data.ExchangeFundAmountFormatted);
+
         const lastUpdatedCaption = [
           new Date(data.LastUpdated).toLocaleDateString("en-US"),
           new Date(data.LastUpdated).toLocaleTimeString("en-US"),

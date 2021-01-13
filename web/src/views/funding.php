@@ -8,7 +8,9 @@
     []
   ];
 
-  $bodyClasses = 'scroll loadFundsData';
+  $js[] = '/js/charts.js';
+
+  $bodyClasses = 'stack loadFundsData';
 
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>
@@ -82,6 +84,61 @@
     </div>
     <div class="background" style="background-image:url(assets/img/background/img-65.jpg)"></div>
   </section>
+
+  	<!-- Chartist Scripts -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+	<script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+
+<!-- Chartist Colors -->
+<style>
+  .ct-series-a .ct-slice-donut {
+    stroke: #F44336;
+  }
+  .ct-series-b .ct-slice-donut {
+    stroke: #FF9800;
+  }
+  .ct-series-c .ct-slice-donut {
+    stroke: #FFC107;
+  }
+  .ct-series-d .ct-slice-donut {
+    stroke: #4CAF50;
+  }
+  .ct-series-e .ct-slice-donut {
+    stroke: #00BCD4;
+  }
+  .ct-series-f .ct-slice-donut {
+    stroke: #2196F3;
+  }
+  .ct-series-g .ct-slice-donut {
+    stroke: #673AB7;
+  }
+</style>
+
+<!-- Slide 2 -->
+<section class="slide whiteSlide chartist">
+  <div class="content">
+    <div class="container">
+      <div class="wrap left">
+
+        <div class="fix-12-12">
+          <ul class="flex">
+            <li class="col-5-12">
+              <div class="ct-chart" style="height: 400px"></div>
+            </li>
+            <li class="col-7-12">
+              <h1>ReddCoin (RDD) Exchange Crowdfund</h1>
+              <p>As mentioned in a recent blog post, Redd is exploring listing ReddCoin (RDD) on either BitMart, Liquid.com, Bitrue, CoinTiger or ProBit. As various members of our community has long requested more access to RDD, being a voluntary-based project we don’t exactly have the funds necessary to meet most requirements outlined by exchanges. As a result, we are looking to the community to help crowdfund this process. If you would like to donate ReddCoin to these efforts, please send it to the below address.</p>
+              <h4>So far <span id="FundingExchanges2021Amount" style="color:red;">--- RDD</span> have been raised!</h4>
+              <p><strong>ReddCoin (RDD) Donation Address:</strong> RqQ4qnJCAcqxPqsvMtyJx73eyVyWtpjN73</p>
+              <a href="https://medium.com/projectredd/reddhead-community-outreach-reddcoin-rdd-exchange-crowdfund-2020-cc65c0f7c55b" target="_blank" class="button red small cropLeft">See details<i class="material-icons right">open_in_new</i></a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Popup KBS10000 -->
 <div id="donorPopups"></div>
