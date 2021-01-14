@@ -91,10 +91,10 @@
 <!-- Chartist Colors -->
 <style>
   .ct-series-a .ct-slice-donut {
-    stroke: red;
+    stroke: #F44336;
   }
   .ct-series-b .ct-slice-donut {
-    stroke: lightgray;
+    stroke: #e7e7e7;
   }
 </style>
 
