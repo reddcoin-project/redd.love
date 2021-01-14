@@ -8,6 +8,9 @@
     []
   ];
 
+  $css [] = 'https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css';
+
+  $js[] = 'https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js';
   $js[] = '/js/charts.js';
 
   $bodyClasses = 'stack loadFundsData';
@@ -85,32 +88,13 @@
     <div class="background" style="background-image:url(assets/img/background/img-65.jpg)"></div>
   </section>
 
-  	<!-- Chartist Scripts -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
-	<script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
-
 <!-- Chartist Colors -->
 <style>
   .ct-series-a .ct-slice-donut {
-    stroke: #F44336;
+    stroke: red;
   }
   .ct-series-b .ct-slice-donut {
-    stroke: #FF9800;
-  }
-  .ct-series-c .ct-slice-donut {
-    stroke: #FFC107;
-  }
-  .ct-series-d .ct-slice-donut {
-    stroke: #4CAF50;
-  }
-  .ct-series-e .ct-slice-donut {
-    stroke: #00BCD4;
-  }
-  .ct-series-f .ct-slice-donut {
-    stroke: #2196F3;
-  }
-  .ct-series-g .ct-slice-donut {
-    stroke: #673AB7;
+    stroke: lightgray;
   }
 </style>
 
