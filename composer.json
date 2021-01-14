@@ -3,12 +3,6 @@
     "version": "1.0.0",
     "description": "Official Redd Website",
     "type": "project",
-    "authors": [
-        {
-            "name": "robin",
-            "email": "robin@shroomlife.de"
-        }
-    ],
     "require": {
         "phpmailer/phpmailer": "^6.1",
         "wyrihaximus/html-compress": "^4.0",
