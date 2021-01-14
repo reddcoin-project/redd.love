@@ -8,10 +8,9 @@
     []
   ];
 
+  // add chartist styles and scripts
   $css [] = 'https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css';
-
   $js[] = 'https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js';
-  $js[] = '/js/charts.js';
 
   $bodyClasses = 'stack loadFundsData';
 

@@ -25,7 +25,6 @@ $(document).ready(function () {
         $("#DynamicDevWalletThreeUSD").html(data.DevWalletThree.USD);
         $("#DynamicDevWalletThreeRDD").html(data.DevWalletThree.RDD);
 
-        window.FundingExchanges2021Amount = data.ExchangeFundAmount;
         $("#FundingExchanges2021Amount").html(data.ExchangeFundAmountFormatted);
 
         const lastUpdatedCaption = [
@@ -83,7 +82,7 @@ $(document).ready(function () {
         $("#loadingDonorsCaption").remove();
         $donorsContent.parent().removeClass("hidden");
 
-        loadChartExchangeFundData();
+        loadChartExchangeFundData(data.ExchangeFundAmount);
 
       },
     });
@@ -92,14 +91,19 @@ $(document).ready(function () {
 });
 
 /* Function to load Exchange Fund Pie Chart */
-function loadChartExchangeFundData() {
+function loadChartExchangeFundData(ExchangeFundAmount) {
   $(window).on('slideChange',function(event, number, element){
 
     //animate only if slide has class chartist
     if (!$(element).hasClass('chartist')) return;
+
+    const totalNeeded = 20000000;
+    if (ExchangeFundAmount >= totalNeeded) {
+      ExchangeFundAmount = 20000000
+    }
   
     var chart = new Chartist.Pie('.ct-chart', {
-      series: [window.FundingExchanges2021Amount, 20000000]
+      series: [ExchangeFundAmount, totalNeeded]
     }, {
       donut: true,
       showLabel: false

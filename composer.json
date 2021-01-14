@@ -1,5 +1,6 @@
 {
     "name": "redd/redd.love",
+    "version": "1.0.0",
     "description": "Official Redd Website",
     "type": "project",
     "authors": [
