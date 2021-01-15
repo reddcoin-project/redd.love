@@ -40,7 +40,7 @@ $(document).ready(function () {
         data.PaybackData.map(function (Donor) {
           // <p class="light margin-bottom-1 opacity-8"></p>
           const DonorRow = $(document.createElement("p"));
-          DonorRow.addClass("light margin-bottom-1 opacity-8");
+          DonorRow.addClass("donor-row light margin-bottom-1 opacity-8");
 
           let Caption = [
             '<span class="weight-6">',
