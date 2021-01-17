@@ -110,7 +110,7 @@
             </li>
             <li class="col-7-12">
               <h1>ReddCoin (RDD) Exchange Crowdfund</h1>
-              <p>As mentioned in a recent blog post, Redd is exploring listing ReddCoin (RDD) on either BitMart, Liquid.com, Bitrue, CoinTiger or ProBit. As a result, we are looking to the community to help crowdfund this process. If you would like to donate ReddCoin to these efforts, please send it to the below address.</p>
+              <p>As mentioned in a recent blog post, Redd is exploring listing ReddCoin (RDD) on BitMart, Liquid.com, Bitrue, CoinTiger or ProBit. As a result, we are looking to the community to help crowdfund this process. If you would like to donate ReddCoin to these efforts, please send it to the below address.</p>
               <h4>So far <span id="FundingExchanges2021Amount" style="color:red;">--- RDD</span> have been raised!</h4>
               <p><strong>ReddCoin (RDD) Donation Address:</strong> RqQ4qnJCAcqxPqsvMtyJx73eyVyWtpjN73</p>
               <a href="https://medium.com/projectredd/reddhead-community-outreach-reddcoin-rdd-exchange-crowdfund-2020-cc65c0f7c55b" target="_blank" class="button red small cropLeft">See details<i class="material-icons right">open_in_new</i></a>
