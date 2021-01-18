@@ -7,12 +7,13 @@
   $navigations = [
     []
   ];
+  $footerClasses = 'white exceptFirstSlide';
 
   // add chartist styles and scripts
   $css [] = 'https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css';
   $js[] = 'https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js';
 
-  $bodyClasses = 'stack loadFundsData';
+  $bodyClasses = 'stack scroll loadFundsData';
 
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>
@@ -20,15 +21,15 @@
 <?php include(COMPONENT_DIR . '/sidebar.php'); ?>
 
   <!-- Slide 1 (#65) -->
-  <section class="slide fade-6 kenBurns">
+  <section class="slide fade-6 kenBurns" data-name="funding">
     <div class="content">
       <div class="container">
         <div class="wrap">
 
-          <div class="fix-10-12">
+          <div class="fix-11-12">
             <h1 class="margin-bottom-2 ae-1">Project Funding</h1>
             <p class="larger light ae-2"><span class="opacity-8">Redd prides itself on being fully transparent with our
-                community. As a result, this page shows the real time status of the projects funding along with the list
+                community. As a result, this page shows the realtime status of the projects funding along with the list
                 of our top donors.</span></p>
           </div>
 
@@ -66,6 +67,7 @@
                   v2 spec. (See the <a href="assets/doc/Redd-Paper.pdf">Redd Paper</a> for details)</p>
                   
                 <small class="opacity-6">Last Updated: <span id="lastUpdatedCaption"></span></small>
+                <a href="#crowdfund" class="button red rounded crop margin-top-2 ae-3">View Exchange Crowdfunding Campaign</a>
               </li>
               <li class="col-6-12 col-tablet-1-2 col-phablet-1-1 ae-3">
                 <h3 class="margin-bottom-1">Major Donors</h3>
@@ -98,7 +100,7 @@
 </style>
 
 <!-- Slide 2 -->
-<section class="slide whiteSlide chartist">
+<section class="slide whiteSlide chartist" data-name="crowdfund">
   <div class="content">
     <div class="container">
       <div class="wrap left">
