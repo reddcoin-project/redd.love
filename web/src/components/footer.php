@@ -200,6 +200,26 @@
   </div>
 </div>
 
+<div class="dialogContainer bottom">
+	
+	<!-- Crowdfund Dialog -->
+	<div class="dialog rounded hidden"data-dialog-id="reveal-3" data-dialog-action="open" data-dialog-open-delay="3000">
+		<div class="close" data-dialog-action="close"></div>
+		<a href="/funding/#crowdfund" target="_blank"><img src="assets/img/crowdfund-pic.png" class="wide" alt="img"/></a>
+		<div class="dialogContent">
+			<div class="text center">
+				<div class="h4 small bold">Exchange Crowdfunding</div>
+					Donate ReddCoin to help us get onto more exchanges.
+			</div>
+		</div>
+		<ul>
+			<li class="button red" data-href="/funding/#crowdfund" data-target="_self" data-dialog-action="close">Learn more</li>
+			<li data-dialog-action="close">Close</li>
+		</ul>
+	</div>
+
+</div>
+
 <?php echo $footerScriptsString; ?>
 
 </body>
