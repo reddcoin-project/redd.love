@@ -102,12 +102,6 @@ $.fn.slidesDialog = function( options ) {
       $(this).parents('form').submit();
     });
 
-    // Set cookie if data-dialog-cookie-age is set
-    if($(el).attr("data-dialog-cookie-age")!=undefined && el.settings.id){
-      var age = parseInt($(el).attr("data-dialog-cookie-age"));
-      $.cookie(el.settings.id,true,{expires:age,path:'/'});
-    }
-
     return true;
   };
   // merge default, data-attributes set and provided options settings
@@ -166,6 +160,13 @@ $.fn.slidesDialog = function( options ) {
     if(el.openTimeout){clearTimeout(el.openTimeout);}
       if(el.closeTimeout){clearTimeout(el.closeTimeout);}
       if ($(el).is(':visible')){
+
+        // Set cookie if data-dialog-cookie-age is set
+        if($(el).attr("data-dialog-cookie-age")!=undefined && el.settings.id){
+          var age = parseInt($(el).attr("data-dialog-cookie-age"));
+          $.cookie(el.settings.id,true,{expires:age,path:'/'});
+        }
+
         $(el).addClass('hide').slideUp(settings.speed,function(){
           $(this).removeClass('hide');
         });
