@@ -90,12 +90,10 @@ $(document).ready(function () {
 
 });
 
-/* Function to load Exchange Fund Pie Chart */
-function loadChartExchangeFundData(ExchangeFundAmount) {
-  $(window).on('slideChange',function(event, number, element){
+function renderChart(ExchangeFundAmount, element = false) {
 
     //animate only if slide has class chartist
-    if (!$(element).hasClass('chartist')) return;
+    if (element && !$(element).hasClass('chartist')) return;
 
     const totalNeeded = 20000000;
     if (ExchangeFundAmount >= totalNeeded) {
@@ -148,5 +146,17 @@ function loadChartExchangeFundData(ExchangeFundAmount) {
         data.element.animate(animationDefinition, false);
       }
     });
+
+}
+
+/* Function to load Exchange Fund Pie Chart */
+function loadChartExchangeFundData(ExchangeFundAmount) {
+  $(window).on('slideChange',function(event, number, element){
+    renderChart(ExchangeFundAmount, element);
   });
+
+  if(window.location.hash === '#crowdfund') {
+    renderChart(ExchangeFundAmount);
+  }
+
 }
