@@ -43,10 +43,10 @@
     </div>
     <div class="right">
       <ul class="menu crop">
-        <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://medium.com/projectredd" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://www.youtube.com/ReddProject" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://medium.com/projectredd" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
       </ul>
     </div>
   </div>
@@ -56,18 +56,18 @@
     <div class="left uppercase">Wir <svg style="width:27px;height:25px;margin-bottom:-3px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redd-heart"></use></svg> euch</div>
     <div class="center">
       <ul class="menu uppercase">
-        <li><a href="/privacy/">Privatsphäre</a></li>
-        <li><a href="/privacy/">Nutzungsbedingungen</a></li>
-        <li><a href="/press/">Pressemappe</a></li>
-        <li><a href="javascript:" class="popupTrigger opacity-8" data-popup-id="contact">Spenden</a></li>
+        <li style="margin:0 0 0 0;"><a href="/privacy/">Privatsphäre</a></li>
+        <li style="margin:0 0 0 0;"><a href="/privacy/">Nutzungsbedingungen</a></li>
+        <li style="margin:0 0 0 0;"><a href="/press/">Pressemappe</a></li>
+        <li style="margin:0 0 0 0;"><a href="javascript:" class="popupTrigger opacity-8" data-popup-id="contact">Spenden</a></li>
       </ul>
     </div>
     <div class="right">
       <ul class="menu crop">
-        <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://medium.com/projectredd" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://www.youtube.com/ReddProject" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://medium.com/projectredd" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
       </ul>
     </div>
   </div>
@@ -85,10 +85,10 @@
     </div>
     <div class="right">
       <ul class="menu crop">
-        <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://medium.com/projectredd" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://www.youtube.com/ReddProject" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://medium.com/projectredd" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
       </ul>
     </div>
   </div>
@@ -99,19 +99,19 @@
     <div class="center">
 
       <ul class="menu uppercase">
-        <li><a href="/privacy/">Политика конфиденциальности</a></li>
-        <li><a href="/privacy/">Условия использования</a></li>
-        <li><a href="/press/">Подборка для прессы</a></li>
-        <li><a href="javascript:" class="popupTrigger opacity-8" data-popup-id="contact">Пожертвования</a></li>
+        <li style="margin:0 0 0 0;"><a href="/privacy/">Политика конфиденциальности</a></li>
+        <li style="margin:0 0 0 0;"><a href="/privacy/">Условия использования</a></li>
+        <li style="margin:0 0 0 0;"><a href="/press/">Подборка для прессы</a></li>
+        <li style="margin:0 0 0 0;"><a href="javascript:" class="popupTrigger opacity-8" data-popup-id="contact">Пожертвования</a></li>
       </ul>
       
     </div>
     <div class="right">
       <ul class="menu crop">
-        <li style="margin:0 5px 0 5px;"><a href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://www.youtube.com/ReddProject" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://medium.com/projectredd" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
-        <li style="margin:0 5px 0 5px;"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://www.youtube.com/ReddProject" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://medium.com/projectredd" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+        <li style="margin:0 0 0 0;"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
       </ul>
     </div>
   </div>

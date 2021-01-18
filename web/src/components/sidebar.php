@@ -34,12 +34,12 @@
       
       <!-- Deutsch language -->
       <ul class="menu" data-lang="de" style="display:none;">
-        <li><a href="/#redd-msg">Home</a></li>
-        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-de"><a href="javascript:">Über Uns</a> <i class="material-icons">expand_more</i></li>
-        <li><a href="/technology/">Technologie</a></li>
-        <li><a href="/developers/">Entwickler</a></li>
-        <li><a href="https://medium.com/projectredd">Nachrichten</a></li>
-        <li><a href="/join/">Mitmachen</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/#redd-msg">Home</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-de" style="margin: 0px 2px 0px 2px;"><a href="javascript:">Über Uns</a> <i class="material-icons">expand_more</i></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/technology/">Technologie</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/developers/">Entwickler</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="https://medium.com/projectredd">Nachrichten</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/join/">Mitmachen</a></li>
       </ul>
       
       <!-- Korean language -->
@@ -54,12 +54,12 @@
       
       <!-- Russian language -->
       <ul class="menu small" data-lang="ru" style="display:none;">
-        <li><a href="/#redd-msg">Главная</a></li>
-        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ru"><a href="javascript:">О нас</a> <i class="material-icons">expand_more</i></li>
-        <li><a href="/technology/">Технология</a></li>
-        <li><a href="/developers/">Разработчики</a></li>
-        <li><a href="https://medium.com/projectredd">Присоединиться</a></li>
-        <li><a href="/join/">Присоединиться</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/#redd-msg">Главная</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ru" style="margin: 0px 2px 0px 2px;"><a href="javascript:">О нас</a> <i class="material-icons">expand_more</i></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/technology/">Технология</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/developers/">Разработчики</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="https://medium.com/projectredd">Присоединиться</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/join/">Присоединиться</a></li>
       </ul>
       
     </div>
