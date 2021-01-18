@@ -17,25 +17,6 @@
 <?php include(COMPONENT_DIR . '/svg.php'); ?>
 <?php include(COMPONENT_DIR . '/sidebar.php'); ?>
 
-<!-- Dialog Container -->
-<div class="dialogContainer bottom">
-	<!-- Crowdfund Dialog -->
-	<div class="dialog rounded hidden"data-dialog-id="reveal-3" data-dialog-action="open" data-dialog-open-delay="3000">
-		<div class="close" data-dialog-action="close"></div>
-		<a href="/funding/#crowdfund" target="_blank"><img src="assets/img/crowdfund-pic.png" class="wide" alt="img"/></a>
-		<div class="dialogContent">
-			<div class="text center">
-				<div class="h4 small bold">Exchange Crowfunding</div>
-					Donate ReddCoin to help us get onto more exchanges.
-			</div>
-		</div>
-		<ul>
-			<li class="button red" data-href="/funding/#crowdfund" data-target="_self" data-dialog-action="close">Learn more</li>
-			<li data-dialog-action="close">Close</li>
-		</ul>
-	</div>
-</div>
-
 <!-- Navigation -->
 <nav class="side medium">
   <div class="navigation default">

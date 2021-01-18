@@ -203,7 +203,7 @@
 <div class="dialogContainer bottom">
 	
 	<!-- Crowdfund Dialog -->
-	<div class="dialog rounded hidden"data-dialog-id="reveal-3" data-dialog-action="open" data-dialog-open-delay="3000">
+	<div class="dialog rounded hidden" data-dialog-id="crowdfunding" data-dialog-action="open" data-dialog-open-delay="3000" data-dialog-cookie-age="2592000">
 		<div class="close" data-dialog-action="close"></div>
 		<a href="/funding/#crowdfund" target="_blank"><img src="assets/img/crowdfund-pic.png" class="wide" alt="img"/></a>
 		<div class="dialogContent">
