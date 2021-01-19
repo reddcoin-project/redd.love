@@ -24,7 +24,7 @@
     
       <!-- English language -->
       <ul class="menu small" data-lang="en">
-        <li><a href="/">Home</a></li>
+        <li><a href="/#redd-msg">Home</a></li>
         <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-en"><a href="javascript:">About</a> <i class="material-icons opacity-8">expand_more</i></li>
         <li><a href="/technology/">Technology</a></li>
         <li><a href="/developers/">Developers</a></li>
@@ -34,17 +34,17 @@
       
       <!-- Deutsch language -->
       <ul class="menu" data-lang="de" style="display:none;">
-        <li><a href="/">Home</a></li>
-        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-de"><a href="javascript:">Über Uns</a> <i class="material-icons">expand_more</i></li>
-        <li><a href="/technology/">Technologie</a></li>
-        <li><a href="/developers/">Entwickler</a></li>
-        <li><a href="https://medium.com/projectredd">Nachrichten</a></li>
-        <li><a href="/join/">Mitmachen</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/#redd-msg">Home</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-de" style="margin: 0px 2px 0px 2px;"><a href="javascript:">Über Uns</a> <i class="material-icons">expand_more</i></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/technology/">Technologie</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/developers/">Entwickler</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="https://medium.com/projectredd">Nachrichten</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/join/">Mitmachen</a></li>
       </ul>
       
       <!-- Korean language -->
       <ul class="menu" data-lang="ko" style="display:none;">
-        <li><a href="/">홈</a></li>
+        <li><a href="/#redd-msg">홈</a></li>
         <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ko"><a href="javascript:">소개</a> <i class="material-icons">expand_more</i></li>
         <li><a href="/technology/">기술</a></li>
         <li><a href="/developers/">개발자</a></li>
@@ -54,12 +54,12 @@
       
       <!-- Russian language -->
       <ul class="menu small" data-lang="ru" style="display:none;">
-        <li><a href="/">Главная</a></li>
-        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ru"><a href="javascript:">О нас</a> <i class="material-icons">expand_more</i></li>
-        <li><a href="/technology/">Технология</a></li>
-        <li><a href="/developers/">Разработчики</a></li>
-        <li><a href="https://medium.com/projectredd">Присоединиться</a></li>
-        <li><a href="/join/">Присоединиться</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/#redd-msg">Главная</a></li>
+        <li class="dropdownTrigger opacity-8" data-dropdown-id="dropdown-menu-ru" style="margin: 0px 2px 0px 2px;"><a href="javascript:">О нас</a> <i class="material-icons">expand_more</i></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/technology/">Технология</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/developers/">Разработчики</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="https://medium.com/projectredd">Присоединиться</a></li>
+        <li style="margin: 0px 2px 0px 2px;"><a href="/join/">Присоединиться</a></li>
       </ul>
       
     </div>
@@ -126,7 +126,7 @@
     
     <!-- English language -->
     <ul class="mainMenu margin-top-3" data-lang="en">
-      <li><a href="/">Home</a></li>
+      <li><a href="/#redd-msg">Home</a></li>
       <li>
         <a class="submenu-dropdown1">About<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
         <ul class="mainMenu small submenu-elements1" style="display: none">
@@ -158,7 +158,7 @@
     
     <!-- Deutsch language -->
     <ul class="mainMenu margin-top-3" data-lang="de" style="display:none;">
-      <li><a href="/">Home</a></li>
+      <li><a href="/#redd-msg">Home</a></li>
       <li>
         <a class="submenu-dropdown1">Über Uns<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
         <ul class="mainMenu small submenu-elements1" style="display: none">
@@ -190,7 +190,7 @@
     
     <!-- Korean language -->
     <ul class="mainMenu margin-top-3" data-lang="ko" style="display:none;">
-      <li><a href="/">홈</a></li>
+      <li><a href="/#redd-msg">홈</a></li>
       <li>
         <a class="submenu-dropdown1">소개<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
         <ul class="mainMenu small submenu-elements1" style="display: none">
@@ -222,7 +222,7 @@
     
     <!-- Russian language -->
     <ul class="mainMenu margin-top-3" data-lang="ru" style="display:none;">
-      <li><a href="/">Главная</a></li>
+      <li><a href="/#redd-msg">Главная</a></li>
       <li>
         <a class="submenu-dropdown1">О нас<i class="material-icons shift-down-4 shift-left-3">arrow_drop_down</i></a>
         <ul class="mainMenu small submenu-elements1" style="display: none">

@@ -19,6 +19,7 @@
   $css = [
     '/css/slides.css',
     '/css/sidebar.css',
+    '/css/dialog.css',
     '/css/custom.css'
   ];
 
@@ -26,6 +27,7 @@
     '/js/jquery.min.js',
     '/js/slides.js',
     '/js/plugins.js',
+    '/js/dialog.js',
     '/js/sidebar.js',
     '/js/custom.js'
   ];

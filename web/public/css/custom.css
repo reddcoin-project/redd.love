@@ -127,3 +127,7 @@
 .js-loading *:after {
   animation-play-state: paused !important;
 }
+
+.donor-row {
+  margin-bottom: 5px;
+}

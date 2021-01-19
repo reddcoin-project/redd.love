@@ -7,8 +7,13 @@
   $navigations = [
     []
   ];
+  $footerClasses = 'white exceptFirstSlide';
 
-  $bodyClasses = 'scroll loadFundsData';
+  // add chartist styles and scripts
+  $css [] = 'https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css';
+  $js[] = 'https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js';
+
+  $bodyClasses = 'stack scroll loadFundsData';
 
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>
@@ -16,15 +21,15 @@
 <?php include(COMPONENT_DIR . '/sidebar.php'); ?>
 
   <!-- Slide 1 (#65) -->
-  <section class="slide fade-6 kenBurns">
+  <section class="slide fade-6 kenBurns" data-name="funding">
     <div class="content">
       <div class="container">
         <div class="wrap">
 
-          <div class="fix-10-12">
+          <div class="fix-11-12">
             <h1 class="margin-bottom-2 ae-1">Project Funding</h1>
             <p class="larger light ae-2"><span class="opacity-8">Redd prides itself on being fully transparent with our
-                community. As a result, this page shows the real time status of the projects funding along with the list
+                community. As a result, this page shows the realtime status of the projects funding along with the list
                 of our top donors.</span></p>
           </div>
 
@@ -62,6 +67,7 @@
                   v2 spec. (See the <a href="assets/doc/Redd-Paper.pdf">Redd Paper</a> for details)</p>
                   
                 <small class="opacity-6">Last Updated: <span id="lastUpdatedCaption"></span></small>
+                <a href="#crowdfund" class="button red rounded crop margin-top-2 ae-3">View Exchange Crowdfunding Campaign</a>
               </li>
               <li class="col-6-12 col-tablet-1-2 col-phablet-1-1 ae-3">
                 <h3 class="margin-bottom-1">Major Donors</h3>
@@ -82,6 +88,42 @@
     </div>
     <div class="background" style="background-image:url(assets/img/background/img-65.jpg)"></div>
   </section>
+
+<!-- Chartist Colors -->
+<style>
+  .ct-series-a .ct-slice-donut {
+    stroke: #F44336;
+  }
+  .ct-series-b .ct-slice-donut {
+    stroke: #e7e7e7;
+  }
+</style>
+
+<!-- Slide 2 -->
+<section class="slide whiteSlide chartist" data-name="crowdfund">
+  <div class="content">
+    <div class="container">
+      <div class="wrap left">
+
+        <div class="fix-12-12">
+          <ul class="flex">
+            <li class="col-5-12">
+              <div class="ct-chart" style="height: 400px"></div>
+            </li>
+            <li class="col-7-12">
+              <h1>ReddCoin (RDD) Exchange Crowdfund</h1>
+              <p>As mentioned in a recent blog post, Redd is exploring listing ReddCoin (RDD) on BitMart, Liquid.com, Bitrue, CoinTiger or ProBit. As a result, we are looking to the community to help crowdfund this process. If you would like to donate ReddCoin to these efforts, please send it to the below address.</p>
+              <h4>So far <span id="FundingExchanges2021Amount" style="color:red;">--- RDD</span> have been raised!</h4>
+              <p><strong>ReddCoin (RDD) Donation Address:</strong> RqQ4qnJCAcqxPqsvMtyJx73eyVyWtpjN73</p>
+              <a href="https://medium.com/projectredd/reddhead-community-outreach-reddcoin-rdd-exchange-crowdfund-2020-cc65c0f7c55b" target="_blank" class="button red small cropLeft">See details<i class="material-icons right">open_in_new</i></a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Popup KBS10000 -->
 <div id="donorPopups"></div>

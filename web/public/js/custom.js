@@ -25,6 +25,8 @@ $(document).ready(function () {
         $("#DynamicDevWalletThreeUSD").html(data.DevWalletThree.USD);
         $("#DynamicDevWalletThreeRDD").html(data.DevWalletThree.RDD);
 
+        $("#FundingExchanges2021Amount").html(data.ExchangeFundAmountFormatted);
+
         const lastUpdatedCaption = [
           new Date(data.LastUpdated).toLocaleDateString("en-US"),
           new Date(data.LastUpdated).toLocaleTimeString("en-US"),
@@ -38,7 +40,7 @@ $(document).ready(function () {
         data.PaybackData.map(function (Donor) {
           // <p class="light margin-bottom-1 opacity-8"></p>
           const DonorRow = $(document.createElement("p"));
-          DonorRow.addClass("light margin-bottom-1 opacity-8");
+          DonorRow.addClass("donor-row light opacity-8");
 
           let Caption = [
             '<span class="weight-6">',
@@ -79,8 +81,82 @@ $(document).ready(function () {
 
         $("#loadingDonorsCaption").remove();
         $donorsContent.parent().removeClass("hidden");
+
+        loadChartExchangeFundData(data.ExchangeFundAmount);
+
       },
     });
   }
 
 });
+
+function renderChart(ExchangeFundAmount, element = false) {
+
+    //animate only if slide has class chartist
+    if (element && !$(element).hasClass('chartist')) return;
+
+    const totalNeeded = 20000000;
+    if (ExchangeFundAmount >= totalNeeded) {
+      ExchangeFundAmount = 20000000
+    }
+  
+    var chart = new Chartist.Pie('.ct-chart', {
+      series: [ExchangeFundAmount, totalNeeded]
+    }, {
+      donut: true,
+      showLabel: false
+    });
+  
+    chart.on('draw', function(data) {
+      if(data.type === 'slice') {
+        // Get the total path length in order to use for dash array animation
+        var pathLength = data.element._node.getTotalLength();
+  
+        // Set a dasharray that matches the path length as prerequisite to animate dashoffset
+        data.element.attr({
+          'stroke-dasharray': pathLength + 'px ' + pathLength + 'px'
+        });
+  
+        // Create animation definition while also assigning an ID to the animation for later sync usage
+        var animationDefinition = {
+          'stroke-dashoffset': {
+            id: 'anim' + data.index,
+            dur: 630,
+            from: -pathLength + 'px',
+            to:  '0px',
+            easing: Chartist.Svg.Easing.easeOutQuint,
+            // We need to use `fill: 'freeze'` otherwise our animation will fall back to initial (not visible)
+            fill: 'freeze'
+          }
+        };
+  
+        // If this was not the first slice, we need to time the animation so that it uses the end sync event of the previous animation
+        if(data.index !== 0) {
+          animationDefinition['stroke-dashoffset'].begin = 'anim' + (data.index - 1) + '.end';
+        }
+  
+        // We need to set an initial value before the animation starts as we are not in guided mode which would do that for us
+        data.element.attr({
+          'stroke-dashoffset': -pathLength + 'px'
+        });
+  
+        // We can't use guided mode as the animations need to rely on setting begin manually
+        // See http://gionkunz.github.io/chartist-js/api-documentation.html#chartistsvg-function-animate
+  
+        data.element.animate(animationDefinition, false);
+      }
+    });
+
+}
+
+/* Function to load Exchange Fund Pie Chart */
+function loadChartExchangeFundData(ExchangeFundAmount) {
+  $(window).on('slideChange',function(event, number, element){
+    renderChart(ExchangeFundAmount, element);
+  });
+
+  if(window.location.hash === '#crowdfund') {
+    renderChart(ExchangeFundAmount);
+  }
+
+}

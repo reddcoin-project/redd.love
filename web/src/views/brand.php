@@ -395,7 +395,7 @@
           <h1 class="margin-bottom-2 ae-1">Sample Messaging</h1>
           <p class="large ae-2"><span class="opacity-8">All Redd marketing and promotional materials use a combination of the below typefaces to create a consistent and relatable brand.</span></p>
         </div>
-        <div class="fix-12-12 margin-top-4 ae-3">
+        <div class="fix-12-12 margin-top-4 ae-3" data-lang="en">
           <ul class="flex fixedSpaces later left">
             <li class="col-4-12 col-tablet-1-3 col-phone-1-1">
 			  <h4 class="smaller margin-bottom-1">Descriptive</h4>
@@ -436,7 +436,7 @@
           <h1 class="margin-bottom-2 ae-1">Beispielnachrichten</h1>
           <p class="large ae-2"><span class="opacity-8">Alle Marketing- und Werbematerialien von Redd verwenden eine Kombination der folgenden Schriftarten, um eine konsistente und zuordenbare Marke zu erstellen.</span></p>
         </div>
-        <div class="fix-12-12 margin-top-4 ae-3">
+        <div class="fix-12-12 margin-top-4 ae-3" data-lang="de" style="display:none;">
           <ul class="flex fixedSpaces later left">
             <li class="col-4-12 col-tablet-1-3 col-phone-1-1">
 			  <h4 class="smaller margin-bottom-1">Beschreibend</h4>
@@ -477,7 +477,7 @@
           <h1 class="margin-bottom-2 ae-1">견본</h1>
           <p class="large ae-2"><span class="opacity-8">모든 레드(Redd) 마케팅 및 홍보 자료는 아래 서체의 조합을 사용하여 일관되고 연결된 브랜드로 만듭니다.</span></p>
         </div>
-        <div class="fix-12-12 margin-top-4 ae-3">
+        <div class="fix-12-12 margin-top-4 ae-3" data-lang="ko" style="display:none;">
           <ul class="flex fixedSpaces later left">
             <li class="col-4-12 col-tablet-1-3 col-phone-1-1">
 			  <h4 class="smaller margin-bottom-1">설명</h4>
@@ -518,7 +518,7 @@
           <h1 class="margin-bottom-2 ae-1">Образец сообщений</h1>
           <p class="large ae-2"><span class="opacity-8">Во всех маркетинговых и рекламных материалах Redd используется комбинация перечисленных ниже шрифтов для создания последовательного и узнаваемого бренда.</span></p>
         </div>
-        <div class="fix-12-12 margin-top-4 ae-3">
+        <div class="fix-12-12 margin-top-4 ae-3" data-lang="ru" style="display:none;">
           <ul class="flex fixedSpaces later left">
             <li class="col-4-12 col-tablet-1-3 col-phone-1-1">
 			  <h4 class="smaller margin-bottom-1">Описательный</h4>
