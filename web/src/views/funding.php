@@ -13,7 +13,7 @@
   $css [] = 'https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css';
   $js[] = 'https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js';
 
-  $bodyClasses = 'stack loadFundsData';
+  $bodyClasses = 'stack scroll loadFundsData';
 
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>
