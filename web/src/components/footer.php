@@ -205,7 +205,7 @@
 	<!-- Crowdfund Dialog -->
 	<div class="dialog rounded hidden" data-dialog-id="crowdfunding" data-dialog-action="open" data-dialog-open-delay="3000" data-dialog-cookie-age="2592000">
 		<div class="close" data-dialog-action="close"></div>
-		<a href="/funding/#crowdfund" target="_blank"><img src="assets/img/crowdfund-pic.png" class="wide" alt="img"/></a>
+		<a href="javascript:" data-href="/funding/#crowdfund" data-dialog-action="close"><img src="assets/img/crowdfund-pic.png" class="wide" alt="ReddCoin Crowdfunding Exchanges 2021"/></a>
 		<div class="dialogContent">
 			<div class="text center">
 				<div class="h4 small bold">Exchange Crowdfunding</div>
@@ -213,7 +213,7 @@
 			</div>
 		</div>
 		<ul>
-			<li class="button red" data-href="/funding/#crowdfund" data-target="_self" data-dialog-action="close">Learn more</li>
+			<li class="button red" data-href="/funding/#crowdfund" data-dialog-action="close">Learn more</li>
 			<li data-dialog-action="close">Close</li>
 		</ul>
 	</div>
