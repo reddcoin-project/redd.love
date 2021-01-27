@@ -2,8 +2,12 @@
 
   // Page Configuration
   $title = 'Redd | The social currency.';
-  $whiteHeader = true;
-  $whiteFooter = true;
+
+  // Page Configuration
+  $navigations = [
+    ['classes' => 'white']
+  ];
+  $footerClasses = 'white';
 
 ?>
 <?php include(COMPONENT_DIR . '/header.php'); ?>
@@ -96,7 +100,7 @@
         </div>
         
         <!-- Russian language -->
-        <div class="fix-10-12" data-lang="de" style="display:none;">
+        <div class="fix-10-12" data-lang="ru" style="display:none;">
           <h1 class="margin-bottom-3 ae-1 fromCenter">Обзор проекта</h1>
           <div class="left margin-bottom-5 ae-2">
             <p class="opacity-8">Redd - это децентрализованная социальная платформа для чаевых, которая позволяет вам давать чаевые, жертвовать и финансировать ваших любимых создателей контента, гуманитарные программы и социальные цели, во всех основных социальных сетях. Redd использует быструю, дешевую и надежную цифровую международную валюту под названием ReddCoin, которая является основным средством, для возвращения ценностей человечеству.</p>
@@ -130,22 +134,22 @@
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-clr.jpg" alt="Redd Logo (Dark)"/>
               <h4 class="smaller margin-bottom-1">Main Logo (Light)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.png" class="customHover" target="_blank" rel="noreferrer">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-EMB-CLR-BLK.zip" class="customHover" target="_blank" rel="noreferrer">EMB</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-BLK.svg" class="customHover" target="_blank" rel="noreferrer">SVG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR.png" class="customHover" target="_blank" rel="noreferrer">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-EMB-CLR-BLK.zip" class="customHover" target="_blank" rel="noreferrer">EMB</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-clr-dark.jpg" alt="Redd Logo (Light)"/>
               <h4 class="smaller margin-bottom-1">Main Logo (Dark)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR-WHT.png" class="customHover">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-CLR-WHT.svg" class="customHover" target="_blank" rel="noreferrer">SVG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-CLR-WHT.png" class="customHover">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-blk.jpg" alt="Redd Symbol"/>
               <h4 class="smaller margin-bottom-1">Main Logo (Black)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.png" class="customHover" target="_blank" rel="noreferrer">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-EMB-BLK.zip" class="customHover" target="_blank" rel="noreferrer">EMB</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-BLK.svg" class="customHover" target="_blank" rel="noreferrer">SVG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-BLK.png" class="customHover" target="_blank" rel="noreferrer">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-EMB-BLK.zip" class="customHover" target="_blank" rel="noreferrer">EMB</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-wht.jpg" alt="Redd Logo B/W"/>
               <h4 class="smaller margin-bottom-1">Main Logo (White)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-WHT.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-WHT.svg" class="customHover" target="_blank" rel="noreferrer">SVG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-WHT.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
           </ul>
         </div>
@@ -155,22 +159,22 @@
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-tag-clr.jpg" alt="Redd Symbol"/>
               <h4 class="smaller margin-bottom-1">Tagline Logo (Light)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.svg" class="customHover" target="_blank" rel="noreferrer">SVG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-BLK.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-tag-clr-dark.jpg" alt="Redd Logo B/W"/>
               <h4 class="smaller margin-bottom-1">Tagline Logo (Dark)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.svg" class="customHover" target="_blank" rel="noreferrer">SVG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-CLR-WHT.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-tag-blk.jpg" alt="Redd Symbol"/>
               <h4 class="smaller margin-bottom-1">Tagline Logo (Black)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-BLK.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-BLK.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-BLK.svg" class="customHover" target="_blank" rel="noreferrer">SVG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-BLK.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-BLK.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-logo-tag-wht.jpg" alt="Redd Logo B/W"/>
               <h4 class="smaller margin-bottom-1">Tagline Logo (White)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-WHT.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Logo-Tagline-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-WHT.svg" class="customHover" target="_blank" rel="noreferrer">SVG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Logo-Tagline-WHT.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
           </ul>
         </div>
@@ -287,22 +291,22 @@
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-symbol-clr.jpg" alt="Redd Logo (Dark)"/>
               <h4 class="smaller margin-bottom-1">Redd Symbol</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-CLR.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.png" class="customHover" target="_blank" rel="noreferrer">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-EMB-CLR.zip" class="customHover" target="_blank" rel="noreferrer">EMB</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-CLR.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.svg" class="customHover" target="_blank" rel="noreferrer">SVG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.png" class="customHover" target="_blank" rel="noreferrer">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-EMB-CLR.zip" class="customHover" target="_blank" rel="noreferrer">EMB</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-symbol-blk.jpg" alt="Redd Logo (Light)"/>
               <h4 class="smaller margin-bottom-1">Redd Symbol (Black)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-BLK.png" class="customHover" target="_blank" rel="noreferrer">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-EMB-BLK.zip" class="customHover" target="_blank" rel="noreferrer">EMB</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-BLK.svg" class="customHover" target="_blank" rel="noreferrer">SVG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-CLR.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-BLK.png" class="customHover" target="_blank" rel="noreferrer">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-EMB-BLK.zip" class="customHover" target="_blank" rel="noreferrer">EMB</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-symbol-wht.jpg" alt="Redd Symbol"/>
               <h4 class="smaller margin-bottom-1">Redd Symbol (White)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-WHT.png" class="customHover" target="_blank" rel="noreferrer">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-EMB-WHT.zip" class="customHover" target="_blank" rel="noreferrer">EMB</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Graphic-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-WHT.svg" class="customHover" target="_blank" rel="noreferrer">SVG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-WHT.png" class="customHover" target="_blank" rel="noreferrer">PNG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Graphic-EMB-WHT.zip" class="customHover" target="_blank" rel="noreferrer">EMB</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-pattern.jpg" alt="Redd Logo B/W"/>
               <h4 class="smaller margin-bottom-1">Redd Pattern</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Pattern.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Pattern.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
           </ul>
         </div>
@@ -312,22 +316,22 @@
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-heart-clr.jpg" alt="Redd Logo (Dark)"/>
               <h4 class="smaller margin-bottom-1">Redd Heart</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Heart-CLR.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-CLR.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-CLR.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Heart-CLR.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-CLR.svg" class="customHover" target="_blank" rel="noreferrer">SVG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-CLR.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-CLR.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-heart-blk.jpg" alt="Redd Logo (Light)"/>
               <h4 class="smaller margin-bottom-1">Redd Heart (Black)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Heart-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-BLK.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-BLK.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Heart-BLK.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-BLK.svg" class="customHover" target="_blank" rel="noreferrer">SVG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-BLK.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-BLK.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-heart-wht.jpg" alt="Redd Symbol"/>
               <h4 class="smaller margin-bottom-1">Redd Heart (White)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Heart-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-WHT.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Heart-WHT.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-WHT.svg" class="customHover" target="_blank" rel="noreferrer">SVG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Heart-WHT.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
               <img class="wide rounded margin-bottom-2" src="assets/img/press-pattern-blk.jpg" alt="Redd Logo B/W"/>
               <h4 class="smaller margin-bottom-1">Redd Pattern (Black)</h4>
-              <p class="small cropBottom opacity-8"><span class="weight-5">Download:&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Pattern-blk.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern-blk.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern-blk.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
+              <p class="small cropBottom opacity-8"><span class="weight-5"><svg style="width:20px;height:20px; margin-bottom:-4px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download"></use></svg>&nbsp;&nbsp;&nbsp;</span><a href="assets/img/logos/R-Pattern-blk.eps" class="customHover" target="_blank" rel="noreferrer">EPS</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern-blk.jpg" class="customHover" target="_blank" rel="noreferrer">JPG</a>&nbsp;&nbsp;&nbsp;<a href="assets/img/logos/R-Pattern-blk.png" class="customHover" target="_blank" rel="noreferrer">PNG</a></p>
             </li>
           </ul>
         </div>
