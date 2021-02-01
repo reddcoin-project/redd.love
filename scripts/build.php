@@ -1,10 +1,10 @@
 <?php
 
-  use WyriHaximus\CssCompress\Factory;
   use MatthiasMullie\Minify;
 
   $stage = 'production';
   include('web/init.php');
+  require 'TinyHtmlMinifier.php';
 
   $foundFiles = scandir(VIEW_DIR);
 
@@ -36,8 +36,14 @@
       '?[version]' => '?version=' . sha1(date('c'))
     ]);
 
-    $parser = Factory::constructSmallest();
-    $content = $parser->compress($content);
+    // $parser = Factory::constructSmallest();
+    // $content = $parser->compress($content);
+
+    $minifier = new TinyHtmlMinifier([
+      'collapse_whitespace' => true,
+      'disable_comments' => true
+    ]);
+    $content = $minifier->minify($content);
 
     $computedPath = CACHE_DIR . '/' . $pageName . '.html';
 
@@ -49,7 +55,12 @@
   $cssMinifier = new Minify\CSS();
 
   foreach($css as $file) {
+
     $fullPath = PUBLIC_DIR . $file;
+    if(stripos($file, '://') !== false) {
+      $fullPath = $file;
+    }
+
     $cssContent = file_get_contents($fullPath);
     $cssMinifier->add($fullPath);
   }
@@ -62,6 +73,9 @@
 
   foreach($js as $file) {
     $fullPath = PUBLIC_DIR . $file;
+    if(stripos($file, '://') !== false) {
+      $fullPath = $file;
+    }
     $jsContent = file_get_contents($fullPath);
     $jsMinifier->add($fullPath);
   }
