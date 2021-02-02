@@ -36,12 +36,6 @@
       '?[version]' => '?version=' . sha1(date('c'))
     ]);
 
-    // $parser = Factory::constructSmallest();
-    // $content = $parser->compress($content);
-
-    $htmlMin = new HtmlMin();
-    $content = $htmlMin->minify($content);
-
     $computedPath = CACHE_DIR . '/' . $pageName . '.html';
 
     file_put_contents($computedPath, $content);
