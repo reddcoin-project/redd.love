@@ -1,6 +1,6 @@
 <?php
 
-  use WyriHaximus\CssCompress\Factory;
+  use voku\helper\HtmlMin;
   use MatthiasMullie\Minify;
 
   $stage = 'production';
@@ -36,8 +36,11 @@
       '?[version]' => '?version=' . sha1(date('c'))
     ]);
 
-    $parser = Factory::constructSmallest();
-    $content = $parser->compress($content);
+    // $parser = Factory::constructSmallest();
+    // $content = $parser->compress($content);
+
+    $htmlMin = new HtmlMin();
+    $content = $htmlMin->minify($content);
 
     $computedPath = CACHE_DIR . '/' . $pageName . '.html';
 
@@ -49,8 +52,8 @@
   $cssMinifier = new Minify\CSS();
 
   foreach($css as $file) {
+    if(stripos($file, '://') !== false) break;
     $fullPath = PUBLIC_DIR . $file;
-    $cssContent = file_get_contents($fullPath);
     $cssMinifier->add($fullPath);
   }
 
@@ -61,8 +64,8 @@
   $jsMinifier = new Minify\JS();
 
   foreach($js as $file) {
+    if(stripos($file, '://') !== false) break;
     $fullPath = PUBLIC_DIR . $file;
-    $jsContent = file_get_contents($fullPath);
     $jsMinifier->add($fullPath);
   }
 
