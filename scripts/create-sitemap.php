@@ -17,8 +17,6 @@
 
     $pageName = $fileInfo['filename'];
 
-    define('TAB', "\t");
-
     $sitemap[] = TAB . '<url>';
     $sitemap[] = TAB . TAB . '<loc>https://' . $_ENV['HOST'] . '/' . $pageName . '/</loc>';
     $sitemap[] = TAB . TAB . '<lastmod>' . date('Y-m-d') . '</lastmod>';
