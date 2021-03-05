@@ -5,6 +5,7 @@
   define('SRC_DIR', WEB_DIR . '/src');
   define('PUBLIC_DIR', WEB_DIR . '/public');
   define('CACHE_DIR', WEB_DIR . '/cache');
+  define('TAB', "\t");
 
   define('COMPONENT_DIR', SRC_DIR . '/components');
   define('VIEW_DIR', SRC_DIR . '/views');

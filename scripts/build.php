@@ -46,9 +46,13 @@
   $cssMinifier = new Minify\CSS();
 
   foreach($css as $file) {
-    if(stripos($file, '://') !== false) break;
-    $fullPath = PUBLIC_DIR . $file;
-    $cssMinifier->add($fullPath);
+    if(stripos($file, '://') !== false) {
+      $fileContent = file_get_contents($file);
+      $cssMinifier->add($fileContent);
+    } else {
+      $fullPath = PUBLIC_DIR . $file;
+      $cssMinifier->addFile($fullPath);
+    }
   }
 
   $computedCssPath = CACHE_DIR . '/styles.min.css';
@@ -58,9 +62,13 @@
   $jsMinifier = new Minify\JS();
 
   foreach($js as $file) {
-    if(stripos($file, '://') !== false) break;
-    $fullPath = PUBLIC_DIR . $file;
-    $jsMinifier->add($fullPath);
+    if(stripos($file, '://') !== false) {
+      $fileContent = file_get_contents($file);
+      $jsMinifier->add($fileContent);
+    } else {
+      $fullPath = PUBLIC_DIR . $file;
+      $jsMinifier->addFile($fullPath);
+    }
   }
 
   $computedJsPath = CACHE_DIR . '/scripts.min.js';
