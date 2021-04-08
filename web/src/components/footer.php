@@ -35,7 +35,7 @@
 
       <ul class="menu uppercase" data-lang="en">
         <li><a href="/privacy/">Privacy</a></li>
-        <li><a href="/privacy/">Terms of Use</a></li>
+        <li><a href="/terms/">Terms of Use</a></li>
         <li><a href="/press/">Press Kit</a></li>
         <li><a href="javascript:" class="popupTrigger opacity-8" data-popup-id="contact">Donations</a></li>
       </ul>
@@ -57,7 +57,7 @@
     <div class="center">
       <ul class="menu uppercase">
         <li style="margin:0 0 0 0;"><a href="/privacy/">Privatsphäre</a></li>
-        <li style="margin:0 0 0 0;"><a href="/privacy/">Nutzungsbedingungen</a></li>
+        <li style="margin:0 0 0 0;"><a href="/terms/">Nutzungsbedingungen</a></li>
         <li style="margin:0 0 0 0;"><a href="/press/">Pressemappe</a></li>
         <li style="margin:0 0 0 0;"><a href="javascript:" class="popupTrigger opacity-8" data-popup-id="contact">Spenden</a></li>
       </ul>
@@ -78,7 +78,7 @@
     <div class="center">
       <ul class="menu uppercase">
         <li><a href="/privacy/">개인정보</a></li>
-        <li><a href="/privacy/">이용약관</a></li>
+        <li><a href="/terms/">이용약관</a></li>
         <li><a href="/press/">보도자료</a></li>
         <li><a href="javascript:" class="popupTrigger opacity-8" data-popup-id="contact">기부</a></li>
       </ul>
@@ -100,7 +100,7 @@
 
       <ul class="menu uppercase">
         <li style="margin:0 0 0 0;"><a href="/privacy/">Политика конфиденциальности</a></li>
-        <li style="margin:0 0 0 0;"><a href="/privacy/">Условия использования</a></li>
+        <li style="margin:0 0 0 0;"><a href="/terms/">Условия использования</a></li>
         <li style="margin:0 0 0 0;"><a href="/press/">Подборка для прессы</a></li>
         <li style="margin:0 0 0 0;"><a href="javascript:" class="popupTrigger opacity-8" data-popup-id="contact">Пожертвования</a></li>
       </ul>
