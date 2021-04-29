@@ -26,7 +26,7 @@
           <p class="largest ae-2"><span class="opacity-8">See all the awesome things what we’ve done up to this point and where we plan on going in the near future.</span></p>
         </div>
         <div class="fix-12-12 ae-2 margin-top-6">
-          <img src="assets/img/map-ipad.png" width="1080" class="ipad-6" alt="iPad App" data-action="zoom"/>
+          <img src="assets/img/map-ipad-v2.png" width="1080" class="ipad-6" alt="iPad App" data-action="zoom"/>
         </div>
       
       </div>
@@ -56,12 +56,17 @@
             <li class="col-9-12 margin-top-6 fromRight left ae-2">
 				<h4 class="margin-bottom-1 equalElement">2021 & Onward</h4>
 				<ol class="list disc">
-				  <li class="small crop margin-left-2">DeFi & Stable Coin Integration</li>
-				  <li class="small crop margin-left-2">Wrapped RDD Implementations</li>
-				  <li class="small crop margin-left-2">Interoperability with Third-party Blockchain & Payment Systems</li>
-				  <li class="small crop margin-left-2">Corporate Partnership & Product integrations</li>
-				  <li class="small crop margin-left-2">Wearable & NFC Applications for Redd Payment Solutions</li>
-				  <li class="small crop margin-left-2">Local Governmental Pilot in Africa</li>
+				  <li class="small crop margin-left-2">Launched 4 new Tipbots on Discord, Reddit, Twitter &amp; Twitch</li>
+				  <li class="small crop margin-left-2">Launched the <a href="https://exchange.reddcoin.com" class="customHover" target="_blank" rel="noreferrer">ReddCoin Instaswap Page</a></li>
+				  <li class="small crop margin-left-2">ReddShare Social Post Promotion Platform</li>
+				  <li class="small crop margin-left-2"><a href="https://www.reddjamm.com" class="customHover" target="_blank" rel="noreferrer">ReddJamm Radio</a> Station</li>
+				  <li class="small crop margin-left-2">New Reddcoin.com Website</li>
+				  <li class="small crop margin-left-2">Redd Merchandise to be sold via the ReddStore</li>
+				  <li class="small crop margin-left-2">ReddID &amp; ReddMobile App</li>
+				  <li class="small crop margin-left-2">Major Desktop Wallet Update</li>
+				  <li class="small crop margin-left-2">Get Rewarded to Learn on the ReddAcademy Platform</li>
+				  <li class="small crop margin-left-2">The First Annual ReddFest</li>
+				  <li class="small crop margin-left-2">ReddShift, ReddCard &amp; Much More</li>
 				</ol>
             </li>
           </ul>
