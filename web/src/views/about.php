@@ -506,8 +506,8 @@
           <ul class="flex fixedSpaces later left">
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
               <div class="empty margin-bottom-2 noShadow ae-3"><img class="wide" src="assets/img/team-tim.jpg" style="border-radius: 5px;" alt="Yoni"/></div>
-              <h4 class="smaller ae-4">Yoni</h4>
-              <div class="ae-5"><p class="small cropBottom opacity-8">IT Specialist</p></div>
+              <h4 class="smaller ae-4">Yoni Castro</h4>
+              <div class="ae-5"><p class="small cropBottom opacity-8">Business Development &amp; Partnerships</p></div>
               <div class="ae-5">
 				  <a href="https://t.me/fireysword" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
               </div>
