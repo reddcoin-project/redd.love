@@ -46,7 +46,7 @@
         <li style="margin:0 0 0 0;"><a href="https://twitter.com/ProjectReddTW" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
         <li style="margin:0 0 0 0;"><a href="https://www.youtube.com/ReddProject" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
         <li style="margin:0 0 0 0;"><a href="https://medium.com/projectredd" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
-        <li style="margin:0 0 0 0;"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
+        <li style="pading:0 0 0 0;"><a href="https://t.me/ReddcoinOfficial" target="_blank" rel="noreferrer"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a></li>
       </ul>
     </div>
   </div>
@@ -202,7 +202,7 @@
 
 <div class="dialogContainer bottom">
 	
-	<!-- Crowdfund Dialog -->
+	<!-- Crowdfund Dialog
 	<div class="dialog rounded hidden" data-dialog-id="crowdfunding" data-dialog-action="open" data-dialog-open-delay="3000" data-dialog-cookie-age="2592000">
 		<div class="close" data-dialog-action="close"></div>
 		<a href="javascript:" data-href="/funding/#crowdfund" data-dialog-action="close"><img src="assets/img/crowdfund-pic.png" class="wide" alt="ReddCoin Crowdfunding Exchanges 2021"/></a>
@@ -216,7 +216,7 @@
 			<li class="button red" data-href="/funding/#crowdfund" data-dialog-action="close">Learn more</li>
 			<li data-dialog-action="close">Close</li>
 		</ul>
-	</div>
+	</div> -->
 
 </div>
 
