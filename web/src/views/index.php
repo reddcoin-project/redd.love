@@ -1,7 +1,7 @@
 <?php
 
   // Page Title
-  $title = 'Redd | The social currency.';
+  $title = 'Redd.Love | The social movement.';
 
   // Page Configuration
   $navigations = [

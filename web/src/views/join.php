@@ -1,7 +1,7 @@
 <?php
 
   // Page Configuration
-  $title = 'Join Redd | The Social Currency';
+  $title = 'Join Redd.Love | The social movement.';
 
   // Page Configuration
   $navigations = [

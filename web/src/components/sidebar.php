@@ -19,7 +19,7 @@
 <?php foreach($navigations as $navigation) { ?>
 <nav class="panel top <?php echo isset($navigation['classes']) ? $navigation['classes'] : ''; ?>">
   <div class="sections desktop">
-    <div class="left"><a href="/" title="Redd"><svg style="width:158px;height:60px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
+    <div class="left"><a href="/" title="Redd.Love"><svg style="width:285px;height:60px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
     <div class="center">
     
       <!-- English language -->
@@ -122,7 +122,7 @@
 <nav class="sidebar" data-sidebar-id="1">
   <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
   <div class="content">
-    <a href="#" class="logo"><svg width="132" height="50" style="margin:-5px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
+    <a href="#" class="logo"><svg width="238" height="50" style="margin:-5px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
     
     <!-- English language -->
     <ul class="mainMenu margin-top-3" data-lang="en">
