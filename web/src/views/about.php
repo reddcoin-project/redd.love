@@ -361,13 +361,12 @@
               </div>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
-              <div class="empty margin-bottom-2 noShadow ae-9"><img class="wide" src="assets/img/team-tim.jpg" style="border-radius: 5px;" alt="Tim &quot;MindReDDer&quot; Musick"/></div>
-              <h4 class="smaller ae-10">Tim &quot;MindReDDer&quot; Musick</h4>
-              <div class="ae-10"><p class="small cropBottom opacity-8">Business Development</p></div>
-              <div class="ae-10">
-				  <a href="https://t.me/MindReDDer" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-				  <a href="https://twitter.com/timothy_musick" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
-				  <a href="https://www.linkedin.com/in/timothymindreddermusick/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+              <div class="empty margin-bottom-2 noShadow ae-7"><img class="wide" src="assets/img/team-michael.jpg" style="border-radius: 5px;" alt="Michael Kirlew"/></div>
+              <h4 class="smaller ae-8">Michael Kirlew</h4>
+              <div class="ae-9"><p class="small cropBottom opacity-8">Design &amp; Brand Strategy</p></div>
+              <div class="ae-9">
+				  <a href="https://t.me/coinmarketdeals" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://www.linkedin.com/in/michaelkirlew/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
               </div>
             </li>
           </ul>
@@ -415,49 +414,69 @@
         
         <div class="fix-12-12 margin-top-4">
           <ul class="flex fixedSpaces later left">
-            <li class="col-2-10 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
-              <div class="empty margin-bottom-2 noShadow ae-3"><img class="wide" src="assets/img/team-roni.jpg" style="border-radius: 5px;" alt="Roni Toni"/></div>
-              <h4 class="smaller ae-4">Roni Toni</h4>
-              <div class="ae-5"><p class="small cropBottom opacity-8">Social Media Ambassador</p></div>
-              <div class="ae-5">
+            <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
+              <div class="empty margin-bottom-2 noShadow ae-1"><img class="wide" src="assets/img/team-shin.jpg" style="border-radius: 5px;" alt="Kay P"/></div>
+              <h4 class="smaller ae-2">Kay P</h4>
+              <div class="ae-3"><p class="small cropBottom opacity-8">Content Creator</p></div>
+              <div class="ae-3">
+				  <a href="https://t.me/fireysword" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+              </div>
+            </li>
+            <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
+              <div class="empty margin-bottom-2 noShadow ae-2"><img class="wide" src="assets/img/team-roni.jpg" style="border-radius: 5px;" alt="Roni Toni"/></div>
+              <h4 class="smaller ae-3">Roni Toni</h4>
+              <div class="ae-4"><p class="small cropBottom opacity-8">Social Media Ambassador</p></div>
+              <div class="ae-4">
 				  <a href="https://t.me/teeroni" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
 				  <a href="http://twitter.com/TeeRoni" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
               </div>
             </li>
-            <li class="col-2-10 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
-              <div class="empty margin-bottom-2 noShadow ae-5"><img class="wide" src="assets/img/team-robin.jpg" style="border-radius: 5px;" alt="shroomlife"/></div>
-              <h4 class="smaller ae-6">shroomlife</h4>
-              <div class="ae-7"><p class="small cropBottom opacity-8">Fullstack Web Developer</p></div>
-              <div class="ae-7">
-				  <a href="https://t.me/shroomlife" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-				  <a href="https://twitter.com/theshroomlife" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
-				  <a href="https://www.linkedin.com/in/shroomlife/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
-              </div>
-            </li>
-            <li class="col-2-10 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
-              <div class="empty margin-bottom-2 noShadow ae-7"><img class="wide" src="assets/img/team-michael.jpg" style="border-radius: 5px;" alt="Michael Kirlew"/></div>
-              <h4 class="smaller ae-8">Michael Kirlew</h4>
-              <div class="ae-9"><p class="small cropBottom opacity-8">Design &amp; Brand Strategy</p></div>
-              <div class="ae-9">
-				  <a href="https://t.me/coinmarketdeals" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-				  <a href="https://www.linkedin.com/in/michaelkirlew/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
-              </div>
-            </li>
-            <li class="col-2-10 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
-              <div class="empty margin-bottom-2 noShadow ae-9"><img class="wide" src="assets/img/team-tim.jpg" style="border-radius: 5px;" alt="ioDoug"/></div>
-              <h4 class="smaller ae-10">ioDoug</h4>
-              <div class="ae-10"><p class="small cropBottom opacity-8">Graphic Designer</p></div>
-              <div class="ae-10">
-				  <a href="https://t.me/ioClub" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-              </div>
-            </li>
-            <li class="col-2-10 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
-              <div class="empty margin-bottom-2 noShadow ae-10"><img class="wide" src="assets/img/team-pro.jpg" style="border-radius: 5px;" alt="Yavuz Selim"/></div>
-              <h4 class="smaller ae-10">Yavuz Selim</h4>
-              <div class="ae-10"><p class="small cropBottom opacity-8">Technical Advisor</p></div>
-              <div class="ae-10">
+            <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
+              <div class="empty margin-bottom-2 noShadow ae-3"><img class="wide" src="assets/img/team-david.jpg" style="border-radius: 5px;" alt="Han Peter Mentjox"/></div>
+              <h4 class="smaller ae-4">Han Peter Mentjox</h4>
+              <div class="ae-5"><p class="small cropBottom opacity-8">Social Media & Music</p></div>
+              <div class="ae-5">
 				  <a href="https://t.me/Yavuz_Selim" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
               </div>
+            </li>
+            <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
+              <div class="empty margin-bottom-2 noShadow ae-4"><img class="wide" src="assets/img/team-pro.jpg" style="border-radius: 5px;" alt="Pro"/></div>
+              <h4 class="smaller ae-5">Pramod "Pro" Joshi</h4>
+              <div class="ae-6"><p class="small cropBottom opacity-8">Full Stack Developer</p></div>
+              <div class="ae-6">
+				  <a href="https://t.me/projoshi" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://www.linkedin.com/in/pramod-joshi" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
+              </div>
+            </li>
+            
+            <li class="col-3-12 col-tablet-1-3 col-phone-1-1 padding-bottom-4">
+              <div class="empty margin-bottom-2 noShadow ae-2"><img class="wide" src="assets/img/team-randy.jpg" style="border-radius: 5px;" alt="Randy"/></div>
+              <h4 class="smaller ae-3">Randy</h4>
+              <div class="ae-4"><p class="small cropBottom opacity-8">Social Outreach</p></div>
+              <div class="ae-4">
+				  <a href="https://t.me/Fldammy" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+              </div>
+            </li>
+            <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
+              <div class="empty margin-bottom-2 noShadow ae-3"><img class="wide" src="assets/img/team-yoni.jpg" style="border-radius: 5px;" alt="Yoni"/></div>
+              <h4 class="smaller ae-4">Yoni Castro</h4>
+              <div class="ae-5"><p class="small cropBottom opacity-8">Business Development &amp; Partnerships</p></div>
+              <div class="ae-5">
+				  <a href="https://t.me/fireysword" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+              </div>
+            </li>
+            <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
+              <div class="empty margin-bottom-2 noShadow ae-4"><img class="wide" src="assets/img/team-randy.jpg" style="border-radius: 5px;" alt="Yavuz Selim"/></div>
+              <h4 class="smaller ae-5">Yavuz Selim</h4>
+              <div class="ae-6"><p class="small cropBottom opacity-8">Technical Advisor</p></div>
+              <div class="ae-6">
+				  <a href="https://t.me/Yavuz_Selim" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+              </div>
+            </li>
+            <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
+              <div class="empty margin-bottom-2 noShadow ae-5"><img class="wide" src="assets/img/team-you.jpg" style="border-radius: 5px;" alt="You"/></div>
+              <h4 class="smaller ae-7">Could be You!</h4>
+              <div class="ae-7"><p class="small cropBottom opacity-8">Join Our Team</p></div>
             </li>
           </ul>
         </div>
@@ -505,21 +524,19 @@
         <div class="fix-12-12 margin-top-4">
           <ul class="flex fixedSpaces later left">
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
-              <div class="empty margin-bottom-2 noShadow ae-3"><img class="wide" src="assets/img/team-tim.jpg" style="border-radius: 5px;" alt="Yoni"/></div>
-              <h4 class="smaller ae-4">Yoni Castro</h4>
-              <div class="ae-5"><p class="small cropBottom opacity-8">Business Development &amp; Partnerships</p></div>
-              <div class="ae-5">
-				  <a href="https://t.me/fireysword" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+              <div class="empty margin-bottom-2 noShadow ae-5"><img class="wide" src="assets/img/team-robin.jpg" style="border-radius: 5px;" alt="shroomlife"/></div>
+              <h4 class="smaller ae-6">shroomlife</h4>
+              <div class="ae-7"><p class="small cropBottom opacity-8">Fullstack Web Developer</p></div>
+              <div class="ae-7">
+				  <a href="https://t.me/shroomlife" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
+				  <a href="https://twitter.com/theshroomlife" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a>
+				  <a href="https://www.linkedin.com/in/shroomlife/" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
               </div>
             </li>
-            <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
-              <div class="empty margin-bottom-2 noShadow ae-5"><img class="wide" src="assets/img/team-pro.jpg" style="border-radius: 5px;" alt="Pro"/></div>
-              <h4 class="smaller ae-6">Pro</h4>
-              <div class="ae-7"><p class="small cropBottom opacity-8">Full Stack Developer</p></div>
-              <div class="ae-7">
-				  <a href="https://t.me/projoshi" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-				  <a href="https://www.linkedin.com/in/pramod-joshi" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a>
-              </div>
+            <li class="col-3-12 col-tablet-1-3 col-phone-1-1 padding-bottom-4">
+              <div class="empty margin-bottom-2 noShadow ae-4"><img class="wide" src="assets/img/team-david.jpg" style="border-radius: 5px;" alt="Jaymoe"/></div>
+              <h4 class="smaller ae-5">Jaymoe</h4>
+              <div class="ae-6"><p class="small cropBottom opacity-8">Events &amp; Promotion</p></div>
             </li>
             <li class="col-3-12 col-tablet-1-3 col-phone-1-1 padding-bottom-4">
               <div class="empty margin-bottom-2 noShadow ae-7"><img class="wide" src="assets/img/team-walter.jpg" style="border-radius: 5px;" alt="Walter"/></div>
@@ -537,29 +554,25 @@
 				  <a href="https://t.me/PasCarbs" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
               </div>
             </li>
+
             <li class="col-3-12 col-tablet-1-3 col-phone-1-1 padding-bottom-4">
-              <div class="empty margin-bottom-2 noShadow ae-4"><img class="wide" src="assets/img/team-shin.jpg" style="border-radius: 5px;" alt="Shin JK"/></div>
-              <h4 class="smaller ae-5">Shin JK</h4>
-              <div class="ae-6"><p class="small cropBottom opacity-8">Social Media Advisor</p></div>
-              <div class="ae-6">
-				  <a href="https://t.me/Reddheadjk" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-              </div>
+              <div class="empty margin-bottom-2 noShadow ae-6"><img class="wide" src="assets/img/team-jay.jpg" style="border-radius: 5px;" alt="Joe"/></div>
+              <h4 class="smaller ae-7">Joe Scudiero</h4>
+              <div class="ae-8"><p class="small cropBottom opacity-8">Videographer</p></div>
             </li>
             <li class="col-3-12 col-tablet-1-3 col-phone-1-1 padding-bottom-4">
-              <div class="empty margin-bottom-2 noShadow ae-6"><img class="wide" src="assets/img/team-willem.jpg" style="border-radius: 5px;" alt="Willem Dik"/></div>
-              <h4 class="smaller ae-7">Willem Dik</h4>
-              <div class="ae-8"><p class="small cropBottom opacity-8">Social Outreach</p></div>
-              <div class="ae-8">
-				  <a href="https://t.me/WillemDik" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
-              </div>
-            </li>
-            <li class="col-3-12 col-tablet-1-3 col-phone-1-1 padding-bottom-4">
-              <div class="empty margin-bottom-2 noShadow ae-8"><img class="wide" src="assets/img/team-randy.jpg" style="border-radius: 5px;" alt="Randy"/></div>
-              <h4 class="smaller ae-9">Randy</h4>
+              <div class="empty margin-bottom-2 noShadow ae-8"><img class="wide" src="assets/img/team-mdeisy.jpg" style="border-radius: 5px;" alt="Mdeisy"/></div>
+              <h4 class="smaller ae-9">Mdeisy</h4>
               <div class="ae-10"><p class="small cropBottom opacity-8">Social Outreach</p></div>
               <div class="ae-10">
 				  <a href="https://t.me/Fldammy" target="_blank" rel="noreferrer"><svg style="margin-right:10px;width:15px;height:15px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use></svg></a>
               </div>
+            </li>
+
+            <li class="col-3-12 col-tablet-1-2 col-phone-1-1 padding-bottom-4">
+              <div class="empty margin-bottom-2 noShadow ae-9"><img class="wide" src="assets/img/team-shin.jpg" style="border-radius: 5px;" alt="Ragr28"/></div>
+              <h4 class="smaller ae-10">Ragr28</h4>
+              <div class="ae-10"><p class="small cropBottom opacity-8">Social Outreach</p></div>
             </li>
             <li class="col-3-12 col-tablet-1-3 col-phone-1-1 padding-bottom-4">
               <div class="empty margin-bottom-2 noShadow ae-10"><a href="/join/"><img class="wide" src="assets/img/team-you.jpg" style="border-radius: 5px;" alt="Join Team Redd"/></a></div>
