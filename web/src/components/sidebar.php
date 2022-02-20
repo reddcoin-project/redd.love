@@ -12,6 +12,7 @@
     <li data-switch-lang="de">Deutsch</li>
     <li data-switch-lang="ko">한국인</li>
     <li data-switch-lang="ru">Pусский</li>
+    <li data-switch-lang="bg">български</li>
     <!-- <li data-switch-lang="tr">Türkçe</li> -->
   </ul>
 </div>
